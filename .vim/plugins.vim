@@ -26,4 +26,5 @@ Plug 'tpope/vim-fugitive'
 Plug 'wavded/vim-stylus', { 'for': ['stylus', 'markdown'] }
 Plug 'bling/vim-airline'
 Plug 'tpope/vim-dispatch'
+Plug 'terryma/vim-expand-region'
 call plug#end()

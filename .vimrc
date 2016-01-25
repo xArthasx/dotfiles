@@ -55,6 +55,9 @@ color wombat256mod
 let g:airline_powerline_fonts = 1
 let g:airline_theme = 'powerlineish'
 let g:airline#extensions#tabline#enabled = 1
+let g:airline_enable_branch = 1
+let g:airline_enable_syntastic = 1
+
 
 "Para cuando el statusLine solo aparece en split
 set laststatus=2
@@ -176,3 +179,5 @@ if executable('ag')
     command! -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
     nnoremap \ :Ag<SPACE>
 endif
+map v <Plug>(expand_region_expand)
+map <C-v>p <C-v> <Plug>(expand_region_shrink)
