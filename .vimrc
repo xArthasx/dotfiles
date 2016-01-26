@@ -24,16 +24,16 @@ map <silent> <C-x> :q<cr>
 
 " Move to the window in the direction specified or open a new one
 function! WinMove(key)
-    let t:curwin = winnr()
-    exec "wincmd ".a:key
-    if (t:curwin == winnr())
-        if (match(a:key,'[jk]'))
-            wincmd v
-        else
-            wincmd s
-        endif
-        exec "wincmd ".a:key
+let t:curwin = winnr()
+exec "wincmd ".a:key
+if (t:curwin == winnr())
+    if (match(a:key,'[jk]'))
+        wincmd v
+    else
+        wincmd s
     endif
+    exec "wincmd ".a:key
+endif
 endfunction
 
 "Sorting
@@ -55,8 +55,6 @@ color wombat256mod
 let g:airline_powerline_fonts = 1
 let g:airline_theme = 'powerlineish'
 let g:airline#extensions#tabline#enabled = 1
-let g:airline_enable_branch = 1
-let g:airline_enable_syntastic = 1
 
 
 "Para cuando el statusLine solo aparece en split
@@ -129,8 +127,8 @@ let NERDTreeQuitOnOpen=1
 
 " NERDTress File highlighting
 function! NERDTreeHighlightFile(extension, fg, bg, guifg, guibg)
-    exec 'autocmd filetype nerdtree highlight ' . a:extension .' ctermbg='. a:bg .' ctermfg='. a:fg .' guibg='. a:guibg .' guifg='. a:guifg
-    exec 'autocmd filetype nerdtree syn match ' . a:extension .' #^\s\+.*'.  a:extension .'$#'
+exec 'autocmd filetype nerdtree highlight ' . a:extension .' ctermbg='. a:bg .' ctermfg='. a:fg .' guibg='. a:guibg .' guifg='. a:guifg
+exec 'autocmd filetype nerdtree syn match ' . a:extension .' #^\s\+.*'.  a:extension .'$#'
 endfunction
 
 call NERDTreeHighlightFile('jade', 'green', 'none', 'green', '#151515')
@@ -172,12 +170,18 @@ map <Leader>R <esc>:! ./vendor/bin/phinx rollback<CR>
 "thyme
 nmap <leader>T :!thyme -d<cr>
 if executable('ag')
-    set grepprg=ag\ --nogroup\ --nocolor
-    let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
-    nnoremap <leader>F :Ag -i <C-R><C-W> * <CR>
-    nnoremap <leader>f :Ag -i --vimgrep <C-R><C-W> % 
-    command! -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
-    nnoremap \ :Ag<SPACE>
+set grepprg=ag\ --nogroup\ --nocolor
+let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+nnoremap <leader>F :Ag -i <C-R><C-W> *
+nnoremap <leader>f :Ag -i --vimgrep <C-R><C-W> % 
+command! -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
+nnoremap \ :Ag<SPACE>
 endif
+
+"Vim expand configurations
 map v <Plug>(expand_region_expand)
 map <C-v>p <C-v> <Plug>(expand_region_shrink)
+
+
+"TagBar Configurations
+nnoremap <leader>b :TagbarOpenAutoClose<CR>
