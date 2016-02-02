@@ -1,3 +1,5 @@
+"Add semicolon at the end on ;
+map ; A;<ESC>
 "Fix Backspace Problem
 :set backspace=indent,eol,start
 
