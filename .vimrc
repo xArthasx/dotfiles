@@ -1,5 +1,3 @@
-"Add semicolon at the end on ;
-map ; A;<ESC>
 "Fix Backspace Problem
 :set backspace=indent,eol,start
 
@@ -187,7 +185,6 @@ map <C-v>p <C-v> <Plug>(expand_region_shrink)
 
 "TagBar Configurations
 nnoremap <leader>b :TagbarOpenAutoClose<CR>
-autocmd FileType php,js nested :TagbarOpen  
 let g:tagbar_type_php  = {
     \ 'ctagstype' : 'php',
     \ 'kinds'     : [
