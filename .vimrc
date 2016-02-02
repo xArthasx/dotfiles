@@ -8,7 +8,7 @@ source ~/.vim/plugins.vim
 autocmd! bufwritepost .vimrc source %
 
 "Rebind <Leader>
-let mapleader = ","
+let mapleader = "\<Space>"
 
 "Remove highlighting
 noremap <C-n> :nohl<CR>
@@ -196,3 +196,6 @@ let g:tagbar_type_php  = {
         \ 'j:javascript functions:1'
     \ ]
 \ }
+
+"Highlighting for EJS
+au BufNewFile,BufRead *.ejs set filetype=html

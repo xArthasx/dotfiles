@@ -1,3 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/Users/xArthasx/workspace/Seguridadenlinea.com'
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/xArthasx/workspace/natillera'
+let g:netrw_dirhist_2='/Users/xArthasx/workspace/natillera/api'
+let g:netrw_dirhist_3='/Users/xArthasx/workspace/natillera/api/controllers'
+let g:netrw_dirhist_4='/Users/xArthasx'
+let g:netrw_dirhist_5='/Users/xArthasx/workspace/natillera'
+let g:netrw_dirhist_6='/Users/xArthasx/tmux'
