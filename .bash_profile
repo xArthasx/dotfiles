@@ -8,3 +8,4 @@ livh(){
   livestreamer $1 high
 }
 alias liv=livh 
+PS1="$PS1"'$([ -n "$TMUX" ] && tmux setenv TMUXPWD_$(tmux display -p "#D" | tr -d %) "$PWD")'
