@@ -117,7 +117,8 @@ let g:syntastic_php_checkers = ['php', 'phpcs', 'phplint']
 let g:syntastic_quiet_messages = {'level': 'warnings'}
 
 "Php documentor configuration
-au BufRead,BufNewFile *.php inoremap <buffer> <Leader>c :call pdv#DocumentCurrentLine()<CR>
+au BufRead,BufNewFile *.php nnoremap <Leader>c :call pdv#DocumentCurrentLine()<CR>
+let g:pdv_template_dir = $HOME ."/.vim/plugged/pdv/templates_snip"
 let g:pdv_cfg_php4always = 1
 
 "Nerdtree
@@ -173,7 +174,7 @@ if executable('ag')
 set grepprg=ag\ --nogroup\ --nocolor
 let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 nnoremap <leader>F :Ag -i <C-R><C-W> *
-nnoremap <leader>f :Ag -i --vimgrep <C-R><C-W> % 
+nnoremap <leader>f :Ag -i --vimgrep <C-R><C-W> %
 command! -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
 nnoremap \ :Ag<SPACE>
 endif
