@@ -172,8 +172,8 @@ nmap <leader>T :!thyme -d<cr>
 if executable('ag')
 set grepprg=ag\ --nogroup\ --nocolor
 let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
-nnoremap <leader>F :Ag -i <C-R><C-W> *
-nnoremap <leader>f :Ag -i --vimgrep <C-R><C-W> % 
+nnoremap <leader>F :Ag -i <C-R><C-W> ./*
+nnoremap <leader>f :Ag -i --vimgrep <C-R><C-W> %
 command! -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
 nnoremap \ :Ag<SPACE>
 endif
@@ -184,7 +184,7 @@ map <C-v>p <C-v> <Plug>(expand_region_shrink)
 
 
 "TagBar Configurations
-nnoremap <leader>b :TagbarOpenAutoClose<CR>
+nnoremap <leader>b :TagbarToggle<CR>
 let g:tagbar_type_php  = {
     \ 'ctagstype' : 'php',
     \ 'kinds'     : [

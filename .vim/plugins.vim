@@ -3,7 +3,6 @@ call plug#begin('~/.vim/plugged')
 let g:plug_threads = 1
 
 Plug '2072/PHP-Indenting-for-VIm'
-Plug 'Townk/vim-autoclose'
 Plug 'Valloric/ListToggle'
 Plug 'Yggdroot/indentLine'
 Plug 'airblade/vim-gitgutter'
@@ -29,4 +28,5 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-dispatch'
 Plug 'terryma/vim-expand-region'
 Plug 'majutsushi/tagbar'
+Plug 'jiangmiao/auto-pairs'
 call plug#end()
