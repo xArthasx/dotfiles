@@ -117,7 +117,8 @@ let g:syntastic_php_checkers = ['php', 'phpcs', 'phplint']
 let g:syntastic_quiet_messages = {'level': 'warnings'}
 
 "Php documentor configuration
-au BufRead,BufNewFile *.php inoremap <buffer> <Leader>c :call pdv#DocumentCurrentLine()<CR>
+au BufRead,BufNewFile *.php nnoremap <Leader>c :call pdv#DocumentCurrentLine()<CR>
+let g:pdv_template_dir = $HOME ."/.vim/plugged/pdv/templates_snip"
 let g:pdv_cfg_php4always = 1
 
 "Nerdtree
