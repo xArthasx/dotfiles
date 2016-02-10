@@ -29,4 +29,5 @@ Plug 'tpope/vim-dispatch'
 Plug 'terryma/vim-expand-region'
 Plug 'majutsushi/tagbar'
 Plug 'jiangmiao/auto-pairs'
+Plug 'tpope/vim-surround'
 call plug#end()
