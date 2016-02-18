@@ -1,1 +1,3 @@
 .vim/plugged
+.emacs.d/elpa
+.emacs.d/eshell

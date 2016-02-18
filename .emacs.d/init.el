@@ -7,6 +7,11 @@
 ;;; Configuraciones básiscas
 ;; No hacer backups --- para eso usar git!
 (setq make-backup-files nil)
+(setq backup-inhebited t)
+(defvar backup-dir "~/.emacs.d/backups/")
+(setq backup-directory-alist (list (cons "." backup-dir)))
+;; Quitar autosave
+(setq auto-save-default nil)
 ;; No mostrar el scrollbar
 (when (boundp 'scroll-bar-mode)
   (scroll-bar-mode -1))
@@ -28,6 +33,7 @@
 ;;Cargar configuración de los otros archivos
 (require 'init-utils)
 (require 'init-elpa)
+(require 'init-evil)
 (require 'init-powerline)
 
 (load-theme 'wombat t)
@@ -37,30 +43,7 @@
     (lookup-key key-translation-map "\C-x8~"))
 
 (use-package magit
-  :ensure t
-  :init
-  (use-package helm
-    :ensure t
-    :init
-    (use-package evil
-      :ensure t
-      :init
-      (evil-mode 1)
-      (use-package powerline
-        :ensure t
-        :init
-        (use-package powerline-evil
-          :ensure t
-          :init
-          (powerline-evil-vim-color-theme)
-          (require 'init-powerline)
-          )
-        (define-key evil-insert-state-map (kbd "C-e") nil)
-        (define-key evil-insert-state-map (kbd "C-n") nil)
-        )
-      )
-    )
-  )
+  :ensure t)
 
 ;; Cambiar a espacios el tabulado
 (setq-default indent-tabs-mode nil)
