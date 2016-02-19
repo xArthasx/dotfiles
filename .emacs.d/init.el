@@ -1,5 +1,7 @@
 ;;; init.el -- Configuración de emacs
 
+;; Se cambia el direcorio inicial de emacs
+(setq default-directory "~/workspace")
 ;; Iniciar el package-manager
 (package-initialize)
 ;; Establecer la carpeta donde se van a cargar las demás configuraciones
@@ -35,15 +37,70 @@
 (require 'init-elpa)
 (require 'init-evil)
 (require 'init-powerline)
-
+(require 'init-php)
+(require 'init-linum)
 (load-theme 'wombat t)
 (define-key (current-global-map) (kbd "C-e")
-    (lookup-key key-translation-map "\C-x8'"))
+  (lookup-key key-translation-map "\C-x8'"))
 (define-key (current-global-map) (kbd "C-n")
-    (lookup-key key-translation-map "\C-x8~"))
+  (lookup-key key-translation-map "\C-x8~"))
 
 (use-package magit
   :ensure t)
+(use-package helm
+  :ensure t
+  :config
+  (use-package grizzl
+    :ensure t
+    :config
+    (use-package projectile
+      :ensure t
+      :defer t
+      :config
+      (projectile-global-mode)
+      :init
+      (use-package helm-projectile
+        :ensure t
+        :commands (helm-projectile helm-projectile-switch-project)
+        :init
+        (setq projectile-enable-caching t)
+        (setq projectile-completion-system 'grizzl)
+        )
+      )
+    )
+  )
+(use-package wgrep
+  :ensure t
+  :config
+  (setq wgrep-auto-save-buffer t))
+
+(use-package wgrep-ag
+  :ensure t
+  :commands (wgrep-ag-setup))
+
+(use-package ag
+  :ensure t
+  :defer t
+  :config
+  (add-hook 'ag-mode-hook
+            (lambda ()
+              (wgrep-ag-setup)
+              (define-key ag-mode-map (kbd "n") 'evil-search-next)
+              (define-key ag-mode-map (kbd "N") 'evil-search-previous)))
+  (setq ag-executable "/usr/local/bin/ag")
+  (setq ag-highlight-search t)
+  (setq ag-reuse-buffers t)
+  (setq ag-reuse-window t))
+(use-package git-gutter
+  :ensure t
+  :init
+  (use-package fringe-helper
+    :ensure t
+    :init
+    (use-package git-gutter-fringe
+      :ensure t)
+    )
+  )
 
 ;; Cambiar a espacios el tabulado
 (setq-default indent-tabs-mode nil)

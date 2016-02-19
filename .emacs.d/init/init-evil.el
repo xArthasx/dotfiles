@@ -1,9 +1,3 @@
-  (use-package helm
-    :ensure t
-    :init
-     (use-package helm-ag
-    :ensure t)
-    ) 
 (use-package evil-leader
   :ensure t
   :config
@@ -14,8 +8,8 @@
     (interactive "r")
     (align-regexp BEG END "="))
   (evil-leader/set-key
-    "f" 'helm-ag-this-file
-    "F" 'helm-ag
+    "f" 'ag
+    "F" 'ag-project
     "b" 'switch-to-next-buffer
     "k" 'kill-this-buffer
     "s" 'sort-lines
@@ -36,5 +30,7 @@
         )
       )
     )
+	(define-key evil-normal-state-map (kbd "C-S-P") 'helm-projectile-switch-project)
+  	(define-key evil-normal-state-map (kbd "C-p")   'helm-projectile)
   )
 (provide 'init-evil)
