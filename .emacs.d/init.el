@@ -94,12 +94,8 @@
 (use-package git-gutter
   :ensure t
   :init
-  (use-package fringe-helper
-    :ensure t
-    :init
-    (use-package git-gutter-fringe
-      :ensure t)
-    )
+  (git-gutter:linum-setup)
+  (global-git-gutter-mode +1)
   )
 
 ;; Cambiar a espacios el tabulado
