@@ -64,7 +64,8 @@
         :commands (helm-projectile helm-projectile-switch-project)
         :init
         (setq projectile-enable-caching t)
-        (setq projectile-completion-system 'grizzl)
+        (setq projectile-completion-system 'helm)
+        (helm-projectile-on)
         )
       )
     )
@@ -97,7 +98,15 @@
   (git-gutter:linum-setup)
   (global-git-gutter-mode +1)
   )
-
+(use-package markdown-mode
+  :ensure t
+  :mode "\\.md\\'"
+  :mode "\\.text\\'"
+  :mode "\\.markdown\\'")
+(use-package flycheck
+  :ensure t
+  :init
+  (global-flycheck-mode))
 ;; Cambiar a espacios el tabulado
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 4)
