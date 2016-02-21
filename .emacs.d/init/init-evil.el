@@ -14,10 +14,14 @@
       "f" 'ag
       "F" 'ag-project
       "b" 'switch-to-next-buffer
-      "k" 'kill-this-buffer
+      "x" 'delete-window
       "s" 'sort-lines
       "a" 'align_by_equals
-      "cc" 'evilnc-comment-or-uncomment-lines)
+      "cc" 'evilnc-comment-or-uncomment-lines
+      "h" 'split-and-move-left
+      "j" 'split-and-move-down
+      "k" 'split-and-move-up
+      "l" 'split-and-move-right)
     (use-package evil
       :ensure t
       :init
