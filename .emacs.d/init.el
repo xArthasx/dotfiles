@@ -1,5 +1,5 @@
 ;;; init.el -- Configuración de emacs
-
+;;; Comentary Configuración de Emacs
 ;; Se cambia el direcorio inicial de emacs
 (setq default-directory "~/workspace")
 ;; Iniciar el package-manager

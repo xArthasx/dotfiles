@@ -5,6 +5,7 @@
     :ensure t
     :config
     (global-evil-leader-mode)
+    (evil-select-search-module 'evil-search-module 'evil-search)
     (evil-leader/set-leader "<SPC>")
     (defun align_by_equals (BEG END)
       "Aligns by ="
@@ -21,7 +22,8 @@
       "h" 'split-and-move-left
       "j" 'split-and-move-down
       "k" 'split-and-move-up
-      "l" 'split-and-move-right)
+      "l" 'split-and-move-right
+      "gs" 'magit-status)
     (use-package evil
       :ensure t
       :init
@@ -35,11 +37,14 @@
           (powerline-evil-vim-color-theme)
           (define-key evil-insert-state-map (kbd "C-e") nil)
           (define-key evil-insert-state-map (kbd "C-n") nil)
+          (define-key evil-normal-state-map (kbd "C-u") 'evil-scroll-up)
+          (define-key evil-insert-state-map (kbd "C-u") 'evil-scroll-up)
           )
         )
       )
     (define-key evil-normal-state-map (kbd "C-S-P") 'helm-projectile-switch-project)
     (define-key evil-normal-state-map (kbd "C-p")   'helm-projectile)
+    (define-key evil-normal-state-map (kbd "C-n") 'evil-ex-nohighlight)
     )
   )
 (provide 'init-evil)
