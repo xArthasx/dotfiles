@@ -23,7 +23,8 @@
       "j" 'split-and-move-down
       "k" 'split-and-move-up
       "l" 'split-and-move-right
-      "gs" 'magit-status)
+      "gs" 'magit-status
+      "gc" 'magit-commit)
     (use-package evil
       :ensure t
       :init
