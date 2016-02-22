@@ -24,7 +24,8 @@
       "k" 'split-and-move-up
       "l" 'split-and-move-right
       "gs" 'magit-status
-      "gc" 'magit-commit)
+      "gc" 'magit-commit
+      "gp" 'magit-push-current-to-upstream)
     (use-package evil
       :ensure t
       :init
