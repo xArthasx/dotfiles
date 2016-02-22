@@ -107,6 +107,9 @@
   :ensure t
   :init
   (global-flycheck-mode))
+(use-package js2-mode
+  :ensure t
+  :mode "\\.js\\'")
 ;; Cambiar a espacios el tabulado
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 4)
