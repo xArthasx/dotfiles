@@ -16,4 +16,7 @@ livh(){
 }
 alias liv=livh
 PS1="$PS1"'$([ -n "$TMUX" ] && tmux setenv TMUXPWD_$(tmux display -p "#D" | tr -d %) "$PWD")'
-eval "$(rbenv init -)"
+
+if [ ! -z $(command -v rbenv) ]; then
+    eval "$(rbenv init -)"
+fi
