@@ -21,8 +21,8 @@
 (show-paren-mode 1)
 ;; Eliminar mensajes al inicar
 (setq inhibit-splash-screen t
-      inhibit-startup-message t
-      inhibit-startup-echo-area-message t)
+  inhibit-startup-message t
+  inhibit-startup-echo-area-message t)
 ;; Esconde el menú
 (menu-bar-mode -1)
 (tool-bar-mode -1)
@@ -63,7 +63,6 @@
         :ensure t
         :commands (helm-projectile helm-projectile-switch-project)
         :init
-        (setq projectile-enable-caching t)
         (setq projectile-completion-system 'helm)
         (helm-projectile-on)
         )
@@ -84,10 +83,10 @@
   :defer t
   :config
   (add-hook 'ag-mode-hook
-            (lambda ()
-              (wgrep-ag-setup)
-              (define-key ag-mode-map (kbd "n") 'evil-search-next)
-              (define-key ag-mode-map (kbd "N") 'evil-search-previous)))
+    (lambda ()
+      (wgrep-ag-setup)
+      (define-key ag-mode-map (kbd "n") 'evil-search-next)
+      (define-key ag-mode-map (kbd "N") 'evil-search-previous)))
   (setq ag-executable "/usr/local/bin/ag")
   (setq ag-highlight-search t)
   (setq ag-reuse-buffers t)
@@ -110,19 +109,20 @@
 (use-package js2-mode
   :ensure t
   :mode "\\.js\\'")
+(use-package editorconfig
+  :ensure t
+  :init
+  (editorconfig-mode 1))
 ;; Cambiar a espacios el tabulado
-(setq-default indent-tabs-mode nil)
-(setq-default tab-width 4)
-(setq indent-line-function 'insert-tab)
 (custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+  ;; custom-set-variables was added by Custom.
+  ;; If you edit it by hand, you could mess it up, so be careful.
+  ;; Your init file should contain only one such instance.
+  ;; If there is more than one, they won't work right.
+  )
 (custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+  ;; custom-set-faces was added by Custom.
+  ;; If you edit it by hand, you could mess it up, so be careful.
+  ;; Your init file should contain only one such instance.
+  ;; If there is more than one, they won't work right.
+  )
