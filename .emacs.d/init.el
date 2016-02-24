@@ -133,6 +133,18 @@
 (use-package rspec-mode
   :ensure t
   )
+(require 'whitespace)
+(setq whitespace-style
+  (quote
+    (face tabs trailing empty)
+    )
+  )
+(global-whitespace-mode)
+(use-package indent-guide
+  :ensure t
+  :init
+  (indent-guide-global-mode)
+  (setq indent-guide-recursive t))
 ;; Cambiar a espacios el tabulado
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
