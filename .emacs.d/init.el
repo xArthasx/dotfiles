@@ -113,6 +113,26 @@
   :ensure t
   :init
   (editorconfig-mode 1))
+(use-package robe
+  :ensure t
+  :init
+  (use-package company
+    :ensure t
+    :defer t
+    :init
+    (global-company-mode)
+    :config
+    (eval-after-load 'company
+      '(push 'company-robe company-backends))
+    (setq company-idle-delay 0.1)
+    (setq company-selection-wrap-around t)
+    (define-key company-active-map [tab] 'company-complete)
+    (define-key company-active-map (kbd "C-n") 'company-select-next)
+    (define-key company-active-map (kbd "C-p") 'company-select-previous))
+  )
+(use-package rspec-mode
+  :ensure t
+  )
 ;; Cambiar a espacios el tabulado
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
