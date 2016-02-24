@@ -25,7 +25,8 @@
       "l" 'split-and-move-right
       "gs" 'magit-status
       "gc" 'magit-commit
-      "gp" 'magit-push-current-to-upstream)
+      "gpu" 'magit-push-current-to-upstream
+      "gpl" 'magit-pull-from-upstream)
     (use-package evil
       :ensure t
       :init
