@@ -42,6 +42,11 @@
           (define-key evil-insert-state-map (kbd "C-n") nil)
           (define-key evil-normal-state-map (kbd "C-u") 'evil-scroll-up)
           (define-key evil-insert-state-map (kbd "C-u") 'evil-scroll-up)
+          (use-package evil-surround
+            :ensure t
+            :init
+            (global-evil-surround-mode 1)
+            )
           )
         )
       )

@@ -2,8 +2,8 @@ export PATH=/usr/local/Cellar/vim/7.4.1016/bin/:/usr/local/php5/bin:$PATH
 if [ -d "/Users/xArthasx/Library/Android/sdk/platform-tools" ]; then
     export PATH=/Users/xArthasx/Library/Android/sdk/platform-tools:$PATH
 fi
-if [ -d "/Applications/Emacs.app/" ]; then
-    alias emacs="/Applications/Emacs.app/Contents/MacOS/Emacs -nw"
+if [ ! -z "/Applications/Emacs.app" ]; then
+    alias emacs="emacs -nw"
 fi
 export EDITOR=vim
 alias ls="ls -alGh"

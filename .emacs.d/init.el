@@ -12,6 +12,9 @@
 (setq backup-inhebited t)
 (defvar backup-dir "~/.emacs.d/backups/")
 (setq backup-directory-alist (list (cons "." backup-dir)))
+;; Guardar los historial de commands
+(savehist-mode 1)
+(setq savehist-file "~/.emacs.d/history")
 ;; Quitar autosave
 (setq auto-save-default nil)
 ;; No mostrar el scrollbar
@@ -39,36 +42,16 @@
 (require 'init-powerline)
 (require 'init-php)
 (require 'init-linum)
+(require 'init-projectile)
+
 (load-theme 'wombat t)
-(define-key (current-global-map) (kbd "C-e")
+(define-key (current-global-map) (kbd "M-e")
   (lookup-key key-translation-map "\C-x8'"))
-(define-key (current-global-map) (kbd "C-n")
+(define-key (current-global-map) (kbd "M-n")
   (lookup-key key-translation-map "\C-x8~"))
 
 (use-package magit
   :ensure t)
-(use-package helm
-  :ensure t
-  :config
-  (use-package grizzl
-    :ensure t
-    :config
-    (use-package projectile
-      :ensure t
-      :defer t
-      :config
-      (projectile-global-mode)
-      :init
-      (use-package helm-projectile
-        :ensure t
-        :commands (helm-projectile helm-projectile-switch-project)
-        :init
-        (setq projectile-completion-system 'helm)
-        (helm-projectile-on)
-        )
-      )
-    )
-  )
 (use-package wgrep
   :ensure t
   :config
@@ -145,6 +128,7 @@
   :init
   (indent-guide-global-mode)
   (setq indent-guide-recursive t))
+
 ;; Cambiar a espacios el tabulado
 (custom-set-variables
   ;; custom-set-variables was added by Custom.

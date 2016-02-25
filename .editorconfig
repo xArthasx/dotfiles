@@ -13,3 +13,6 @@ indent_size = 2
 
 [*.el]
 indent_size = 2
+
+[*.js]
+indent_size = 2
