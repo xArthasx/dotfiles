@@ -105,6 +105,7 @@
     :init
     (global-company-mode)
     :config
+    (add-hook 'ruby-mode-hook 'robe-mode)
     (eval-after-load 'company
       '(push 'company-robe company-backends))
     (setq company-idle-delay 0.1)

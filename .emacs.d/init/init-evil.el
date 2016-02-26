@@ -1,3 +1,4 @@
+(require 'init-org)
 (use-package evil-nerd-commenter
   :ensure t
   :config
