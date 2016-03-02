@@ -129,7 +129,13 @@
   :init
   (indent-guide-global-mode)
   (setq indent-guide-recursive t))
-
+(use-package rainbow-mode
+  :ensure t
+  :config
+  (define-globalized-minor-mode my-global-rainbow-mode rainbow-mode
+    (lambda () (rainbow-mode 1)))
+  (my-global-rainbow-mode 1)
+  )
 ;; Cambiar a espacios el tabulado
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
