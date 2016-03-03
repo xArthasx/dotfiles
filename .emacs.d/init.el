@@ -4,6 +4,8 @@
 (setq default-directory "~/workspace")
 ;; Iniciar el package-manager
 (package-initialize)
+;; Cargar dir de fonts
+
 ;; Establecer la carpeta donde se van a cargar las demás configuraciones
 (add-to-list 'load-path (expand-file-name "init" user-emacs-directory))
 ;;; Configuraciones básiscas
@@ -137,15 +139,6 @@
   (my-global-rainbow-mode 1)
   )
 ;; Cambiar a espacios el tabulado
-(custom-set-variables
-  ;; custom-set-variables was added by Custom.
-  ;; If you edit it by hand, you could mess it up, so be careful.
-  ;; Your init file should contain only one such instance.
-  ;; If there is more than one, they won't work right.
-  )
-(custom-set-faces
-  ;; custom-set-faces was added by Custom.
-  ;; If you edit it by hand, you could mess it up, so be careful.
-  ;; Your init file should contain only one such instance.
-  ;; If there is more than one, they won't work right.
-  )
+;;""
+(set-default-font "Monaco Plus Nerd File Types Plus Font Awesome Plus Octicons Plus Pomicons")
+(setq window-system nil)

@@ -1,40 +1,40 @@
 (require 'evil)
 ;; Segmento 0
 (defface my-pl-segment0-normal-active
-  '((t (:background "#AFD700" :foreground "#005F00")))
+  '((t (:background "#AFD700" :foreground "#005F00" :inherit mode-line)))
   "Powerline zero segment active in normal mode")
 
 (defface my-pl-segment0-insert-active
-  '((t (:background "#FFFFFF" :foreground "#005F5F")))
+  '((t (:background "#FFFFFF" :foreground "#005F5F" :inherit mode-line)))
   "Powerline zero segment active in normal mode")
 
 (defface my-pl-segment0-visual-active
-  '((t (:background "#FFAF00" :foreground "#080808")))
+  '((t (:background "#FFAF00" :foreground "#080808" :inherit mode-line)))
   "Powerline zero segment active in normal mode")
 
-(defface my-pl-segment0-operator-active
-  '((t (:background "#00FFFF" :foreground "#FFFFFF")))
+(defface my-pl-segment0-operator-activR
+  '((t (:background "#00FFFF" :foreground "#FFFFFF" :inherit mode-line)))
   "Powerline zero segment active in normal mode")
 
 (defface my-pl-segment0-replace-active
-  '((t (:background "#FF0000" :foreground "#FFFFFF")))
+  '((t (:background "#FF0000" :foreground "#FFFFFF" :inherit mode-line)))
   "Powerline zero segment active in normal mode")
 
 (defface my-pl-segment0-motion-active
-  '((t (:background "#FF00FF" :foreground "#FFFFFF")))
+  '((t (:background "#FF00FF" :foreground "#FFFFFF" :inherit mode-line)))
   "Powerline zero segment active in normal mode")
 
 (defface my-pl-segment0-emacs-active
-  '((t (:background "#EE82EE" :foreground "#FFFFFF")))
+  '((t (:background "#EE82EE" :foreground "#FFFFFF" :inherit mode-line)))
   "Powerline zero segment active in normal mode")
 
 ;; Segmento 1
 (defface my-pl-segment1-normal-active
-  '((t (:background "#303030" :foreground "#9E9E9E")))
+  '((t (:background "#303030" :foreground "#9E9E9E" :inherit mode-line)))
   "Powerline first segment active in normal mode")
 
 (defface my-pl-segment1-insert-active
-  '((t (:background "#0087af" :foreground "#5fafd7")))
+  '((t (:background "#0087af" :foreground "#5fafd7" :inherit mode-line)))
   "Powerline first segment active in normal mode")
 
 (defface my-pl-segment1-visual-active
@@ -59,11 +59,11 @@
 
 ;; Segmento 2
 (defface my-pl-segment2-normal-active
-  '((t (:background "#202020" :foreground "#4E4E4E")))
+  '((t (:background "#202020" :foreground "#4E4E4E" :inherit mode-line)))
   "Powerline second segment active in normal mode")
 
 (defface my-pl-segment2-insert-active
-  '((t (:background "#005f87" :foreground "#81D7FF")))
+  '((t (:background "#005f87" :foreground "#81D7FF" :inherit mode-line)))
   "Powerline second segment active in normal mode")
 
 (defface my-pl-segment2-visual-active
@@ -88,11 +88,11 @@
 
 ;; Segmento 3
 (defface my-pl-segment3-normal-active
-  '((t (:background "#303030" :foreground "#9E9E9E")))
+  '((t (:background "#1F1F1F" :foreground "#DDDDDD" :inherit mode-line)))
   "Powerline third segment active in normal mode")
 
 (defface my-pl-segment3-insert-active
-  '((t (:background "#005f87" :foreground "#81D7FF")))
+  '((t (:background "#005f87" :foreground "#81D7FF" :inherit mode-line)))
   "Powerline third segment active in normal mode")
 
 (defface my-pl-segment3-visual-active
@@ -135,6 +135,8 @@
   (let* ((face (intern (concat "my-pl-segment3-" (symbol-name evil-state) "-active"))))
     (if (facep face) face nil)))
 
+(setq powerline-evil-tag-style 'verbose)
+
 (defun air--powerline-default-theme ()
   "Set up my custom Powerline with Evil indicators."
   (interactive)
@@ -156,7 +158,7 @@
                         ;; Evil indidcator
                         (let ((evil-face seg0))
                           (if evil-mode
-                            (powerline-raw (powerline-evil-tag) evil-face)
+                            (powerline-raw (concat " " (powerline-evil-tag) " ") evil-face)
                             ))
                         ;; Evil separator
                         (if evil-mode
@@ -167,15 +169,7 @@
                         (when (and (boundp 'which-function-mode) which-function-mode)
                           (powerline-raw which-func-format seg1 'l))
                         (powerline-raw " " seg1)
-                        (funcall separator-left seg1 seg2)
-                        (when (boundp 'erc-modified-channels-object)
-                          (powerline-raw erc-modified-channels-object seg2 'l))
-                        (powerline-major-mode seg2 'l)
-                        (powerline-process seg2)
-                        (powerline-minor-modes seg2 'l)
-                        (powerline-narrow seg2 'l)
-                        (powerline-raw " " seg2)
-                        (funcall separator-left seg2 seg3)
+                        (funcall separator-left seg1 seg3)
                         (powerline-vc seg3 'r)
                         (when (bound-and-true-p nyan-mode)
                           (powerline-raw (list (nyan-create)) seg3 'l))))
