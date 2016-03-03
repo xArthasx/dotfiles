@@ -1,4 +1,9 @@
 (require 'evil)
+;; Inactivo
+(defface my-pl-segment-inactive
+  '((t (:background "#303030" :foreground "#404040" :inherit mode-line)))
+  "Powerline inactive segment")
+
 ;; Segmento 0
 (defface my-pl-segment0-normal-active
   '((t (:background "#AFD700" :foreground "#005F00" :inherit mode-line)))
@@ -144,10 +149,10 @@
     '("%e"
        (:eval
          (let* ((active (powerline-selected-window-active))
-                 (seg1 (my-pl-segment1))
-                 (seg2 (my-pl-segment2))
-                 (seg3 (my-pl-segment3))
-                 (seg0 (my-pl-segment0))
+                 (seg1 (if active (my-pl-segment1) 'my-pl-segment-inactive))
+                 (seg2 (if active (my-pl-segment2) 'my-pl-segment-inactive))
+                 (seg3 (if active (my-pl-segment3) 'my-pl-segment-inactive))
+                 (seg0 (if active (my-pl-segment0) 'my-pl-segment-inactive))
                  (separator-left (intern (format "powerline-%s-%s"
                                            (powerline-current-separator)
                                            (car powerline-default-separator-dir))))
