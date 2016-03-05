@@ -88,7 +88,9 @@
 (use-package flycheck
   :ensure t
   :init
-  (global-flycheck-mode))
+  (global-flycheck-mode)
+  :config
+    )
 (use-package js2-mode
   :ensure t
   :mode "\\.js\\'")
@@ -99,15 +101,15 @@
 (use-package robe
   :ensure t
   :init
+  (add-hook 'ruby-mode-hook 'robe-mode)
+  :config
   (use-package company
     :ensure t
     :defer t
     :init
     (global-company-mode)
     :config
-    (add-hook 'ruby-mode-hook 'robe-mode)
-    (eval-after-load 'company
-      '(push 'company-robe company-backends))
+    (push 'company-robe company-backends)
     (setq company-idle-delay 0.1)
     (setq company-selection-wrap-around t)
     (define-key company-active-map [tab] 'company-complete)
