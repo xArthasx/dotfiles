@@ -169,13 +169,12 @@
                         (if evil-mode
                           (funcall separator-left seg0 seg1))
                         ;;
-                        (powerline-buffer-id seg1 'l)
-                        (powerline-raw "[%*]" seg1 'l)
-                        (when (and (boundp 'which-function-mode) which-function-mode)
-                          (powerline-raw which-func-format seg1 'l))
-                        (powerline-raw " " seg1)
+                        (powerline-vc seg1 'r)
                         (funcall separator-left seg1 seg3)
-                        (powerline-vc seg3 'r)
+                        (powerline-buffer-id seg3 'l)
+                        (powerline-raw "[%*]" seg3 'l)
+                        (when (and (boundp 'which-function-mode) which-function-mode)
+                          (powerline-raw which-func-format seg3 'l))
                         (when (bound-and-true-p nyan-mode)
                           (powerline-raw (list (nyan-create)) seg3 'l))))
                  (rhs (list (powerline-raw global-mode-string seg0 'r)

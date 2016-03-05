@@ -141,6 +141,6 @@
   (my-global-rainbow-mode 1)
   )
 ;; Cambiar a espacios el tabulado
-;;""
-(set-default-font "Monaco Plus Nerd File Types Plus Font Awesome Plus Octicons Plus Pomicons")
+;;""Monaco for Powerline Plus Nerd File Types Plus Font Awesome Plus Octicons Plus Pomicons
+(set-default-font "Monaco for Powerline Plus Nerd File Types Plus Font Awesome Plus Octicons Plus Pomicons")
 (setq window-system nil)
