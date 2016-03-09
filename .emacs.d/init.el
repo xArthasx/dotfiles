@@ -158,11 +158,7 @@
   (setq indent-guide-recursive t))
 (use-package rainbow-mode
   :ensure t
-  :config
-  (define-globalized-minor-mode my-global-rainbow-mode rainbow-mode
-    (lambda () (rainbow-mode 1)))
-  (my-global-rainbow-mode 1)
-  )
+  :mode "\\.*\\'")
 ;; Cambiar a espacios el tabulado
 ;;""Monaco for Powerline Plus Nerd File Types Plus Font Awesome Plus Octicons Plus Pomicons
 (set-default-font "Monaco for Powerline Plus Nerd File Types Plus Font Awesome Plus Octicons Plus Pomicons")
