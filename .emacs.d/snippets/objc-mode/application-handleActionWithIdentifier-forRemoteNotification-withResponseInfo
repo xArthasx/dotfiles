@@ -1,0 +1,4 @@
+#name : application:handleActionWithIdentifier:forRemoteNotification:withResponseInfo
+#group : UIApplication
+# --
+application:${1:(UIApplication *)application} handleActionWithIdentifier:${2:(nullable NSString *)identifier} forRemoteNotification:${3:(NSDictionary *)userInfo} withResponseInfo:${4:(NSDictionary *)responseInfo}

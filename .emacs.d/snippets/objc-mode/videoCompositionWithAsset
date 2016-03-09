@@ -1,0 +1,4 @@
+#name : videoCompositionWithAsset
+#group : AVVideoComposition
+# --
+videoCompositionWithAsset:${1:(AVAsset *)asset}

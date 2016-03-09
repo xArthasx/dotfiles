@@ -1,0 +1,4 @@
+#name : streamingContentKeyRequestDataForApp:contentIdentifier
+#group : AVAssetResourceLoader
+# --
+streamingContentKeyRequestDataForApp:${1:(NSData *)appIdentifier} contentIdentifier:${2:(NSData *)contentIdentifier}

@@ -1,0 +1,4 @@
+#name : locationWithMapItem
+#group : EKStructuredLocation
+# --
+locationWithMapItem:${1:(MKMapItem *)mapItem}

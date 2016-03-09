@@ -1,0 +1,4 @@
+#name : endIndexBatchWithClientState
+#group : CSSearchableIndex
+# --
+endIndexBatchWithClientState:${1:(NSData *)clientState}

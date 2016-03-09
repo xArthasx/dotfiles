@@ -1,0 +1,4 @@
+#name : metadataItemWithPropertiesOfMetadataItem
+#group : AVMetadataItem
+# --
+metadataItemWithPropertiesOfMetadataItem:${1:(AVMetadataItem *)metadataItem}

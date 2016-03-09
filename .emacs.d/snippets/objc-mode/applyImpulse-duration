@@ -1,0 +1,4 @@
+#name : applyImpulse:duration
+#group : SKAction
+# --
+applyImpulse:${1:(CGVector)impulse} duration:${2:(NSTimeInterval)sec}

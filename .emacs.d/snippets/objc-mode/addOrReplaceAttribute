@@ -1,0 +1,4 @@
+#name : addOrReplaceAttribute
+#group : MDLVertexDescriptor
+# --
+addOrReplaceAttribute:${1:(nonnull MDLVertexAttribute*)attribute}

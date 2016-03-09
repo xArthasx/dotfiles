@@ -1,0 +1,4 @@
+#name : initWithFileURL:options
+#group : NSAttributedString
+# --
+initWithFileURL:${1:(NSURL *)url} options:${2:(NSDictionary *)options}

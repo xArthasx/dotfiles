@@ -1,0 +1,4 @@
+#name : setUserInfoValueProviderForDomain
+#group : NSError
+# --
+setUserInfoValueProviderForDomain:${1:(NSString *)errorDomain}

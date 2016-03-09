@@ -1,0 +1,4 @@
+#name : removeKeyCommand
+#group : UIViewController
+# --
+removeKeyCommand:${1:(UIKeyCommand *)keyCommand}

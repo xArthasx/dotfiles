@@ -1,0 +1,4 @@
+#name : initWithStringValue
+#group : CNPhoneNumber
+# --
+initWithStringValue:${1:(NSString *)string}

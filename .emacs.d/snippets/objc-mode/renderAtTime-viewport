@@ -1,0 +1,4 @@
+#name : renderAtTime:viewport
+#group : SCNRenderer
+# --
+renderAtTime:${1:(CFTimeInterval)time} viewport:${2:(CGRect)viewport}

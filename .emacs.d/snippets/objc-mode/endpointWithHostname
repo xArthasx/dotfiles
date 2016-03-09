@@ -1,0 +1,4 @@
+#name : endpointWithHostname
+#group : NWHostEndpoint
+# --
+endpointWithHostname:${1:(NSString *)hostname}

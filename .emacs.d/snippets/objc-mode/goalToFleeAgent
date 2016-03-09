@@ -1,0 +1,4 @@
+#name : goalToFleeAgent
+#group : GKGoal
+# --
+goalToFleeAgent:${1:(GKAgent *)agent}

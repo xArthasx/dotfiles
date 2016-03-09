@@ -1,0 +1,4 @@
+#name : ignorePress:forEvent
+#group : UIGestureRecognizerSubclass
+# --
+ignorePress:${1:(UIPress *)button} forEvent:${2:(UIPressesEvent *)event}

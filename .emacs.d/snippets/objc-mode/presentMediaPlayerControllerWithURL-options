@@ -1,0 +1,4 @@
+#name : presentMediaPlayerControllerWithURL:options
+#group : WKInterfaceController
+# --
+presentMediaPlayerControllerWithURL:${1:(NSURL *)URL} options:${2:(nullable NSDictionary *)options}

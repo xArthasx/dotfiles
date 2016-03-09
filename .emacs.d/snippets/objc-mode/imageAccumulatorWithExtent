@@ -1,0 +1,4 @@
+#name : imageAccumulatorWithExtent
+#group : CIImageAccumulator
+# --
+imageAccumulatorWithExtent:${1:(CGRect)extent}

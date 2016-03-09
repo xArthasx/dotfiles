@@ -1,0 +1,4 @@
+#name : initWithSize
+#group : UIRegion
+# --
+initWithSize:${1:(CGSize)size}

@@ -1,0 +1,4 @@
+#name : maximumGradeForFacts
+#group : GKRuleSystem
+# --
+maximumGradeForFacts:${1:(NSArray *)facts}

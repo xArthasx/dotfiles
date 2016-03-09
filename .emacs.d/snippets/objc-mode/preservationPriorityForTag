@@ -1,0 +1,4 @@
+#name : preservationPriorityForTag
+#group : NSBundle
+# --
+preservationPriorityForTag:${1:(NSString *)tag}

@@ -1,0 +1,4 @@
+#name : newBoxWithDimensions
+#group : MDLMesh
+# --
+newBoxWithDimensions:${1:(vector_float3)dimensions}

@@ -1,0 +1,4 @@
+#name : playerViewController
+#group : AVPlayerViewController
+# --
+playerViewController:${1:(AVPlayerViewController *)playerViewController}

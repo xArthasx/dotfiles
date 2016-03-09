@@ -1,0 +1,4 @@
+#name : regionByUnionWithRegion
+#group : UIRegion
+# --
+regionByUnionWithRegion:${1:(UIRegion *)region}

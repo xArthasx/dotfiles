@@ -1,0 +1,4 @@
+#name : centralManager:didDiscoverPeripheral
+#group : CBCentralManager
+# --
+centralManager:${1:(CBCentralManager *)central} didDiscoverPeripheral:${2:(CBPeripheral *)peripheral}

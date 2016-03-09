@@ -1,0 +1,4 @@
+#name : samplerWithImage:options
+#group : CISampler
+# --
+samplerWithImage:${1:(CIImage *)im} options:${2:(nullable NSDictionary *)dict}

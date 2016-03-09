@@ -1,0 +1,4 @@
+#name : writeToURL:type
+#group : MDLTexture
+# --
+writeToURL:${1:(NSURL *)nsurl} type:${2:(CFStringRef)type}

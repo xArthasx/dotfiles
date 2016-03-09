@@ -1,0 +1,4 @@
+#name : labeledValueBySettingValue
+#group : CNLabeledValue
+# --
+labeledValueBySettingValue:${1:(ValueType)value}

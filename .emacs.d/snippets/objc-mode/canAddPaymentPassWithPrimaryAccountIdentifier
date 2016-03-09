@@ -1,0 +1,4 @@
+#name : canAddPaymentPassWithPrimaryAccountIdentifier
+#group : PKPassLibrary
+# --
+canAddPaymentPassWithPrimaryAccountIdentifier:${1:(NSString *)primaryAccountIdentifier}

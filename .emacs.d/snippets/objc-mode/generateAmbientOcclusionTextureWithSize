@@ -1,0 +1,4 @@
+#name : generateAmbientOcclusionTextureWithSize
+#group : MDLMesh
+# --
+generateAmbientOcclusionTextureWithSize:${1:(vector_int2)textureSize}

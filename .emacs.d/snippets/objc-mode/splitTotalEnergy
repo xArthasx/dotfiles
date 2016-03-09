@@ -1,0 +1,4 @@
+#name : splitTotalEnergy
+#group : HKHealthStore
+# --
+splitTotalEnergy:${1:(HKQuantity *)totalEnergy}

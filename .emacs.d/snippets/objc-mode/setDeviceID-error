@@ -1,0 +1,4 @@
+#name : setDeviceID:error
+#group : AUAudioUnit
+# --
+setDeviceID:${1:(AudioObjectID)deviceID} error:${2:(NSError **)outError}

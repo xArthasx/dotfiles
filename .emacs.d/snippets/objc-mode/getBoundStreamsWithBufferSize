@@ -1,0 +1,4 @@
+#name : getBoundStreamsWithBufferSize
+#group : NSStream
+# --
+getBoundStreamsWithBufferSize:${1:(NSUInteger)bufferSize}

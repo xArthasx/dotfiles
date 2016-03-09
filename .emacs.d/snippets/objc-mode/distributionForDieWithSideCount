@@ -1,0 +1,4 @@
+#name : distributionForDieWithSideCount
+#group : GKRandomDistribution
+# --
+distributionForDieWithSideCount:${1:(NSInteger)sideCount}

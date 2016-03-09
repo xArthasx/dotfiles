@@ -1,0 +1,4 @@
+#name : costToNode
+#group : GKGraphNode
+# --
+costToNode:${1:(GKGraphNode *)node}

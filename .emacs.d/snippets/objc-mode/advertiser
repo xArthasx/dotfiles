@@ -1,0 +1,4 @@
+#name : advertiser
+#group : MCNearbyServiceAdvertiser
+# --
+advertiser:${1:(MCNearbyServiceAdvertiser *)advertiser}

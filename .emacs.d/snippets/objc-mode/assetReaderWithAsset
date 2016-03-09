@@ -1,0 +1,4 @@
+#name : assetReaderWithAsset
+#group : AVAssetReader
+# --
+assetReaderWithAsset:${1:(AVAsset *)asset}

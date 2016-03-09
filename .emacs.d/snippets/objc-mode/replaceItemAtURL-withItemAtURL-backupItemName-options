@@ -1,0 +1,4 @@
+#name : replaceItemAtURL:withItemAtURL:backupItemName:options
+#group : NSFileManager
+# --
+replaceItemAtURL:${1:(NSURL *)originalItemURL} withItemAtURL:${2:(NSURL *)newItemURL} backupItemName:${3:(nullable NSString *)backupItemName} options:${4:(NSFileManagerItemReplacementOptions)options}

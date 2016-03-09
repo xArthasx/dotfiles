@@ -1,0 +1,4 @@
+#name : URLSession:writeClosedForStreamTask
+#group : NSURLSession
+# --
+URLSession:${1:(NSURLSession *)session} writeClosedForStreamTask:${2:(NSURLSessionStreamTask *)streamTask}

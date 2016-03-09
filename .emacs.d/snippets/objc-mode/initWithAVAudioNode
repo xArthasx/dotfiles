@@ -1,0 +1,4 @@
+#name : initWithAVAudioNode
+#group : SKAudioNode
+# --
+initWithAVAudioNode:${1:(nullable AVAudioNode *)node}

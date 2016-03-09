@@ -1,0 +1,4 @@
+#name : initWithName:semantic:textureSampler
+#group : MDLMaterial
+# --
+initWithName:${1:(NSString *)name} semantic:${2:(MDLMaterialSemantic)semantic} textureSampler:${3:(nullable MDLTextureSampler*)textureSampler}

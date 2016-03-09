@@ -1,0 +1,4 @@
+#name : playableContentManager:didUpdateContext
+#group : MPPlayableContentDelegate
+# --
+playableContentManager:${1:(MPPlayableContentManager *)contentManager} didUpdateContext:${2:(MPPlayableContentManagerContext *)context}

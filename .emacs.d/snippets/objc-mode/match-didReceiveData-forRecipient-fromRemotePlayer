@@ -1,0 +1,4 @@
+#name : match:didReceiveData:forRecipient:fromRemotePlayer
+#group : GKMatch
+# --
+match:${1:(GKMatch *)match} didReceiveData:${2:(NSData *)data} forRecipient:${3:(GKPlayer *)recipient} fromRemotePlayer:${4:(GKPlayer *)player}

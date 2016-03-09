@@ -1,0 +1,4 @@
+#name : insetByX:Y
+#group : CIFilterShape
+# --
+insetByX:${1:(int)dx} Y:${2:(int)dy}

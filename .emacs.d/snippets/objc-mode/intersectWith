@@ -1,0 +1,4 @@
+#name : intersectWith
+#group : CIFilterShape
+# --
+intersectWith:${1:(CIFilterShape *)s2}

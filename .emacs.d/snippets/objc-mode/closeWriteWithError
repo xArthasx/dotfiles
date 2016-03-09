@@ -1,0 +1,4 @@
+#name : closeWriteWithError
+#group : NEAppProxyFlow
+# --
+closeWriteWithError:${1:(nullable NSError *)error}

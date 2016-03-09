@@ -1,0 +1,4 @@
+#name : setTranslation:forTime
+#group : MDLTransform
+# --
+setTranslation:${1:(vector_float3)translation} forTime:${2:(NSTimeInterval)time}

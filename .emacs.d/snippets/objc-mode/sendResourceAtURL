@@ -1,0 +1,4 @@
+#name : sendResourceAtURL
+#group : MCSession
+# --
+sendResourceAtURL:${1:(NSURL *)resourceURL}

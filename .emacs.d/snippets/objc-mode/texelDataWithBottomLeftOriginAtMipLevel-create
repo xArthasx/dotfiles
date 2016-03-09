@@ -1,0 +1,4 @@
+#name : texelDataWithBottomLeftOriginAtMipLevel:create
+#group : MDLTexture
+# --
+texelDataWithBottomLeftOriginAtMipLevel:${1:(NSInteger)level} create:${2:(BOOL)create}

@@ -1,0 +1,4 @@
+#name : livePhotoView:didEndPlaybackWithStyle
+#group : PHLivePhotoView
+# --
+livePhotoView:${1:(PHLivePhotoView *)livePhotoView} didEndPlaybackWithStyle:${2:(PHLivePhotoViewPlaybackStyle)playbackStyle}

@@ -1,0 +1,4 @@
+#name : getRed:green:blue:alpha
+#group : UIColor
+# --
+getRed:${1:(nullable CGFloat *)red} green:${2:(nullable CGFloat *)green} blue:${3:(nullable CGFloat *)blue} alpha:${4:(nullable CGFloat *)alpha}

@@ -1,0 +1,4 @@
+#name : playerViewControllerDidStartPictureInPicture
+#group : AVPlayerViewController
+# --
+playerViewControllerDidStartPictureInPicture:${1:(AVPlayerViewController *)playerViewController}

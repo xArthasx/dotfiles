@@ -1,0 +1,4 @@
+#name : delimiterForContact
+#group : CNContactFormatter
+# --
+delimiterForContact:${1:(CNContact *)contact}

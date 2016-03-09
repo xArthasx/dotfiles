@@ -1,0 +1,4 @@
+#name : discreteProgressWithTotalUnitCount
+#group : NSProgress
+# --
+discreteProgressWithTotalUnitCount:${1:(int64_t)unitCount}

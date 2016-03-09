@@ -1,0 +1,4 @@
+#name : URLForResource:withExtension
+#group : NSBundle
+# --
+URLForResource:${1:(nullable NSString *)name} withExtension:${2:(nullable NSString *)ext}

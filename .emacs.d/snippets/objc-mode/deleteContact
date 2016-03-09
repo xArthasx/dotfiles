@@ -1,0 +1,4 @@
+#name : deleteContact
+#group : CNSaveRequest
+# --
+deleteContact:${1:(CNMutableContact *)contact}

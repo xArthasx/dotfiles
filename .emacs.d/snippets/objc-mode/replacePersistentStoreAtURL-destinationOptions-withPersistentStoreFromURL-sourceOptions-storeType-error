@@ -1,0 +1,4 @@
+#name : replacePersistentStoreAtURL:destinationOptions:withPersistentStoreFromURL:sourceOptions:storeType:error
+#group : NSPersistentStoreCoordinator
+# --
+replacePersistentStoreAtURL:${1:(NSURL *)destinationURL} destinationOptions:${2:(nullable NSDictionary *)destinationOptions} withPersistentStoreFromURL:${3:(NSURL *)sourceURL} sourceOptions:${4:(nullable NSDictionary *)sourceOptions} storeType:${5:(NSString *)storeType} error:${6:(NSError**)error}

@@ -1,0 +1,4 @@
+#name : presentScene:withTransition:incomingPointOfView
+#group : SCNSceneRenderer
+# --
+presentScene:${1:(SCNScene *)scene} withTransition:${2:(SKTransition *)transition} incomingPointOfView:${3:(nullable SCNNode *)pointOfView}

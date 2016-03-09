@@ -1,0 +1,4 @@
+#name : deleteGroup
+#group : CNSaveRequest
+# --
+deleteGroup:${1:(CNMutableGroup *)group}

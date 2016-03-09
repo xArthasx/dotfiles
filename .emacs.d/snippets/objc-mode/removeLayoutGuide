@@ -1,0 +1,4 @@
+#name : removeLayoutGuide
+#group : UIView
+# --
+removeLayoutGuide:${1:(UILayoutGuide *)layoutGuide}

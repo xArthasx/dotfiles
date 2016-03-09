@@ -1,0 +1,4 @@
+#name : convertToBuffer:error:withInputFromBlock
+#group : AVAudioConverter
+# --
+convertToBuffer:${1:(AVAudioBuffer *)outputBuffer} error:${2:(NSError **)outError} withInputFromBlock:${3:(AVAudioConverterInputBlock)inputBlock}

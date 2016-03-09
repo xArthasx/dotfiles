@@ -1,0 +1,4 @@
+#name : arrayByShufflingObjectsInArray
+#group : GKRandomSource
+# --
+arrayByShufflingObjectsInArray:${1:(NSArray *)array}

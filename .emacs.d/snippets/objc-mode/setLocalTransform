@@ -1,0 +1,4 @@
+#name : setLocalTransform
+#group : MDLTransform
+# --
+setLocalTransform:${1:(matrix_float4x4)transform}

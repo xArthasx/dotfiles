@@ -1,0 +1,4 @@
+#name : localizedStandardContainsString
+#group : NSString
+# --
+localizedStandardContainsString:${1:(NSString *)str}

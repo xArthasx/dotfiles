@@ -1,0 +1,4 @@
+#name : regionOf:destRect
+#group : CIKernel
+# --
+regionOf:${1:(int)samplerIndex} destRect:${2:(CGRect)r}

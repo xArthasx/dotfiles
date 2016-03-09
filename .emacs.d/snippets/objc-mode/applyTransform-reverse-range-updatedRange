@@ -1,0 +1,4 @@
+#name : applyTransform:reverse:range:updatedRange
+#group : NSString
+# --
+applyTransform:${1:(NSString *)transform} reverse:${2:(BOOL)reverse} range:${3:(NSRange)range} updatedRange:${4:(nullable NSRangePointer)resultingRange}

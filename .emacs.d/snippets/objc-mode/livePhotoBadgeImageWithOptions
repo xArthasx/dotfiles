@@ -1,0 +1,4 @@
+#name : livePhotoBadgeImageWithOptions
+#group : PHLivePhotoView
+# --
+livePhotoBadgeImageWithOptions:${1:(PHLivePhotoBadgeOptions)badgeOptions}

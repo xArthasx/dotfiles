@@ -1,0 +1,4 @@
+#name : audioPlayerWithSource
+#group : SCNAudioSource
+# --
+audioPlayerWithSource:${1:(SCNAudioSource *)source}

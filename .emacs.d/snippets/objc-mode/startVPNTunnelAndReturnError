@@ -1,0 +1,4 @@
+#name : startVPNTunnelAndReturnError
+#group : NEVPNConnection
+# --
+startVPNTunnelAndReturnError:${1:(NSError **)error}

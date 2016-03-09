@@ -1,0 +1,4 @@
+#name : turbulenceFieldWithSmoothness:animationSpeed
+#group : UIFieldBehavior
+# --
+turbulenceFieldWithSmoothness:${1:(CGFloat)smoothness} animationSpeed:${2:(CGFloat)speed}

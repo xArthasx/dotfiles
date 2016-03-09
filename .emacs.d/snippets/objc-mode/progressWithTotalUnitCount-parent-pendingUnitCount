@@ -1,0 +1,4 @@
+#name : progressWithTotalUnitCount:parent:pendingUnitCount
+#group : NSProgress
+# --
+progressWithTotalUnitCount:${1:(int64_t)unitCount} parent:${2:(NSProgress *)parent} pendingUnitCount:${3:(int64_t)portionOfParentTotalUnitCount}

@@ -1,0 +1,4 @@
+#name : homeAccessControlForUser
+#group : HMHome
+# --
+homeAccessControlForUser:${1:(HMUser *)user}

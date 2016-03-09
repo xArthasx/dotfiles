@@ -1,0 +1,4 @@
+#name : newIcosahedronWithRadius
+#group : MDLMesh
+# --
+newIcosahedronWithRadius:${1:(float)radius}

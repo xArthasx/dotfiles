@@ -1,0 +1,4 @@
+#name : updateValue:forCharacteristic
+#group : CBPeripheralManager
+# --
+updateValue:${1:(NSData *)value} forCharacteristic:${2:(CBMutableCharacteristic *)characteristic}

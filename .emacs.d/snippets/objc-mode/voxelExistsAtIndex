@@ -1,0 +1,4 @@
+#name : voxelExistsAtIndex
+#group : MDLVoxelArray
+# --
+voxelExistsAtIndex:${1:(MDLVoxelIndex)index}

@@ -1,0 +1,4 @@
+#name : bokehKernelWithSize
+#group : MDLCamera
+# --
+bokehKernelWithSize:${1:(vector_int2)size}

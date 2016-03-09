@@ -1,0 +1,4 @@
+#name : cancelTunnelWithError
+#group : NEPacketTunnelProvider
+# --
+cancelTunnelWithError:${1:(nullable NSError *)error}

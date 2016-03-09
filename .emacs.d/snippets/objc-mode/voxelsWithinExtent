@@ -1,0 +1,4 @@
+#name : voxelsWithinExtent
+#group : MDLVoxelArray
+# --
+voxelsWithinExtent:${1:(MDLVoxelIndexExtent)extent}

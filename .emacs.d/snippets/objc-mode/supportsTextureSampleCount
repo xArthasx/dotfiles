@@ -1,0 +1,4 @@
+#name : supportsTextureSampleCount
+#group : MTLDevice
+# --
+supportsTextureSampleCount:${1:(NSUInteger)sampleCount}

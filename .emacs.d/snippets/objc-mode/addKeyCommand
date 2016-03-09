@@ -1,0 +1,4 @@
+#name : addKeyCommand
+#group : UIViewController
+# --
+addKeyCommand:${1:(UIKeyCommand *)keyCommand}

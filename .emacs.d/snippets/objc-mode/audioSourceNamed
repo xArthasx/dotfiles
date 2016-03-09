@@ -1,0 +1,4 @@
+#name : audioSourceNamed
+#group : SCNAudioSource
+# --
+audioSourceNamed:${1:(NSString *)fileName}

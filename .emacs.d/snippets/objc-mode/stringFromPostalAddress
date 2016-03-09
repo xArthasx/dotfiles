@@ -1,0 +1,4 @@
+#name : stringFromPostalAddress
+#group : CNPostalAddressFormatter
+# --
+stringFromPostalAddress:${1:(CNPostalAddress *)postalAddress}

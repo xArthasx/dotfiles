@@ -1,0 +1,4 @@
+#name : popoverController:willRepositionPopoverToRect
+#group : UIPopoverController
+# --
+popoverController:${1:(UIPopoverController *)popoverController} willRepositionPopoverToRect:${2:(inout CGRect *)rect}

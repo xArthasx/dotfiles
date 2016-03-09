@@ -1,0 +1,4 @@
+#name : isEqualToPath
+#group : NWPath
+# --
+isEqualToPath:${1:(NWPath *)path}

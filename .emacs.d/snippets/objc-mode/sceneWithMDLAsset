@@ -1,0 +1,4 @@
+#name : sceneWithMDLAsset
+#group : ModelIO
+# --
+sceneWithMDLAsset:${1:(MDLAsset *)mdlAsset}

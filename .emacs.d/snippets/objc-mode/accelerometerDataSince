@@ -1,0 +1,4 @@
+#name : accelerometerDataSince
+#group : CMSensorRecorder
+# --
+accelerometerDataSince:${1:(uint64_t)identifier}

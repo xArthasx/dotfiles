@@ -1,0 +1,4 @@
+#name : initWithUniqueIdentifier
+#group : CSSearchableItem
+# --
+initWithUniqueIdentifier:${1:(nullable NSString *)uniqueIdentifier}

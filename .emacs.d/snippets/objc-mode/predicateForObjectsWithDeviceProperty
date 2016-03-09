@@ -1,0 +1,4 @@
+#name : predicateForObjectsWithDeviceProperty
+#group : HKQuery
+# --
+predicateForObjectsWithDeviceProperty:${1:(NSString *)key}

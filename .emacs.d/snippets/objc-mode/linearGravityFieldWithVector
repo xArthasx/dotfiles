@@ -1,0 +1,4 @@
+#name : linearGravityFieldWithVector
+#group : UIFieldBehavior
+# --
+linearGravityFieldWithVector:${1:(CGVector)direction}

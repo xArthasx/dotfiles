@@ -1,0 +1,4 @@
+#name : logoff
+#group : NEHotspotHelper
+# --
+logoff:${1:(NEHotspotNetwork *)network}

@@ -1,0 +1,4 @@
+#name : initWithName:bundle
+#group : NSDataAsset
+# --
+initWithName:${1:(NSString *)name} bundle:${2:(NSBundle *)bundle}

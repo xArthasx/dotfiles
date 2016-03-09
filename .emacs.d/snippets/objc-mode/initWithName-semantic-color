@@ -1,0 +1,4 @@
+#name : initWithName:semantic:color
+#group : MDLMaterial
+# --
+initWithName:${1:(NSString *)name} semantic:${2:(MDLMaterialSemantic)semantic} color:${3:(CGColorRef)color}

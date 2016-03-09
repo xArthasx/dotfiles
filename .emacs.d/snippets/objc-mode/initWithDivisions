@@ -1,0 +1,4 @@
+#name : initWithDivisions
+#group : MDLTexture
+# --
+initWithDivisions:${1:(float)divisions}

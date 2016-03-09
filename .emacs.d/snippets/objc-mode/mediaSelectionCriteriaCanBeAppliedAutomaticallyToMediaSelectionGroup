@@ -1,0 +1,4 @@
+#name : mediaSelectionCriteriaCanBeAppliedAutomaticallyToMediaSelectionGroup
+#group : AVMediaSelection
+# --
+mediaSelectionCriteriaCanBeAppliedAutomaticallyToMediaSelectionGroup:${1:(AVMediaSelectionGroup *)mediaSelectionGroup}

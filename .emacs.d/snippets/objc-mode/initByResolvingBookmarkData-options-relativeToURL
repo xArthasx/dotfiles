@@ -1,0 +1,4 @@
+#name : initByResolvingBookmarkData:options:relativeToURL
+#group : NSURL
+# --
+initByResolvingBookmarkData:${1:(NSData *)bookmarkData} options:${2:(NSURLBookmarkResolutionOptions)options} relativeToURL:${3:(nullable NSURL *)relativeURL}

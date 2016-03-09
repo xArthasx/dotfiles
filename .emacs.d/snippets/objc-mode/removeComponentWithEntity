@@ -1,0 +1,4 @@
+#name : removeComponentWithEntity
+#group : GKComponent
+# --
+removeComponentWithEntity:${1:(GKEntity *)entity}

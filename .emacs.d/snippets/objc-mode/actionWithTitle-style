@@ -1,0 +1,4 @@
+#name : actionWithTitle:style
+#group : UIViewController
+# --
+actionWithTitle:${1:(NSString *)title} style:${2:(UIPreviewActionStyle)style}

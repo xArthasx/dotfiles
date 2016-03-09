@@ -1,0 +1,4 @@
+#name : performSystemAnimation
+#group : UIView
+# --
+performSystemAnimation:${1:(UISystemAnimation)animation}

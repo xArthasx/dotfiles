@@ -1,0 +1,4 @@
+#name : initVectorNoiseWithSmoothness
+#group : MDLTexture
+# --
+initVectorNoiseWithSmoothness:${1:(float)smoothness}

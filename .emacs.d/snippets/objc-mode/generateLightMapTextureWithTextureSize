@@ -1,0 +1,4 @@
+#name : generateLightMapTextureWithTextureSize
+#group : MDLMesh
+# --
+generateLightMapTextureWithTextureSize:${1:(vector_int2)textureSize}

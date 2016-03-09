@@ -1,0 +1,4 @@
+#name : layoutManager:shouldSetLineFragmentRect:lineFragmentUsedRect:baselineOffset:inTextContainer:forGlyphRange
+#group : NSLayoutManager
+# --
+layoutManager:${1:(NSLayoutManager *)layoutManager} shouldSetLineFragmentRect:${2:(inout CGRect *)lineFragmentRect} lineFragmentUsedRect:${3:(inout CGRect *)lineFragmentUsedRect} baselineOffset:${4:(inout CGFloat *)baselineOffset} inTextContainer:${5:(NSTextContainer *)textContainer} forGlyphRange:${6:(NSRange)glyphRange}

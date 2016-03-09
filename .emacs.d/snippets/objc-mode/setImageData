@@ -1,0 +1,4 @@
+#name : setImageData
+#group : WKInterfaceImage
+# --
+setImageData:${1:(nullable NSData *)imageData}

@@ -1,0 +1,4 @@
+#name : referenceNodeWithURL
+#group : SKReferenceNode
+# --
+referenceNodeWithURL:${1:(NSURL *)referenceURL}

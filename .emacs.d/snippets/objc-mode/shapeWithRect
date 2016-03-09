@@ -1,0 +1,4 @@
+#name : shapeWithRect
+#group : CIFilterShape
+# --
+shapeWithRect:${1:(CGRect)r}

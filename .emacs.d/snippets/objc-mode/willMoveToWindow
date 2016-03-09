@@ -1,0 +1,4 @@
+#name : willMoveToWindow
+#group : UIView
+# --
+willMoveToWindow:${1:(nullable UIWindow *)newWindow}

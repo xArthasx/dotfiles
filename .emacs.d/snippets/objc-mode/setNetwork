@@ -1,0 +1,4 @@
+#name : setNetwork
+#group : NEHotspotHelper
+# --
+setNetwork:${1:(NEHotspotNetwork *)network}

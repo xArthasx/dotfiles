@@ -1,0 +1,4 @@
+#name : initWithTitle:image:tag
+#group : UITabBarItem
+# --
+initWithTitle:${1:(nullable NSString *)title} image:${2:(nullable UIImage *)image} tag:${3:(NSInteger)tag}

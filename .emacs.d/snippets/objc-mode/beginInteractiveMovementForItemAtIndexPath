@@ -1,0 +1,4 @@
+#name : beginInteractiveMovementForItemAtIndexPath
+#group : UICollectionView
+# --
+beginInteractiveMovementForItemAtIndexPath:${1:(NSIndexPath *)indexPath}

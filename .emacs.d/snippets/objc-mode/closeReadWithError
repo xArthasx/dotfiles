@@ -1,0 +1,4 @@
+#name : closeReadWithError
+#group : NEAppProxyFlow
+# --
+closeReadWithError:${1:(nullable NSError *)error}

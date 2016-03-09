@@ -1,0 +1,4 @@
+#name : createDirectoryAtPath:withIntermediateDirectories
+#group : NSFileManager
+# --
+createDirectoryAtPath:${1:(NSString *)path} withIntermediateDirectories:${2:(BOOL)createIntermediates}

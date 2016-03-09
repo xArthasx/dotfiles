@@ -1,0 +1,4 @@
+#name : newTextureWithCGImage
+#group : MTKTextureLoader
+# --
+newTextureWithCGImage:${1:(nonnull CGImageRef)cgImage}

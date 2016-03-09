@@ -1,0 +1,4 @@
+#name : fileURLWithPath:isDirectory:relativeToURL
+#group : NSURL
+# --
+fileURLWithPath:${1:(NSString *)path} isDirectory:${2:(BOOL)isDir} relativeToURL:${3:(nullable NSURL *)baseURL}

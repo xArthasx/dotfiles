@@ -1,0 +1,4 @@
+#name : screenRecorder:didStopRecordingWithError:previewViewController
+#group : RPScreenRecorder
+# --
+screenRecorder:${1:(RPScreenRecorder *)screenRecorder} didStopRecordingWithError:${2:(NSError *)error} previewViewController:${3:(nullable RPPreviewViewController *)previewViewController}

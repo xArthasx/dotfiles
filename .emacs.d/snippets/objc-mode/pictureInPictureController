@@ -1,0 +1,4 @@
+#name : pictureInPictureController
+#group : AVPictureInPictureController
+# --
+pictureInPictureController:${1:(AVPictureInPictureController *)pictureInPictureController}

@@ -1,0 +1,4 @@
+#name : initWithPoints:count:radius:cyclical
+#group : GKPath
+# --
+initWithPoints:${1:(vector_float2 *)points} count:${2:(size_t)count} radius:${3:(float)radius} cyclical:${4:(BOOL)cyclical}

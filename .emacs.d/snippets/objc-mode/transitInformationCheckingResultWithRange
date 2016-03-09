@@ -1,0 +1,4 @@
+#name : transitInformationCheckingResultWithRange
+#group : NSTextCheckingResult
+# --
+transitInformationCheckingResultWithRange:${1:(NSRange)range}

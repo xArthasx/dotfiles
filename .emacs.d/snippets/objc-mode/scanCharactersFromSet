@@ -1,0 +1,4 @@
+#name : scanCharactersFromSet
+#group : NSScanner
+# --
+scanCharactersFromSet:${1:(NSCharacterSet *)set}

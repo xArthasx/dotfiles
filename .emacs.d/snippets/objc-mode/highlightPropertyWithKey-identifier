@@ -1,0 +1,4 @@
+#name : highlightPropertyWithKey:identifier
+#group : CNContactViewController
+# --
+highlightPropertyWithKey:${1:(NSString *)key} identifier:${2:(nullable NSString *)identifier}

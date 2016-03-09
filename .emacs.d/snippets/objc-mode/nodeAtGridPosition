@@ -1,0 +1,4 @@
+#name : nodeAtGridPosition
+#group : GKGraph
+# --
+nodeAtGridPosition:${1:(vector_int2)position}

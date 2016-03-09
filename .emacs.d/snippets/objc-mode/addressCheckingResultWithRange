@@ -1,0 +1,4 @@
+#name : addressCheckingResultWithRange
+#group : NSTextCheckingResult
+# --
+addressCheckingResultWithRange:${1:(NSRange)range}

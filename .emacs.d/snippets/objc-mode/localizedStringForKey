@@ -1,0 +1,4 @@
+#name : localizedStringForKey
+#group : CNSocialProfile
+# --
+localizedStringForKey:${1:(NSString *)key}

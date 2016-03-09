@@ -1,0 +1,4 @@
+#name : webViewWebContentProcessDidTerminate
+#group : WKNavigationDelegate
+# --
+webViewWebContentProcessDidTerminate:${1:(WKWebView *)webView}

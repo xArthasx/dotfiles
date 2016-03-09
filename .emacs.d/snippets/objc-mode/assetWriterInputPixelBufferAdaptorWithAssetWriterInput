@@ -1,0 +1,4 @@
+#name : assetWriterInputPixelBufferAdaptorWithAssetWriterInput
+#group : AVAssetWriterInput
+# --
+assetWriterInputPixelBufferAdaptorWithAssetWriterInput:${1:(AVAssetWriterInput *)input}

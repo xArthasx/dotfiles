@@ -1,0 +1,4 @@
+#name : getLineStart:end:contentsEnd:forRange
+#group : NSString
+# --
+getLineStart:${1:(nullable NSUInteger *)startPtr} end:${2:(nullable NSUInteger *)lineEndPtr} contentsEnd:${3:(nullable NSUInteger *)contentsEndPtr} forRange:${4:(NSRange)range}

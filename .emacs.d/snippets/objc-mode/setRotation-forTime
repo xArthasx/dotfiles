@@ -1,0 +1,4 @@
+#name : setRotation:forTime
+#group : MDLTransform
+# --
+setRotation:${1:(vector_float3)rotation} forTime:${2:(NSTimeInterval)time}

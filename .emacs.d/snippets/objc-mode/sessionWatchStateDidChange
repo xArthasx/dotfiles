@@ -1,0 +1,4 @@
+#name : sessionWatchStateDidChange
+#group : WCSession
+# --
+sessionWatchStateDidChange:${1:(WCSession *)session}

@@ -1,0 +1,4 @@
+#name : setNormalTexture
+#group : SKAction
+# --
+setNormalTexture:${1:(SKTexture *)texture}

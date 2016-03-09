@@ -1,0 +1,4 @@
+#name : initWithUpgradeForSession
+#group : NWUDPSession
+# --
+initWithUpgradeForSession:${1:(NWUDPSession *)session}

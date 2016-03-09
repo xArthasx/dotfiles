@@ -1,0 +1,4 @@
+#name : meshWithSCNGeometry
+#group : ModelIO
+# --
+meshWithSCNGeometry:${1:(SCNGeometry *)scnGeometry}

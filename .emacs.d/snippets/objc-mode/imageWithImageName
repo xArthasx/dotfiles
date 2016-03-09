@@ -1,0 +1,4 @@
+#name : imageWithImageName
+#group : WKImage
+# --
+imageWithImageName:${1:(NSString *)imageName}

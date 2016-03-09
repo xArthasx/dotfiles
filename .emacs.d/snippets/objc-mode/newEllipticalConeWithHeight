@@ -1,0 +1,4 @@
+#name : newEllipticalConeWithHeight
+#group : MDLMesh
+# --
+newEllipticalConeWithHeight:${1:(float)height}

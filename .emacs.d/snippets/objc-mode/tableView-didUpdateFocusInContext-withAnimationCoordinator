@@ -1,0 +1,4 @@
+#name : tableView:didUpdateFocusInContext:withAnimationCoordinator
+#group : UITableView
+# --
+tableView:${1:(UITableView *)tableView} didUpdateFocusInContext:${2:(UITableViewFocusUpdateContext *)context} withAnimationCoordinator:${3:(UIFocusAnimationCoordinator *)coordinator}

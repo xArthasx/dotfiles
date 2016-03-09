@@ -1,0 +1,4 @@
+#name : removeSubgroup:fromGroup
+#group : CNSaveRequest
+# --
+removeSubgroup:${1:(CNGroup *)subgroup} fromGroup:${2:(CNGroup *)group}

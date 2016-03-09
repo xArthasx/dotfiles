@@ -1,0 +1,4 @@
+#name : removeEvent
+#group : HMEventTrigger
+# --
+removeEvent:${1:(HMEvent *)event}

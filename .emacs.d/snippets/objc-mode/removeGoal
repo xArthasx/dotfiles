@@ -1,0 +1,4 @@
+#name : removeGoal
+#group : GKBehavior
+# --
+removeGoal:${1:(GKGoal *)goal}

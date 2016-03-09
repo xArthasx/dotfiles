@@ -1,0 +1,4 @@
+#name : updateInteractiveMovementTargetPosition
+#group : UICollectionView
+# --
+updateInteractiveMovementTargetPosition:${1:(CGPoint)targetPosition}

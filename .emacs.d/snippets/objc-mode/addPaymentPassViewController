@@ -1,0 +1,4 @@
+#name : addPaymentPassViewController
+#group : PKAddPaymentPassViewController
+# --
+addPaymentPassViewController:${1:(PKAddPaymentPassViewController *)controller}

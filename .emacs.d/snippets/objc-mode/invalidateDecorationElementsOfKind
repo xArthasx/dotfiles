@@ -1,0 +1,4 @@
+#name : invalidateDecorationElementsOfKind
+#group : UICollectionViewLayout
+# --
+invalidateDecorationElementsOfKind:${1:(NSString *)elementKind}

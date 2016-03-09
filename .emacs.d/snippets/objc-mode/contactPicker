@@ -1,0 +1,4 @@
+#name : contactPicker
+#group : CNContactPickerViewController
+# --
+contactPicker:${1:(CNContactPickerViewController *)picker}

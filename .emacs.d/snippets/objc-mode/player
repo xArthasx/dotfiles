@@ -1,0 +1,4 @@
+#name : player
+#group : GKTurnBasedMatch
+# --
+player:${1:(GKPlayer *)player}

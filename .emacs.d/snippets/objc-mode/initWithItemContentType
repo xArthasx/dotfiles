@@ -1,0 +1,4 @@
+#name : initWithItemContentType
+#group : CSSearchableItemAttributeSet
+# --
+initWithItemContentType:${1:(nonnull NSString *)itemContentType}

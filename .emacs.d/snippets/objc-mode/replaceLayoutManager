@@ -1,0 +1,4 @@
+#name : replaceLayoutManager
+#group : NSTextContainer
+# --
+replaceLayoutManager:${1:(NSLayoutManager *)newLayoutManager}

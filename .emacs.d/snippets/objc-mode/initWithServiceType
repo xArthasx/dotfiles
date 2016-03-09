@@ -1,0 +1,4 @@
+#name : initWithServiceType
+#group : MCAdvertiserAssistant
+# --
+initWithServiceType:${1:(NSString *)serviceType}

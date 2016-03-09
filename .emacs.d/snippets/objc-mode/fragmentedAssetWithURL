@@ -1,0 +1,4 @@
+#name : fragmentedAssetWithURL
+#group : AVAsset
+# --
+fragmentedAssetWithURL:${1:(NSURL *)URL}

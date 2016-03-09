@@ -1,0 +1,4 @@
+#name : audioRecorderEncodeErrorDidOccur
+#group : AVAudioRecorder
+# --
+audioRecorderEncodeErrorDidOccur:${1:(AVAudioRecorder *)recorder}

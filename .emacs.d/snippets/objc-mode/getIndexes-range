@@ -1,0 +1,4 @@
+#name : getIndexes:range
+#group : NSIndexPath
+# --
+getIndexes:${1:(NSUInteger *)indexes} range:${2:(NSRange)positionRange}

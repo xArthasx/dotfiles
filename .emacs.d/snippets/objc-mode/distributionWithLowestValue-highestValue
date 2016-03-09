@@ -1,0 +1,4 @@
+#name : distributionWithLowestValue:highestValue
+#group : GKRandomDistribution
+# --
+distributionWithLowestValue:${1:(NSInteger)lowestInclusive} highestValue:${2:(NSInteger)highestInclusive}

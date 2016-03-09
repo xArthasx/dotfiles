@@ -1,0 +1,4 @@
+#name : changeChargeBy:duration
+#group : SKAction
+# --
+changeChargeBy:${1:(float)v} duration:${2:(NSTimeInterval)duration}

@@ -1,0 +1,4 @@
+#name : initWithFormat:packetCapacity:maximumPacketSize
+#group : AVAudioBuffer
+# --
+initWithFormat:${1:(AVAudioFormat *)format} packetCapacity:${2:(AVAudioPacketCount)packetCapacity} maximumPacketSize:${3:(NSInteger)maximumPacketSize}

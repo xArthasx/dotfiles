@@ -1,0 +1,4 @@
+#name : initWithComponentDescription:error
+#group : AUAudioUnit
+# --
+initWithComponentDescription:${1:(AudioComponentDescription)componentDescription} error:${2:(NSError **)outError}

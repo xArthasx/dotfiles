@@ -1,0 +1,4 @@
+#name : cancelLivePhotoRequestWithRequestID
+#group : PHLivePhoto
+# --
+cancelLivePhotoRequestWithRequestID:${1:(PHLivePhotoRequestID)requestID}

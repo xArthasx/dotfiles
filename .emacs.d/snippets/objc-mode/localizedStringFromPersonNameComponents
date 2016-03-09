@@ -1,0 +1,4 @@
+#name : localizedStringFromPersonNameComponents
+#group : NSPersonNameComponentsFormatter
+# --
+localizedStringFromPersonNameComponents:${1:(NSPersonNameComponents *)components}

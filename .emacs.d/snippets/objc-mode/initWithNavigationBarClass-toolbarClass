@@ -1,0 +1,4 @@
+#name : initWithNavigationBarClass:toolbarClass
+#group : UINavigationController
+# --
+initWithNavigationBarClass:${1:(nullable Class)navigationBarClass} toolbarClass:${2:(nullable Class)toolbarClass}

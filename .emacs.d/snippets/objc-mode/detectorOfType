@@ -1,0 +1,4 @@
+#name : detectorOfType
+#group : CIDetector
+# --
+detectorOfType:${1:(NSString*)type}

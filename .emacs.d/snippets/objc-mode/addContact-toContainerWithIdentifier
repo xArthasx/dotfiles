@@ -1,0 +1,4 @@
+#name : addContact:toContainerWithIdentifier
+#group : CNSaveRequest
+# --
+addContact:${1:(CNMutableContact *)contact} toContainerWithIdentifier:${2:(nullable NSString *)identifier}

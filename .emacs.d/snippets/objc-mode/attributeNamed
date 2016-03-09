@@ -1,0 +1,4 @@
+#name : attributeNamed
+#group : MDLVertexDescriptor
+# --
+attributeNamed:${1:(NSString*)name}

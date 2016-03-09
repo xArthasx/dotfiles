@@ -1,0 +1,4 @@
+#name : streamTaskWithHostName:port
+#group : NSURLSession
+# --
+streamTaskWithHostName:${1:(NSString *)hostname} port:${2:(NSInteger)port}

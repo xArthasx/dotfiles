@@ -1,0 +1,4 @@
+#name : constraintLessThanOrEqualToConstant
+#group : NSLayoutAnchor
+# --
+constraintLessThanOrEqualToConstant:${1:(CGFloat)c}

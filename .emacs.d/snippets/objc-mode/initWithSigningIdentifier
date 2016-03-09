@@ -1,0 +1,4 @@
+#name : initWithSigningIdentifier
+#group : NEAppRule
+# --
+initWithSigningIdentifier:${1:(NSString *)signingIdentifier}

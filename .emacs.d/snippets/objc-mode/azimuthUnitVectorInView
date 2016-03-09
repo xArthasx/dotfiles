@@ -1,0 +1,4 @@
+#name : azimuthUnitVectorInView
+#group : UITouch
+# --
+azimuthUnitVectorInView:${1:(nullable UIView *)view}

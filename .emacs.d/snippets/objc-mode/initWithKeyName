@@ -1,0 +1,4 @@
+#name : initWithKeyName
+#group : CSSearchableItemAttributeSet
+# --
+initWithKeyName:${1:(NSString *)keyName}

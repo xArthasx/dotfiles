@@ -1,0 +1,4 @@
+#name : URLSession:streamTask
+#group : NSURLSession
+# --
+URLSession:${1:(NSURLSession *)session} streamTask:${2:(NSURLSessionStreamTask *)streamTask}

@@ -1,0 +1,4 @@
+#name : initWithVertexDescriptor
+#group : MDLVertexDescriptor
+# --
+initWithVertexDescriptor:${1:(MDLVertexDescriptor *)vertexDescriptor}

@@ -1,0 +1,4 @@
+#name : encodeByrefObject
+#group : NSCoder
+# --
+encodeByrefObject:${1:(nullable id)anObject}

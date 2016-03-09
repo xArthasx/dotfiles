@@ -1,0 +1,4 @@
+#name : addLayoutGuide
+#group : UIView
+# --
+addLayoutGuide:${1:(UILayoutGuide *)layoutGuide}

@@ -1,0 +1,4 @@
+#name : interfaceLayoutDirectionForSemanticContentAttribute
+#group : WKInterfaceDevice
+# --
+interfaceLayoutDirectionForSemanticContentAttribute:${1:(WKInterfaceSemanticContentAttribute)semanticContentAttribute}

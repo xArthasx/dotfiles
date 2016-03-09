@@ -1,0 +1,4 @@
+#name : goalToInterceptAgent:maxPredictionTime
+#group : GKGoal
+# --
+goalToInterceptAgent:${1:(GKAgent *)target} maxPredictionTime:${2:(NSTimeInterval)maxPredictionTime}

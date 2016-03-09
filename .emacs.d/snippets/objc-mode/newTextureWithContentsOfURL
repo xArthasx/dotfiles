@@ -1,0 +1,4 @@
+#name : newTextureWithContentsOfURL
+#group : MTKTextureLoader
+# --
+newTextureWithContentsOfURL:${1:(nonnull NSURL *)URL}

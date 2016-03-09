@@ -1,0 +1,4 @@
+#name : initWithImageProvider
+#group : CIImageProvider
+# --
+initWithImageProvider:${1:(id)p}

@@ -1,0 +1,4 @@
+#name : centralManager
+#group : CBCentralManager
+# --
+centralManager:${1:(CBCentralManager *)central}

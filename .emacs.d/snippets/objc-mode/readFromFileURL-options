@@ -1,0 +1,4 @@
+#name : readFromFileURL:options
+#group : NSAttributedString
+# --
+readFromFileURL:${1:(NSURL *)url} options:${2:(NSDictionary *)opts}

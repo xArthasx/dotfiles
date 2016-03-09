@@ -1,0 +1,4 @@
+#name : connectNodeToLowestCostNode:bidirectional
+#group : GKGraph
+# --
+connectNodeToLowestCostNode:${1:(GKGraphNode *)node} bidirectional:${2:(BOOL)bidirectional}

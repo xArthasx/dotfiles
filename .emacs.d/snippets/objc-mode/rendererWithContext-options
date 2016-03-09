@@ -1,0 +1,4 @@
+#name : rendererWithContext:options
+#group : SCNRenderer
+# --
+rendererWithContext:${1:(EAGLContext *)context} options:${2:(nullable NSDictionary *)options}

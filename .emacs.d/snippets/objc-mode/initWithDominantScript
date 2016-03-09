@@ -1,0 +1,4 @@
+#name : initWithDominantScript
+#group : NSOrthography
+# --
+initWithDominantScript:${1:(NSString *)script}

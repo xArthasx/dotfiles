@@ -1,0 +1,4 @@
+#name : sendData
+#group : MCSession
+# --
+sendData:${1:(NSData *)data}

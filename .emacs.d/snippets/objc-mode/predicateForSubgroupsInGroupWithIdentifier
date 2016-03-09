@@ -1,0 +1,4 @@
+#name : predicateForSubgroupsInGroupWithIdentifier
+#group : CNGroup+Predicates
+# --
+predicateForSubgroupsInGroupWithIdentifier:${1:(NSString *)parentGroupIdentifier}

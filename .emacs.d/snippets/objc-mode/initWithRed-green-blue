@@ -1,0 +1,4 @@
+#name : initWithRed:green:blue
+#group : CIColor
+# --
+initWithRed:${1:(CGFloat)r} green:${2:(CGFloat)g} blue:${3:(CGFloat)b}

@@ -1,0 +1,4 @@
+#name : pointAtIndex
+#group : GKPath
+# --
+pointAtIndex:${1:(NSUInteger)index}

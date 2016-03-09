@@ -1,0 +1,4 @@
+#name : predicateForEvaluatingTriggerOccurringAfterDateWithComponents
+#group : HMEventTrigger
+# --
+predicateForEvaluatingTriggerOccurringAfterDateWithComponents:${1:(NSDateComponents *)dateComponents}

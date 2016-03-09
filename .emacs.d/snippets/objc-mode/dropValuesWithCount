@@ -1,0 +1,4 @@
+#name : dropValuesWithCount
+#group : GKRandomSource
+# --
+dropValuesWithCount:${1:(NSUInteger)count}

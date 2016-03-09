@@ -1,0 +1,4 @@
+#name : cancelProxyWithError
+#group : NEAppProxyProvider
+# --
+cancelProxyWithError:${1:(nullable NSError *)error}

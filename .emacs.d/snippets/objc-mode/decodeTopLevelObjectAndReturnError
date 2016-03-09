@@ -1,0 +1,4 @@
+#name : decodeTopLevelObjectAndReturnError
+#group : NSCoder
+# --
+decodeTopLevelObjectAndReturnError:${1:(NSError **)error}

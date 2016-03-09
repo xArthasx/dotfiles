@@ -1,0 +1,4 @@
+#name : setObject
+#group : SCNTechnique
+# --
+setObject:${1:(nullable id)obj}

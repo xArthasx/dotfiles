@@ -1,0 +1,4 @@
+#name : browser
+#group : MCNearbyServiceBrowser
+# --
+browser:${1:(MCNearbyServiceBrowser *)browser}

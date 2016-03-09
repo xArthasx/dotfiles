@@ -1,0 +1,4 @@
+#name : printInteractionController:chooseCutterBehavior
+#group : UIPrintInteractionController
+# --
+printInteractionController:${1:(UIPrintInteractionController *)printInteractionController} chooseCutterBehavior:${2:(NSArray *)availableBehaviors}

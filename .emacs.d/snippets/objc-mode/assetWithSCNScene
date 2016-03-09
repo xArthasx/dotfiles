@@ -1,0 +1,4 @@
+#name : assetWithSCNScene
+#group : ModelIO
+# --
+assetWithSCNScene:${1:(SCNScene *)scnScene}

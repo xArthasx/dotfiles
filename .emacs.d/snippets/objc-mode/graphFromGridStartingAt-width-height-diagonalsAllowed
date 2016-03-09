@@ -1,0 +1,4 @@
+#name : graphFromGridStartingAt:width:height:diagonalsAllowed
+#group : GKGraph
+# --
+graphFromGridStartingAt:${1:(vector_int2)position} width:${2:(int)width} height:${3:(int)height} diagonalsAllowed:${4:(BOOL)diagonalsAllowed}

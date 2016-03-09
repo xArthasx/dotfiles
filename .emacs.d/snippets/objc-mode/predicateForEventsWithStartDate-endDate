@@ -1,0 +1,4 @@
+#name : predicateForEventsWithStartDate:endDate
+#group : EKEventStore
+# --
+predicateForEventsWithStartDate:${1:(NSDate *)startDate} endDate:${2:(NSDate *)endDate}

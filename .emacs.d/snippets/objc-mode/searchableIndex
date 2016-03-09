@@ -1,0 +1,4 @@
+#name : searchableIndex
+#group : CSSearchableIndex
+# --
+searchableIndex:${1:(CSSearchableIndex *)searchableIndex}

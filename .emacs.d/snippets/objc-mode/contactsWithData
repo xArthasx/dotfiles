@@ -1,0 +1,4 @@
+#name : contactsWithData
+#group : CNContactVCardSerialization
+# --
+contactsWithData:${1:(NSData *)data}

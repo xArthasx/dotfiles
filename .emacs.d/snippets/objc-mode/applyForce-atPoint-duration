@@ -1,0 +1,4 @@
+#name : applyForce:atPoint:duration
+#group : SKAction
+# --
+applyForce:${1:(CGVector)force} atPoint:${2:(CGPoint)point} duration:${3:(NSTimeInterval)sec}

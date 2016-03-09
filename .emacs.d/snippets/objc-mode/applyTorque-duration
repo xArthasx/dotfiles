@@ -1,0 +1,4 @@
+#name : applyTorque:duration
+#group : SKAction
+# --
+applyTorque:${1:(CGFloat)torque} duration:${2:(NSTimeInterval)sec}

@@ -1,0 +1,4 @@
+#name : createParameterWithIdentifier:name:address:min:max:unit
+#group : AUAudioUnitImplementation
+# --
+createParameterWithIdentifier:${1:(NSString *)identifier} name:${2:(NSString *)name} address:${3:(AUParameterAddress)address} min:${4:(AUValue)min} max:${5:(AUValue)max} unit:${6:(AudioUnitParameterUnit)unit}

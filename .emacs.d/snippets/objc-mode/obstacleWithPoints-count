@@ -1,0 +1,4 @@
+#name : obstacleWithPoints:count
+#group : GKObstacle
+# --
+obstacleWithPoints:${1:(vector_float2 *)points} count:${2:(size_t)numPoints}

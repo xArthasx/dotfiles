@@ -1,0 +1,4 @@
+#name : setPosterImage
+#group : WKInterfaceMovie
+# --
+setPosterImage:${1:(nullable WKImage *)posterImage}

@@ -1,0 +1,4 @@
+#name : intersectWithRect
+#group : CIFilterShape
+# --
+intersectWithRect:${1:(CGRect)r}

@@ -1,0 +1,4 @@
+#name : drawInMTKView
+#group : MTKView
+# --
+drawInMTKView:${1:(nonnull MTKView *)view}

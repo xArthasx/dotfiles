@@ -1,0 +1,4 @@
+#name : vertexAttributeDataForAttributeNamed
+#group : MDLMesh
+# --
+vertexAttributeDataForAttributeNamed:${1:(NSString*)name}

@@ -1,0 +1,4 @@
+#name : dataWithSMPTEResolution:error
+#group : AVAudioSequencer
+# --
+dataWithSMPTEResolution:${1:(NSInteger)SMPTEResolution} error:${2:(NSError **)outError}

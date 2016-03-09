@@ -1,0 +1,4 @@
+#name : translationAtTime
+#group : MDLTransform
+# --
+translationAtTime:${1:(NSTimeInterval)time}

@@ -1,0 +1,4 @@
+#name : initWithAddPassButtonStyle
+#group : PKAddPassButton
+# --
+initWithAddPassButtonStyle:${1:(PKAddPassButtonStyle)style}

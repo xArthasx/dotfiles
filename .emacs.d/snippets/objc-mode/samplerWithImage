@@ -1,0 +1,4 @@
+#name : samplerWithImage
+#group : CISampler
+# --
+samplerWithImage:${1:(CIImage *)im}

@@ -1,0 +1,4 @@
+#name : changeObstructionBy:duration
+#group : SKAudioNode
+# --
+changeObstructionBy:${1:(float)v} duration:${2:(NSTimeInterval)duration}

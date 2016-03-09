@@ -1,0 +1,4 @@
+#name : newSubdividedMesh
+#group : MDLMesh
+# --
+newSubdividedMesh:${1:(MDLMesh*)mesh}

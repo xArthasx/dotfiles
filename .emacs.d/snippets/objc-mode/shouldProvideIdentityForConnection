@@ -1,0 +1,4 @@
+#name : shouldProvideIdentityForConnection
+#group : NWTCPConnection
+# --
+shouldProvideIdentityForConnection:${1:(NWTCPConnection *)connection}

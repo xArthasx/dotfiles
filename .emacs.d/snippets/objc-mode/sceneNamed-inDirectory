@@ -1,0 +1,4 @@
+#name : sceneNamed:inDirectory
+#group : SCNScene
+# --
+sceneNamed:${1:(NSString *)name} inDirectory:${2:(nullable NSString *)directory}

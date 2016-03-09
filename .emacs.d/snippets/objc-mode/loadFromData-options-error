@@ -1,0 +1,4 @@
+#name : loadFromData:options:error
+#group : AVAudioSequencer
+# --
+loadFromData:${1:(NSData *)data} options:${2:(AVMusicSequenceLoadOptions)options} error:${3:(NSError **)outError}

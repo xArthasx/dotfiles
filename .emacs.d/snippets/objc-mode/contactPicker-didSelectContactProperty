@@ -1,0 +1,4 @@
+#name : contactPicker:didSelectContactProperty
+#group : CNContactPickerViewController
+# --
+contactPicker:${1:(CNContactPickerViewController *)picker} didSelectContactProperty:${2:(CNContactProperty *)contactProperty}

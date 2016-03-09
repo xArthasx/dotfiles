@@ -1,0 +1,4 @@
+#name : actionNamed:duration
+#group : SKAction
+# --
+actionNamed:${1:(NSString *)name} duration:${2:(NSTimeInterval)sec}

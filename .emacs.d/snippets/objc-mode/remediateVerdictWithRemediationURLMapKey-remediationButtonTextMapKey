@@ -1,0 +1,4 @@
+#name : remediateVerdictWithRemediationURLMapKey:remediationButtonTextMapKey
+#group : NEFilterProvider
+# --
+remediateVerdictWithRemediationURLMapKey:${1:(NSString *)remediationURLMapKey} remediationButtonTextMapKey:${2:(NSString *)remediationButtonTextMapKey}

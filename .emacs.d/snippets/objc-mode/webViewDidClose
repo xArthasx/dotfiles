@@ -1,0 +1,4 @@
+#name : webViewDidClose
+#group : WKUIDelegate
+# --
+webViewDidClose:${1:(WKWebView *)webView}

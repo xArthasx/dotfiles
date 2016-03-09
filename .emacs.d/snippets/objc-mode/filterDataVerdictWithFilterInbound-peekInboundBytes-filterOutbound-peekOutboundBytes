@@ -1,0 +1,4 @@
+#name : filterDataVerdictWithFilterInbound:peekInboundBytes:filterOutbound:peekOutboundBytes
+#group : NEFilterProvider
+# --
+filterDataVerdictWithFilterInbound:${1:(BOOL)filterInbound} peekInboundBytes:${2:(NSUInteger)peekInboundBytes} filterOutbound:${3:(BOOL)filterOutbound} peekOutboundBytes:${4:(NSUInteger)peekOutboundBytes}

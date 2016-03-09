@@ -1,0 +1,4 @@
+#name : nextIntWithUpperBound
+#group : GKRandomSource
+# --
+nextIntWithUpperBound:${1:(NSUInteger)upperBound}

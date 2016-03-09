@@ -1,0 +1,4 @@
+#name : playerViewControllerShouldAutomaticallyDismissAtPictureInPictureStart
+#group : AVPlayerViewController
+# --
+playerViewControllerShouldAutomaticallyDismissAtPictureInPictureStart:${1:(AVPlayerViewController *)playerViewController}

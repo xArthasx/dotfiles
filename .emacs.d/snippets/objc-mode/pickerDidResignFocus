@@ -1,0 +1,4 @@
+#name : pickerDidResignFocus
+#group : WKInterfaceController
+# --
+pickerDidResignFocus:${1:(WKInterfacePicker *)picker}

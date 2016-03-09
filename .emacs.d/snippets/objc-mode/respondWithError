@@ -1,0 +1,4 @@
+#name : respondWithError
+#group : AVMetadataItem
+# --
+respondWithError:${1:(NSError *)error}

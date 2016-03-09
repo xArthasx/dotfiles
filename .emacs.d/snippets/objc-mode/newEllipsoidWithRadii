@@ -1,0 +1,4 @@
+#name : newEllipsoidWithRadii
+#group : MDLMesh
+# --
+newEllipsoidWithRadii:${1:(vector_float3)radii}

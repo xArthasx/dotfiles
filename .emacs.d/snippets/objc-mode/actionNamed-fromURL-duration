@@ -1,0 +1,4 @@
+#name : actionNamed:fromURL:duration
+#group : SKAction
+# --
+actionNamed:${1:(NSString *)name} fromURL:${2:(NSURL *)url} duration:${3:(NSTimeInterval)sec}

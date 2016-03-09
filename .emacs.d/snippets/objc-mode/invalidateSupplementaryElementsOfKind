@@ -1,0 +1,4 @@
+#name : invalidateSupplementaryElementsOfKind
+#group : UICollectionViewLayout
+# --
+invalidateSupplementaryElementsOfKind:${1:(NSString *)elementKind}

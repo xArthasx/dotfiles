@@ -1,0 +1,4 @@
+#name : goalToReachTargetSpeed
+#group : GKGoal
+# --
+goalToReachTargetSpeed:${1:(float)targetSpeed}

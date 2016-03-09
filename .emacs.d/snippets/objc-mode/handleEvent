@@ -1,0 +1,4 @@
+#name : handleEvent
+#group : SCNParticleSystem
+# --
+handleEvent:${1:(SCNParticleEvent)event}

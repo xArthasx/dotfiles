@@ -1,0 +1,4 @@
+#name : propertyListFromData:mutabilityOption:format
+#group : NSPropertyList
+# --
+propertyListFromData:${1:(NSData *)data} mutabilityOption:${2:(NSPropertyListMutabilityOptions)opt} format:${3:(nullable NSPropertyListFormat *)format}

@@ -1,0 +1,4 @@
+#name : updateWithDeltaTime
+#group : GKStateMachine
+# --
+updateWithDeltaTime:${1:(NSTimeInterval)sec}

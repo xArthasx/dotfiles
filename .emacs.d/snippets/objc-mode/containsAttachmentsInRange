@@ -1,0 +1,4 @@
+#name : containsAttachmentsInRange
+#group : NSAttributedString
+# --
+containsAttachmentsInRange:${1:(NSRange)range}

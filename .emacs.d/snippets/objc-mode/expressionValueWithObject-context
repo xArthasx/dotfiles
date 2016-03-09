@@ -1,0 +1,4 @@
+#name : expressionValueWithObject:context
+#group : NSExpression
+# --
+expressionValueWithObject:${1:(nullable id)object} context:${2:(nullable NSMutableDictionary *)context}

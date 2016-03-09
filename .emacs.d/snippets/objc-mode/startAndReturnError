@@ -1,0 +1,4 @@
+#name : startAndReturnError
+#group : AVAudioSequencer
+# --
+startAndReturnError:${1:(NSError **)outError}

@@ -1,0 +1,4 @@
+#name : addChild:withPendingUnitCount
+#group : NSProgress
+# --
+addChild:${1:(NSProgress *)child} withPendingUnitCount:${2:(int64_t)inUnitCount}

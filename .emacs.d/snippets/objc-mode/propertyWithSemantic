@@ -1,0 +1,4 @@
+#name : propertyWithSemantic
+#group : MDLMaterial
+# --
+propertyWithSemantic:${1:(MDLMaterialSemantic)semantic}

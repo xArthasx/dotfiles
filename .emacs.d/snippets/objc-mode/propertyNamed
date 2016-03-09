@@ -1,0 +1,4 @@
+#name : propertyNamed
+#group : MDLMaterial
+# --
+propertyNamed:${1:(NSString*)name}

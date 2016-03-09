@@ -1,0 +1,4 @@
+#name : actionNamed:fromURL
+#group : SKAction
+# --
+actionNamed:${1:(NSString *)name} fromURL:${2:(NSURL *)url}

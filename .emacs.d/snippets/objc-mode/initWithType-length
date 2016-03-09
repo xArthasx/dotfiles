@@ -1,0 +1,4 @@
+#name : initWithType:length
+#group : MDLMeshBuffer
+# --
+initWithType:${1:(MDLMeshBufferType)type} length:${2:(NSUInteger)length}

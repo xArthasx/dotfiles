@@ -1,0 +1,4 @@
+#name : fileWrapperFromRange
+#group : NSAttributedString
+# --
+fileWrapperFromRange:${1:(NSRange)range}

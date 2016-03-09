@@ -1,0 +1,4 @@
+#name : handleActionWithIdentifier:forRemoteNotification:withResponseInfo
+#group : WKExtension
+# --
+handleActionWithIdentifier:${1:(nullable NSString *)identifier} forRemoteNotification:${2:(NSDictionary *)remoteNotification} withResponseInfo:${3:(NSDictionary *)responseInfo}

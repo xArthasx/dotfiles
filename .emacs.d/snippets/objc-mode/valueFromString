@@ -1,0 +1,4 @@
+#name : valueFromString
+#group : AUParameters
+# --
+valueFromString:${1:(NSString *)string}

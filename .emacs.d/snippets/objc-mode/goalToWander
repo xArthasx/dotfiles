@@ -1,0 +1,4 @@
+#name : goalToWander
+#group : GKGoal
+# --
+goalToWander:${1:(float)speed}

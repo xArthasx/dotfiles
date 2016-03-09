@@ -1,0 +1,4 @@
+#name : writeBytes:length
+#group : SCNShadable
+# --
+writeBytes:${1:(void *)bytes} length:${2:(NSUInteger)length}

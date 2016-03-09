@@ -1,0 +1,4 @@
+#name : addResourceWithType:fileURL:options
+#group : PHAssetCreationRequest
+# --
+addResourceWithType:${1:(PHAssetResourceType)type} fileURL:${2:(NSURL *)fileURL} options:${3:(nullable PHAssetResourceCreationOptions *)options}

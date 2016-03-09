@@ -1,0 +1,4 @@
+#name : initWithDestinationAddress:subnetMask
+#group : NEIPv4Settings
+# --
+initWithDestinationAddress:${1:(NSString *)address} subnetMask:${2:(NSString *)subnetMask}

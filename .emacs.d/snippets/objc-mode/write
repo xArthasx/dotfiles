@@ -1,0 +1,4 @@
+#name : write
+#group : NWTCPConnection
+# --
+write:${1:(NSData *)data}

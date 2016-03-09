@@ -1,0 +1,4 @@
+#name : readFromData
+#group : NSAttributedString
+# --
+readFromData:${1:(NSData *)data}

@@ -1,0 +1,4 @@
+#name : handleInboundDataCompleteForFlow
+#group : NEFilterDataProvider
+# --
+handleInboundDataCompleteForFlow:${1:(NEFilterFlow *)flow}

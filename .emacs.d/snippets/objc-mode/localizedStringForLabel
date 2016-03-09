@@ -1,0 +1,4 @@
+#name : localizedStringForLabel
+#group : CNLabeledValue
+# --
+localizedStringForLabel:${1:(NSString *)label}

@@ -1,0 +1,4 @@
+#name : attributedStringFromContact:style:defaultAttributes
+#group : CNContactFormatter
+# --
+attributedStringFromContact:${1:(CNContact *)contact} style:${2:(CNContactFormatterStyle)style} defaultAttributes:${3:(nullable NSDictionary *)attributes}

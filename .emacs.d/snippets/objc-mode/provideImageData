@@ -1,0 +1,4 @@
+#name : provideImageData
+#group : CIImageProvider
+# --
+provideImageData:${1:(void *)data}

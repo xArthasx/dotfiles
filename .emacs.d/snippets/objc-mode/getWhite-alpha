@@ -1,0 +1,4 @@
+#name : getWhite:alpha
+#group : UIColor
+# --
+getWhite:${1:(nullable CGFloat *)white} alpha:${2:(nullable CGFloat *)alpha}

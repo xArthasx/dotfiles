@@ -1,0 +1,4 @@
+#name : geometryElementWithMDLSubmesh
+#group : ModelIO
+# --
+geometryElementWithMDLSubmesh:${1:(MDLSubmesh *)mdlSubMesh}

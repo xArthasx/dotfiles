@@ -1,0 +1,4 @@
+#name : setConfidence
+#group : NEHotspotHelper
+# --
+setConfidence:${1:(NEHotspotHelperConfidence)confidence}

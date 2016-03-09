@@ -1,0 +1,4 @@
+#name : performActionWithSystem
+#group : GKRuleSystem
+# --
+performActionWithSystem:${1:(GKRuleSystem *)system}

@@ -1,0 +1,4 @@
+#name : setHorizontalAlignment
+#group : WKInterfaceObject
+# --
+setHorizontalAlignment:${1:(WKInterfaceObjectHorizontalAlignment)horizontalAlignment}

@@ -1,0 +1,4 @@
+#name : registerUndoWithTarget
+#group : NSUndoManager
+# --
+registerUndoWithTarget:${1:(id)target}

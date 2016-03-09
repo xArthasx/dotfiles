@@ -1,0 +1,4 @@
+#name : initFromFormat:toFormat
+#group : AVAudioConverter
+# --
+initFromFormat:${1:(AVAudioFormat *)fromFormat} toFormat:${2:(AVAudioFormat *)toFormat}

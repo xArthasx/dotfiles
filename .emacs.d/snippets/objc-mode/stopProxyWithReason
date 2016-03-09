@@ -1,0 +1,4 @@
+#name : stopProxyWithReason
+#group : NEAppProxyProvider
+# --
+stopProxyWithReason:${1:(NEProviderStopReason)reason}

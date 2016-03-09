@@ -1,0 +1,4 @@
+#name : indexOfSpatialLocation
+#group : MDLVoxelArray
+# --
+indexOfSpatialLocation:${1:(vector_float3)location}

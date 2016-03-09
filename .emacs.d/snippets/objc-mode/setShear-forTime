@@ -1,0 +1,4 @@
+#name : setShear:forTime
+#group : MDLTransform
+# --
+setShear:${1:(vector_float3)shear} forTime:${2:(NSTimeInterval)time}

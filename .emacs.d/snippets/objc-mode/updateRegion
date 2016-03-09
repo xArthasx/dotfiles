@@ -1,0 +1,4 @@
+#name : updateRegion
+#group : HMLocationEvent
+# --
+updateRegion:${1:(CLRegion *)region}

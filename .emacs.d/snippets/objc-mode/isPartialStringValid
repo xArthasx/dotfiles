@@ -1,0 +1,4 @@
+#name : isPartialStringValid
+#group : NSFormatter
+# --
+isPartialStringValid:${1:(NSString *)partialString}

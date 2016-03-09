@@ -1,0 +1,4 @@
+#name : componentForClass
+#group : GKEntity
+# --
+componentForClass:${1:(Class)componentClass}

@@ -1,0 +1,4 @@
+#name : dropVerdictWithUpdateRules
+#group : NEFilterProvider
+# --
+dropVerdictWithUpdateRules:${1:(BOOL)updateRules}

@@ -1,0 +1,4 @@
+#name : contactViewController:shouldPerformDefaultActionForContactProperty
+#group : CNContactViewController
+# --
+contactViewController:${1:(CNContactViewController *)viewController} shouldPerformDefaultActionForContactProperty:${2:(CNContactProperty *)property}

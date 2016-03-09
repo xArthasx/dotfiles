@@ -1,0 +1,4 @@
+#name : addTangentBasisForTextureCoordinateAttributeNamed
+#group : MDLMesh
+# --
+addTangentBasisForTextureCoordinateAttributeNamed:${1:(NSString*)textureCoordinateAttributeName}

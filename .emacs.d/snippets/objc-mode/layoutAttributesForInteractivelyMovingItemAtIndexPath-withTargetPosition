@@ -1,0 +1,4 @@
+#name : layoutAttributesForInteractivelyMovingItemAtIndexPath:withTargetPosition
+#group : UICollectionViewLayout
+# --
+layoutAttributesForInteractivelyMovingItemAtIndexPath:${1:(NSIndexPath *)indexPath} withTargetPosition:${2:(CGPoint)position}

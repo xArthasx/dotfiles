@@ -1,0 +1,4 @@
+#name : deleteObjectsOfType:predicate
+#group : HKHealthStore
+# --
+deleteObjectsOfType:${1:(HKObjectType *)objectType} predicate:${2:(NSPredicate *)predicate}

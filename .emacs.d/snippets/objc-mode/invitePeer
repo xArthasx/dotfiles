@@ -1,0 +1,4 @@
+#name : invitePeer
+#group : MCNearbyServiceBrowser
+# --
+invitePeer:${1:(MCPeerID *)peerID}

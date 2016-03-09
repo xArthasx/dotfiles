@@ -1,0 +1,4 @@
+#name : tabBar
+#group : UITabBar
+# --
+tabBar:${1:(UITabBar *)tabBar}

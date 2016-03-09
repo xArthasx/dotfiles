@@ -1,0 +1,4 @@
+#name : shapeWithGeometry
+#group : SCNPhysicsShape
+# --
+shapeWithGeometry:${1:(SCNGeometry *)geometry}

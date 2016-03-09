@@ -1,0 +1,4 @@
+#name : setRelativeWidth:withAdjustment
+#group : WKInterfaceObject
+# --
+setRelativeWidth:${1:(CGFloat)width} withAdjustment:${2:(CGFloat)adjustment}

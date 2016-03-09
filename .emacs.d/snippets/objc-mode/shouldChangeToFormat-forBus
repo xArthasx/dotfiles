@@ -1,0 +1,4 @@
+#name : shouldChangeToFormat:forBus
+#group : AUAudioUnitImplementation
+# --
+shouldChangeToFormat:${1:(AVAudioFormat *)format} forBus:${2:(AUAudioUnitBus *)bus}

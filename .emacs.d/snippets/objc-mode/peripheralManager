@@ -1,0 +1,4 @@
+#name : peripheralManager
+#group : CBPeripheralManager
+# --
+peripheralManager:${1:(CBPeripheralManager *)peripheral}

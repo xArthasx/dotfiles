@@ -1,0 +1,4 @@
+#name : lookAt:from
+#group : MDLCamera
+# --
+lookAt:${1:(vector_float3)focusPosition} from:${2:(vector_float3)cameraPosition}

@@ -1,0 +1,4 @@
+#name : initWithURL:fileType
+#group : AVAssetWriter
+# --
+initWithURL:${1:(NSURL *)outputURL} fileType:${2:(NSString *)outputFileType}

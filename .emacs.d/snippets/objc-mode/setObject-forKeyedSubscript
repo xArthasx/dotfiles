@@ -1,0 +1,4 @@
+#name : setObject:forKeyedSubscript
+#group : GKBehavior
+# --
+setObject:${1:(NSNumber *)weight} forKeyedSubscript:${2:(GKGoal *)goal}

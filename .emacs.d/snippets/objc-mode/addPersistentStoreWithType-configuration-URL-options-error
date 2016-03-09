@@ -1,0 +1,4 @@
+#name : addPersistentStoreWithType:configuration:URL:options:error
+#group : NSPersistentStoreCoordinator
+# --
+addPersistentStoreWithType:${1:(NSString *)storeType} configuration:${2:(nullable NSString *)configuration} URL:${3:(nullable NSURL *)storeURL} options:${4:(nullable NSDictionary *)options} error:${5:(NSError **)error}

@@ -1,0 +1,4 @@
+#name : application:performActionForShortcutItem
+#group : UIApplication
+# --
+application:${1:(UIApplication *)application} performActionForShortcutItem:${2:(UIApplicationShortcutItem *)shortcutItem}

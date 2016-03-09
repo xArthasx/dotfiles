@@ -1,0 +1,4 @@
+#name : rotationAtTime
+#group : MDLTransform
+# --
+rotationAtTime:${1:(NSTimeInterval)time}

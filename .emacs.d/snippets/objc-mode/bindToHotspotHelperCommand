@@ -1,0 +1,4 @@
+#name : bindToHotspotHelperCommand
+#group : NEHotspotHelper
+# --
+bindToHotspotHelperCommand:${1:(NEHotspotHelperCommand *)command}

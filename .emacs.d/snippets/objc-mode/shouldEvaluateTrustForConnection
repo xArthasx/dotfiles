@@ -1,0 +1,4 @@
+#name : shouldEvaluateTrustForConnection
+#group : NWTCPConnection
+# --
+shouldEvaluateTrustForConnection:${1:(NWTCPConnection *)connection}

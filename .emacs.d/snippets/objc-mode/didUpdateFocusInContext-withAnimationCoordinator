@@ -1,0 +1,4 @@
+#name : didUpdateFocusInContext:withAnimationCoordinator
+#group : UIFocus
+# --
+didUpdateFocusInContext:${1:(UIFocusUpdateContext *)context} withAnimationCoordinator:${2:(UIFocusAnimationCoordinator *)coordinator}

@@ -1,0 +1,4 @@
+#name : playHaptic
+#group : WKInterfaceDevice
+# --
+playHaptic:${1:(WKHapticType)type}

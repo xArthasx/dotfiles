@@ -1,0 +1,4 @@
+#name : viewControllerForUnknownContact
+#group : CNContactViewController
+# --
+viewControllerForUnknownContact:${1:(CNContact *)contact}

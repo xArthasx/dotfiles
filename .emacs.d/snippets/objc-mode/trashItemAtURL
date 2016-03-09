@@ -1,0 +1,4 @@
+#name : trashItemAtURL
+#group : NSFileManager
+# --
+trashItemAtURL:${1:(NSURL *)url}

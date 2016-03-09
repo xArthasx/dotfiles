@@ -1,0 +1,4 @@
+#name : finishWithImage:context
+#group : AVVideoCompositing
+# --
+finishWithImage:${1:(CIImage *)filteredImage} context:${2:(nullable CIContext *)context}

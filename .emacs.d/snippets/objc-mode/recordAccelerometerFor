@@ -1,0 +1,4 @@
+#name : recordAccelerometerFor
+#group : CMSensorRecorder
+# --
+recordAccelerometerFor:${1:(NSTimeInterval)duration}

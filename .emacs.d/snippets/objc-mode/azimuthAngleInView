@@ -1,0 +1,4 @@
+#name : azimuthAngleInView
+#group : UITouch
+# --
+azimuthAngleInView:${1:(nullable UIView *)view}

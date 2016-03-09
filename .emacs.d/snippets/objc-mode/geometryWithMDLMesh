@@ -1,0 +1,4 @@
+#name : geometryWithMDLMesh
+#group : ModelIO
+# --
+geometryWithMDLMesh:${1:(MDLMesh *)mdlMesh}

@@ -1,0 +1,4 @@
+#name : mergeChangesFromRemoteContextSave
+#group : NSManagedObjectContext
+# --
+mergeChangesFromRemoteContextSave:${1:(NSDictionary*)changeNotificationData}

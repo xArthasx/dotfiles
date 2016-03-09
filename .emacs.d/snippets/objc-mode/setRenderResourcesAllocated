@@ -1,0 +1,4 @@
+#name : setRenderResourcesAllocated
+#group : AUAudioUnitImplementation
+# --
+setRenderResourcesAllocated:${1:(BOOL)flag}

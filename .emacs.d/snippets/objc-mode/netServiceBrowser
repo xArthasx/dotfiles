@@ -1,0 +1,4 @@
+#name : netServiceBrowser
+#group : NSNetServices
+# --
+netServiceBrowser:${1:(NSNetServiceBrowser *)browser}

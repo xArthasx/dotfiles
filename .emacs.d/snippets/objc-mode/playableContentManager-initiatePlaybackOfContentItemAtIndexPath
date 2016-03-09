@@ -1,0 +1,4 @@
+#name : playableContentManager:initiatePlaybackOfContentItemAtIndexPath
+#group : MPPlayableContentDelegate
+# --
+playableContentManager:${1:(MPPlayableContentManager *)contentManager} initiatePlaybackOfContentItemAtIndexPath:${2:(NSIndexPath *)indexPath}

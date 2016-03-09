@@ -1,0 +1,4 @@
+#name : behaviorWithGoal:weight
+#group : GKBehavior
+# --
+behaviorWithGoal:${1:(GKGoal *)goal} weight:${2:(float)weight}

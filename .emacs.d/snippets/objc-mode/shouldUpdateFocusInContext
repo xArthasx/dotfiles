@@ -1,0 +1,4 @@
+#name : shouldUpdateFocusInContext
+#group : UIFocus
+# --
+shouldUpdateFocusInContext:${1:(UIFocusUpdateContext *)context}

@@ -1,0 +1,4 @@
+#name : pickerDidSettle
+#group : WKInterfaceController
+# --
+pickerDidSettle:${1:(WKInterfacePicker *)picker}

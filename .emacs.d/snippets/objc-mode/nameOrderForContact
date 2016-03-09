@@ -1,0 +1,4 @@
+#name : nameOrderForContact
+#group : CNContactFormatter
+# --
+nameOrderForContact:${1:(CNContact *)contact}

@@ -1,0 +1,4 @@
+#name : setVoxelAtIndex
+#group : MDLVoxelArray
+# --
+setVoxelAtIndex:${1:(MDLVoxelIndex)index}

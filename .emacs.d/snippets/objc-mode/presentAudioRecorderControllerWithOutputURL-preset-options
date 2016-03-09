@@ -1,0 +1,4 @@
+#name : presentAudioRecorderControllerWithOutputURL:preset:options
+#group : WKInterfaceController
+# --
+presentAudioRecorderControllerWithOutputURL:${1:(NSURL *)URL} preset:${2:(WKAudioRecorderPreset)preset} options:${3:(nullable NSDictionary *)options}

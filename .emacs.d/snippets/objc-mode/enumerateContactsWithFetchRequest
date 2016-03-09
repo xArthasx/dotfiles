@@ -1,0 +1,4 @@
+#name : enumerateContactsWithFetchRequest
+#group : CNContactStore
+# --
+enumerateContactsWithFetchRequest:${1:(CNContactFetchRequest *)fetchRequest}

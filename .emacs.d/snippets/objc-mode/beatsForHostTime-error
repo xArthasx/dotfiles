@@ -1,0 +1,4 @@
+#name : beatsForHostTime:error
+#group : AVAudioSequencer
+# --
+beatsForHostTime:${1:(UInt64)inHostTime} error:${2:(NSError **)outError}

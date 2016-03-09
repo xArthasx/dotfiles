@@ -1,0 +1,4 @@
+#name : endWorkoutSession
+#group : HKHealthStore
+# --
+endWorkoutSession:${1:(HKWorkoutSession *)workoutSession}

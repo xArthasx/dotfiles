@@ -1,0 +1,4 @@
+#name : sendSynchronousRequest
+#group : NSURLConnection
+# --
+sendSynchronousRequest:${1:(NSURLRequest *)request}

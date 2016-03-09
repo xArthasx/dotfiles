@@ -1,0 +1,4 @@
+#name : contactRelationWithName
+#group : CNContactRelation
+# --
+contactRelationWithName:${1:(NSString *)name}

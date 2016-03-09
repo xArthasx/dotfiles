@@ -1,0 +1,4 @@
+#name : copyCGImageAtTime:actualTime
+#group : AVAssetImageGenerator
+# --
+copyCGImageAtTime:${1:(CMTime)requestedTime} actualTime:${2:(nullable CMTime *)actualTime}

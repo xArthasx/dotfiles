@@ -1,0 +1,4 @@
+#name : unlockConnectionFromNode:toNode
+#group : GKGraph
+# --
+unlockConnectionFromNode:${1:(GKGraphNode2D *)startNode} toNode:${2:(GKGraphNode2D *)endNode}

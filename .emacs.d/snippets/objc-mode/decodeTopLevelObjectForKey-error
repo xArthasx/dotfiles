@@ -1,0 +1,4 @@
+#name : decodeTopLevelObjectForKey:error
+#group : NSCoder
+# --
+decodeTopLevelObjectForKey:${1:(NSString *)key} error:${2:(NSError **)error}

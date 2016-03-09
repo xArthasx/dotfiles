@@ -1,0 +1,4 @@
+#name : addResourceWithType:data:options
+#group : PHAssetCreationRequest
+# --
+addResourceWithType:${1:(PHAssetResourceType)type} data:${2:(NSData *)data} options:${3:(nullable PHAssetResourceCreationOptions *)options}

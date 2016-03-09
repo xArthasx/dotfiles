@@ -1,0 +1,4 @@
+#name : attributedStringFromPostalAddress:style:withDefaultAttributes
+#group : CNPostalAddressFormatter
+# --
+attributedStringFromPostalAddress:${1:(CNPostalAddress *)postalAddress} style:${2:(CNPostalAddressFormatterStyle)style} withDefaultAttributes:${3:(NSDictionary *)attributes}

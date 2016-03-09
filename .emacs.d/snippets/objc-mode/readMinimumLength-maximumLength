@@ -1,0 +1,4 @@
+#name : readMinimumLength:maximumLength
+#group : NWTCPConnection
+# --
+readMinimumLength:${1:(NSUInteger)minimum} maximumLength:${2:(NSUInteger)maximum}

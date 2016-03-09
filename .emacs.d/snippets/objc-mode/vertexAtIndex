@@ -1,0 +1,4 @@
+#name : vertexAtIndex
+#group : GKObstacle
+# --
+vertexAtIndex:${1:(NSUInteger)index}

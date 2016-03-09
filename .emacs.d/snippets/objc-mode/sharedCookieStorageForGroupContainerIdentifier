@@ -1,0 +1,4 @@
+#name : sharedCookieStorageForGroupContainerIdentifier
+#group : NSHTTPCookieStorage
+# --
+sharedCookieStorageForGroupContainerIdentifier:${1:(NSString *)identifier}

@@ -1,0 +1,4 @@
+#name : initWithTitle:style:target:action
+#group : UIBarButtonItem
+# --
+initWithTitle:${1:(nullable NSString *)title} style:${2:(UIBarButtonItemStyle)style} target:${3:(nullable id)target} action:${4:(nullable SEL)action}

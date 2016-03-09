@@ -1,0 +1,4 @@
+#name : updatePredicate
+#group : HMEventTrigger
+# --
+updatePredicate:${1:(nullable NSPredicate *)predicate}

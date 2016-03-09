@@ -1,0 +1,4 @@
+#name : didEnterWithPreviousState
+#group : GKState
+# --
+didEnterWithPreviousState:${1:(nullable GKState *)previousState}

@@ -1,0 +1,4 @@
+#name : initWithAccessToEntityTypes
+#group : EKEventStore
+# --
+initWithAccessToEntityTypes:${1:(EKEntityMask)entityTypes}

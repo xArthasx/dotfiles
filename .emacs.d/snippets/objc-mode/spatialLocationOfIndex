@@ -1,0 +1,4 @@
+#name : spatialLocationOfIndex
+#group : MDLVoxelArray
+# --
+spatialLocationOfIndex:${1:(MDLVoxelIndex)index}

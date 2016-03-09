@@ -1,0 +1,4 @@
+#name : addArrangedSubview
+#group : UIStackView
+# --
+addArrangedSubview:${1:(UIView *)view}

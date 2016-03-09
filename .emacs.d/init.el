@@ -105,6 +105,18 @@
   :init
   (add-hook 'ruby-mode-hook 'robe-mode)
   :config
+  (use-package yasnippet
+    :ensure t
+    :defer t
+    :init
+    (yas-global-mode 1)
+    :config
+    (yas-reload-all)
+    (setq tab-always-indent 'complete)
+    (setq yas-prompt-functions '(yas-completing-prompt
+                                  yas-ido-prompt
+                                  yas-dropdown-prompt))
+    (define-key yas-minor-mode-map (kbd "<escape>") 'yas-exit-snippet) )
   (use-package company
     :ensure t
     :defer t
@@ -112,6 +124,17 @@
     (global-company-mode)
     :config
     (push 'company-robe company-backends)
+    ;; Add yasnippet support for all company backends
+    ;; https://github.com/syl20bnr/spacemacs/pull/179
+    (defvar company-mode/enable-yas t "Enable yasnippet for all backends.")
+
+    (defun company-mode/backend-with-yas (backend)
+      (if (or (not company-mode/enable-yas) (and (listp backend)    (member 'company-yasnippet backend)))
+        backend
+        (append (if (consp backend) backend (list backend))
+          '(:with company-yasnippet))))
+
+    (setq company-backends (mapcar #'company-mode/backend-with-yas company-backends))
     (setq company-idle-delay 0.1)
     (setq company-selection-wrap-around t)
     (define-key company-active-map [tab] 'company-complete)

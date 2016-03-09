@@ -1,0 +1,4 @@
+#name : writeData:timeout
+#group : NSURLSession
+# --
+writeData:${1:(NSData *)data} timeout:${2:(NSTimeInterval)timeout}

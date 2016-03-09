@@ -1,0 +1,4 @@
+#name : updateContact
+#group : CNSaveRequest
+# --
+updateContact:${1:(CNMutableContact *)contact}

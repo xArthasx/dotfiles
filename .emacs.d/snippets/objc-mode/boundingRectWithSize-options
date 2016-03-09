@@ -1,0 +1,4 @@
+#name : boundingRectWithSize:options
+#group : NSStringDrawing
+# --
+boundingRectWithSize:${1:(CGSize)size} options:${2:(NSStringDrawingOptions)options}

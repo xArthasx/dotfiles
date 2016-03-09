@@ -1,0 +1,4 @@
+#name : maximumWriteValueLengthForType
+#group : CBPeripheral
+# --
+maximumWriteValueLengthForType:${1:(CBCharacteristicWriteType)type}

@@ -1,0 +1,4 @@
+#name : setImage:dirtyRect
+#group : CIImageAccumulator
+# --
+setImage:${1:(CIImage *)image} dirtyRect:${2:(CGRect)dirtyRect}

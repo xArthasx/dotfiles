@@ -1,0 +1,4 @@
+#name : initWithBitmapData
+#group : CIImage
+# --
+initWithBitmapData:${1:(NSData *)data}

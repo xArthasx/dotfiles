@@ -1,0 +1,4 @@
+#name : initWithFormat:packetCapacity
+#group : AVAudioBuffer
+# --
+initWithFormat:${1:(AVAudioFormat *)format} packetCapacity:${2:(AVAudioPacketCount)packetCapacity}

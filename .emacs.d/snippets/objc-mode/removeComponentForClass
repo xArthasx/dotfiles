@@ -1,0 +1,4 @@
+#name : removeComponentForClass
+#group : GKEntity
+# --
+removeComponentForClass:${1:(Class)componentClass}

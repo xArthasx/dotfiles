@@ -1,0 +1,4 @@
+#name : containsNode
+#group : SKCameraNode
+# --
+containsNode:${1:(SKNode *)node}

@@ -1,0 +1,4 @@
+#name : unarchiveTopLevelObjectWithData:error
+#group : NSKeyedArchiver
+# --
+unarchiveTopLevelObjectWithData:${1:(NSData *)data} error:${2:(NSError **)error}

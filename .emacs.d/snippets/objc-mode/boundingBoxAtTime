@@ -1,0 +1,4 @@
+#name : boundingBoxAtTime
+#group : MDLObject
+# --
+boundingBoxAtTime:${1:(NSTimeInterval)time}

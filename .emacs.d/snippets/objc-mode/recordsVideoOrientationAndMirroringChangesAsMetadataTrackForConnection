@@ -1,0 +1,4 @@
+#name : recordsVideoOrientationAndMirroringChangesAsMetadataTrackForConnection
+#group : AVCaptureOutput
+# --
+recordsVideoOrientationAndMirroringChangesAsMetadataTrackForConnection:${1:(AVCaptureConnection *)connection}

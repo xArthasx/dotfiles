@@ -1,0 +1,4 @@
+#name : registerSubclass:asComponentDescription:name:version
+#group : AUAudioUnitImplementation
+# --
+registerSubclass:${1:(Class)cls} asComponentDescription:${2:(AudioComponentDescription)componentDescription} name:${3:(NSString *)name} version:${4:(UInt32)version}

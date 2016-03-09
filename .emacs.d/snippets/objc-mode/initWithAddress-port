@@ -1,0 +1,4 @@
+#name : initWithAddress:port
+#group : NEProxySettings
+# --
+initWithAddress:${1:(NSString *)address} port:${2:(NSInteger)port}

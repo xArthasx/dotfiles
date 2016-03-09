@@ -1,0 +1,4 @@
+#name : initWithExtent:format
+#group : CIImageAccumulator
+# --
+initWithExtent:${1:(CGRect)extent} format:${2:(CIFormat)format}

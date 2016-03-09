@@ -1,0 +1,4 @@
+#name : getHue:saturation:brightness:alpha
+#group : UIColor
+# --
+getHue:${1:(nullable CGFloat *)hue} saturation:${2:(nullable CGFloat *)saturation} brightness:${3:(nullable CGFloat *)brightness} alpha:${4:(nullable CGFloat *)alpha}

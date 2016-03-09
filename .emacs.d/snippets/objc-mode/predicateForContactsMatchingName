@@ -1,0 +1,4 @@
+#name : predicateForContactsMatchingName
+#group : CNContact+Predicates
+# --
+predicateForContactsMatchingName:${1:(NSString *)name}

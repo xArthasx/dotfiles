@@ -1,0 +1,4 @@
+#name : addAudioPlayer
+#group : SCNAudioSource
+# --
+addAudioPlayer:${1:(SCNAudioPlayer *)player}

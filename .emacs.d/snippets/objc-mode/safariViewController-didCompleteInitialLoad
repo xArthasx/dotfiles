@@ -1,0 +1,4 @@
+#name : safariViewController:didCompleteInitialLoad
+#group : SFSafariViewController
+# --
+safariViewController:${1:(SFSafariViewController *)controller} didCompleteInitialLoad:${2:(BOOL)didLoadSuccessfully}

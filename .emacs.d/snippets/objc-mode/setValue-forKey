@@ -1,0 +1,4 @@
+#name : setValue:forKey
+#group : SCNTransaction
+# --
+setValue:${1:(nullable id)value} forKey:${2:(NSString *)key}

@@ -1,0 +1,4 @@
+#name : pictureInPictureController:failedToStartPictureInPictureWithError
+#group : AVPictureInPictureController
+# --
+pictureInPictureController:${1:(AVPictureInPictureController *)pictureInPictureController} failedToStartPictureInPictureWithError:${2:(NSError *)error}

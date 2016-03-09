@@ -1,0 +1,4 @@
+#name : initWithSource:newVersion:oldVersion
+#group : NSMergePolicy
+# --
+initWithSource:${1:(NSManagedObject*)srcObject} newVersion:${2:(NSUInteger)newvers} oldVersion:${3:(NSUInteger)oldvers}

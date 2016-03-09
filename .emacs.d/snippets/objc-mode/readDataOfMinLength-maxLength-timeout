@@ -1,0 +1,4 @@
+#name : readDataOfMinLength:maxLength:timeout
+#group : NSURLSession
+# --
+readDataOfMinLength:${1:(NSUInteger)minBytes} maxLength:${2:(NSUInteger)maxBytes} timeout:${3:(NSTimeInterval)timeout}

@@ -1,0 +1,4 @@
+#name : iconWithTemplateImageName
+#group : UIApplicationShortcutItem
+# --
+iconWithTemplateImageName:${1:(NSString *)templateImageName}

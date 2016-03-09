@@ -1,0 +1,4 @@
+#name : initWithFormat:error
+#group : AUAudioUnitImplementation
+# --
+initWithFormat:${1:(AVAudioFormat *)format} error:${2:(NSError **)outError}

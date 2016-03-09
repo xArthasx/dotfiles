@@ -1,0 +1,4 @@
+#name : addSubgroup:toGroup
+#group : CNSaveRequest
+# --
+addSubgroup:${1:(CNGroup *)subgroup} toGroup:${2:(CNGroup *)group}

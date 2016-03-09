@@ -1,0 +1,4 @@
+#name : generateAmbientOcclusionVertexColorsWithQuality
+#group : MDLMesh
+# --
+generateAmbientOcclusionVertexColorsWithQuality:${1:(float)bakeQuality}

@@ -1,0 +1,4 @@
+#name : initWithMesh
+#group : MTKModel
+# --
+initWithMesh:${1:(nonnull MDLMesh *)mesh}

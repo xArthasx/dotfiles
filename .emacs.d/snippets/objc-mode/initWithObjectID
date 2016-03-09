@@ -1,0 +1,4 @@
+#name : initWithObjectID
+#group : NSIncrementalStoreNode
+# --
+initWithObjectID:${1:(NSManagedObjectID*)objectID}

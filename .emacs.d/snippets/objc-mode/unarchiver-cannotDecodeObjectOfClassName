@@ -1,0 +1,4 @@
+#name : unarchiver:cannotDecodeObjectOfClassName
+#group : NSKeyedArchiver
+# --
+unarchiver:${1:(NSKeyedUnarchiver *)unarchiver} cannotDecodeObjectOfClassName:${2:(NSString *)name}

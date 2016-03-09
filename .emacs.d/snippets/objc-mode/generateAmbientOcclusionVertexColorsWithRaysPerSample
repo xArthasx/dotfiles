@@ -1,0 +1,4 @@
+#name : generateAmbientOcclusionVertexColorsWithRaysPerSample
+#group : MDLMesh
+# --
+generateAmbientOcclusionVertexColorsWithRaysPerSample:${1:(NSInteger)raysPerSample}

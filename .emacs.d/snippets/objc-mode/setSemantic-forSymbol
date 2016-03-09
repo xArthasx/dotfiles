@@ -1,0 +1,4 @@
+#name : setSemantic:forSymbol
+#group : SCNShadable
+# --
+setSemantic:${1:(nullable NSString *)semantic} forSymbol:${2:(NSString *)symbol}

@@ -1,0 +1,4 @@
+#name : isUnifiedWithContactWithIdentifier
+#group : CNContact
+# --
+isUnifiedWithContactWithIdentifier:${1:(NSString*)contactIdentifier}

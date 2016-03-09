@@ -1,0 +1,4 @@
+#name : voiceWithIdentifier
+#group : AVSpeechSynthesis
+# --
+voiceWithIdentifier:${1:(NSString *)identifier}

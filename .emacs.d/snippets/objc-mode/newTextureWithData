@@ -1,0 +1,4 @@
+#name : newTextureWithData
+#group : MTKTextureLoader
+# --
+newTextureWithData:${1:(nonnull NSData *)data}

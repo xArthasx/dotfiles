@@ -1,0 +1,4 @@
+#name : builtinActionSetOfType
+#group : HMHome
+# --
+builtinActionSetOfType:${1:(NSString *)actionSetType}

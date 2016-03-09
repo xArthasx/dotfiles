@@ -1,0 +1,4 @@
+#name : unifiedContactWithIdentifier
+#group : CNContactStore
+# --
+unifiedContactWithIdentifier:${1:(NSString *)identifier}

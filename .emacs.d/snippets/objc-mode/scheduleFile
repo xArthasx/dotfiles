@@ -1,0 +1,4 @@
+#name : scheduleFile
+#group : AVAudioPlayerNode
+# --
+scheduleFile:${1:(AVAudioFile *)file}

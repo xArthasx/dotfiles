@@ -1,0 +1,4 @@
+#name : setVoxelsForMesh
+#group : MDLVoxelArray
+# --
+setVoxelsForMesh:${1:(nonnull MDLMesh*)mesh}

@@ -1,0 +1,4 @@
+#name : initWithKeyframeValues
+#group : SKKeyframeSequence
+# --
+initWithKeyframeValues:${1:(NSArray*)values}

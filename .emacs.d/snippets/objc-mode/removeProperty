@@ -1,0 +1,4 @@
+#name : removeProperty
+#group : MDLMaterial
+# --
+removeProperty:${1:(MDLMaterialProperty*)property}

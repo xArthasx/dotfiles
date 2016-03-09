@@ -1,0 +1,4 @@
+#name : initWithMDLSubmesh
+#group : MDLSubmesh
+# --
+initWithMDLSubmesh:${1:(nonnull MDLSubmesh*)submesh}

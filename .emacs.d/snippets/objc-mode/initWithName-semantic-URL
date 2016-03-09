@@ -1,0 +1,4 @@
+#name : initWithName:semantic:URL
+#group : MDLMaterial
+# --
+initWithName:${1:(NSString *)name} semantic:${2:(MDLMaterialSemantic)semantic} URL:${3:(nullable NSURL*)URL}

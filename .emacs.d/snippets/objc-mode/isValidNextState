@@ -1,0 +1,4 @@
+#name : isValidNextState
+#group : GKState
+# --
+isValidNextState:${1:(Class)stateClass}

@@ -1,0 +1,4 @@
+#name : createGroupWithIdentifier:name
+#group : AUAudioUnitImplementation
+# --
+createGroupWithIdentifier:${1:(NSString *)identifier} name:${2:(NSString *)name}

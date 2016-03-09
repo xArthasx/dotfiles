@@ -1,0 +1,4 @@
+#name : initWithRegion
+#group : HMLocationEvent
+# --
+initWithRegion:${1:(CLRegion *)region}

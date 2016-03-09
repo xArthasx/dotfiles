@@ -1,0 +1,4 @@
+#name : commonPrefixWithString:options
+#group : NSString
+# --
+commonPrefixWithString:${1:(NSString *)str} options:${2:(NSStringCompareOptions)mask}

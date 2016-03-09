@@ -1,0 +1,4 @@
+#name : textureNamed:bundle
+#group : MDLTexture
+# --
+textureNamed:${1:(NSString *)name} bundle:${2:(nullable NSBundle*)bundleOrNil}

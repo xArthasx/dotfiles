@@ -1,0 +1,4 @@
+#name : addMember:toGroup
+#group : CNSaveRequest
+# --
+addMember:${1:(CNContact *)contact} toGroup:${2:(CNGroup *)group}

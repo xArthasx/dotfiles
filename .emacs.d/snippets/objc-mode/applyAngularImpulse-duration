@@ -1,0 +1,4 @@
+#name : applyAngularImpulse:duration
+#group : SKAction
+# --
+applyAngularImpulse:${1:(CGFloat)impulse} duration:${2:(NSTimeInterval)sec}

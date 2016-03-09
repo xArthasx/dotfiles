@@ -1,0 +1,4 @@
+#name : cancelDataRequest
+#group : PHAssetResourceManager
+# --
+cancelDataRequest:${1:(PHAssetResourceDataRequestID)requestID}

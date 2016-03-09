@@ -1,0 +1,4 @@
+#name : URLSession:assetDownloadTask:didLoadTimeRange
+#group : AVAssetDownloadTask
+# --
+URLSession:${1:(NSURLSession *)session} assetDownloadTask:${2:(AVAssetDownloadTask *)assetDownloadTask} didLoadTimeRange:${3:(CMTimeRange)timeRange}

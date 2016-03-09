@@ -1,0 +1,4 @@
+#name : streamTaskWithNetService
+#group : NSURLSession
+# --
+streamTaskWithNetService:${1:(NSNetService *)service}

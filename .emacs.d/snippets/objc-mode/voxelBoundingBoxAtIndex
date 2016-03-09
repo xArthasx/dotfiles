@@ -1,0 +1,4 @@
+#name : voxelBoundingBoxAtIndex
+#group : MDLVoxelArray
+# --
+voxelBoundingBoxAtIndex:${1:(MDLVoxelIndex)index}

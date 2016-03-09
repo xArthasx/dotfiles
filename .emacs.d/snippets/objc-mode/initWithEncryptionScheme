@@ -1,0 +1,4 @@
+#name : initWithEncryptionScheme
+#group : PKAddPaymentPassViewController
+# --
+initWithEncryptionScheme:${1:(NSString *)encryptionScheme}

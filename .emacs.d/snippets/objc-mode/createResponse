@@ -1,0 +1,4 @@
+#name : createResponse
+#group : NEHotspotHelper
+# --
+createResponse:${1:(NEHotspotHelperResult)result}

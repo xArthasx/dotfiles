@@ -1,0 +1,4 @@
+#name : predicateForContainerOfContactWithIdentifier
+#group : CNContainer+Predicates
+# --
+predicateForContainerOfContactWithIdentifier:${1:(NSString *)contactIdentifier}

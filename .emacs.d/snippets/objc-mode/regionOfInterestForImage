@@ -1,0 +1,4 @@
+#name : regionOfInterestForImage
+#group : CIImage
+# --
+regionOfInterestForImage:${1:(CIImage *)image}

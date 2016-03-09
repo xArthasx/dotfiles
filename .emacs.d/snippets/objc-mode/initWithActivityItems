@@ -1,0 +1,4 @@
+#name : initWithActivityItems
+#group : UIActivityViewController
+# --
+initWithActivityItems:${1:(NSArray *)activityItems}

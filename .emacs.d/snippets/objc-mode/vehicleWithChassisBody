@@ -1,0 +1,4 @@
+#name : vehicleWithChassisBody
+#group : SCNPhysicsBehavior
+# --
+vehicleWithChassisBody:${1:(SCNPhysicsBody *)chassisBody}

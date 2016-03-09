@@ -1,0 +1,4 @@
+#name : createCGImage
+#group : CIContext
+# --
+createCGImage:${1:(CIImage *)image}

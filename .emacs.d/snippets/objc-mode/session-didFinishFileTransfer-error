@@ -1,0 +1,4 @@
+#name : session:didFinishFileTransfer:error
+#group : WCSession
+# --
+session:${1:(WCSession *)session} didFinishFileTransfer:${2:(WCSessionFileTransfer *)fileTransfer} error:${3:(nullable NSError *)error}

@@ -1,0 +1,4 @@
+#name : _handleSelectionAtPoint
+#group : MKMapView
+# --
+_handleSelectionAtPoint:${1:(CGPoint)locationInView}

@@ -1,0 +1,4 @@
+#name : CGGlyphAtIndex
+#group : NSLayoutManager
+# --
+CGGlyphAtIndex:${1:(NSUInteger)glyphIndex}

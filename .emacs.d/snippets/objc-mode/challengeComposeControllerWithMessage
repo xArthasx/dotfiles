@@ -1,0 +1,4 @@
+#name : challengeComposeControllerWithMessage
+#group : GKChallenge
+# --
+challengeComposeControllerWithMessage:${1:(nullable NSString *)message}

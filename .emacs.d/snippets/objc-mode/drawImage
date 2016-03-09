@@ -1,0 +1,4 @@
+#name : drawImage
+#group : CIContext
+# --
+drawImage:${1:(CIImage *)image}

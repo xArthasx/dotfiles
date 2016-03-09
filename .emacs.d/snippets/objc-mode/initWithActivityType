@@ -1,0 +1,4 @@
+#name : initWithActivityType
+#group : HKWorkoutSession
+# --
+initWithActivityType:${1:(HKWorkoutActivityType)activityType}

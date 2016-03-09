@@ -1,0 +1,4 @@
+#name : writeDataForAssetResource
+#group : PHAssetResourceManager
+# --
+writeDataForAssetResource:${1:(PHAssetResource *)resource}

@@ -1,0 +1,4 @@
+#name : setBusCount:error
+#group : AUAudioUnit
+# --
+setBusCount:${1:(NSUInteger)count} error:${2:(NSError **)outError}

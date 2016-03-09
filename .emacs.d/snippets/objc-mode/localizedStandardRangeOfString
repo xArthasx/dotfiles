@@ -1,0 +1,4 @@
+#name : localizedStandardRangeOfString
+#group : NSString
+# --
+localizedStandardRangeOfString:${1:(NSString *)str}

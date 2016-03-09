@@ -1,0 +1,4 @@
+#name : accessoryBrowser
+#group : EAWiFiUnconfiguredAccessoryBrowser
+# --
+accessoryBrowser:${1:(EAWiFiUnconfiguredAccessoryBrowser *)browser}

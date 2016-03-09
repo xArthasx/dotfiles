@@ -1,0 +1,4 @@
+#name : metadataInputWithFormatDescription:clock
+#group : AVCaptureInput
+# --
+metadataInputWithFormatDescription:${1:(CMMetadataFormatDescriptionRef)desc} clock:${2:(CMClockRef)clock}

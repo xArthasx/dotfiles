@@ -1,0 +1,4 @@
+#name : removeRenderObserver
+#group : AUAudioUnit
+# --
+removeRenderObserver:${1:(NSInteger)token}

@@ -1,0 +1,4 @@
+#name : initWithRadius
+#group : UIRegion
+# --
+initWithRadius:${1:(CGFloat)radius}

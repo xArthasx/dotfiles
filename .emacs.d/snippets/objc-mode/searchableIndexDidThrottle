@@ -1,0 +1,4 @@
+#name : searchableIndexDidThrottle
+#group : CSSearchableIndex
+# --
+searchableIndexDidThrottle:${1:(CSSearchableIndex *)searchableIndex}

@@ -1,0 +1,4 @@
+#name : mtkView:drawableSizeWillChange
+#group : MTKView
+# --
+mtkView:${1:(nonnull MTKView *)view} drawableSizeWillChange:${2:(CGSize)size}

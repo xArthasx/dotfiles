@@ -1,0 +1,4 @@
+#name : contactPickerDidCancel
+#group : CNContactPickerViewController
+# --
+contactPickerDidCancel:${1:(CNContactPickerViewController *)picker}

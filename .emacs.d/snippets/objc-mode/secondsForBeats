@@ -1,0 +1,4 @@
+#name : secondsForBeats
+#group : AVAudioSequencer
+# --
+secondsForBeats:${1:(AVMusicTimeStamp)beats}

@@ -1,0 +1,4 @@
+#name : appendTimedMetadataGroup:error
+#group : AVCaptureInput
+# --
+appendTimedMetadataGroup:${1:(AVTimedMetadataGroup *)metadata} error:${2:(NSError **)outError}

@@ -1,0 +1,4 @@
+#name : readFromURL
+#group : NSAttributedString
+# --
+readFromURL:${1:(NSURL *)url}

@@ -1,0 +1,4 @@
+#name : previewControllerDidFinish
+#group : RPPreviewViewController
+# --
+previewControllerDidFinish:${1:(RPPreviewViewController *)previewController}

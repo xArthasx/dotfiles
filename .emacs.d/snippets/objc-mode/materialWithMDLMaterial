@@ -1,0 +1,4 @@
+#name : materialWithMDLMaterial
+#group : ModelIO
+# --
+materialWithMDLMaterial:${1:(MDLMaterial *)mdlMaterial}

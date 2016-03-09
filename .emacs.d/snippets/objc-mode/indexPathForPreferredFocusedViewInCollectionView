@@ -1,0 +1,4 @@
+#name : indexPathForPreferredFocusedViewInCollectionView
+#group : UICollectionView
+# --
+indexPathForPreferredFocusedViewInCollectionView:${1:(UICollectionView *)collectionView}

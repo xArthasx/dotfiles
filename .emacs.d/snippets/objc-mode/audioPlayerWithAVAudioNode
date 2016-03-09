@@ -1,0 +1,4 @@
+#name : audioPlayerWithAVAudioNode
+#group : SCNAudioSource
+# --
+audioPlayerWithAVAudioNode:${1:(AVAudioNode *)audioNode}

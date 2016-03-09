@@ -1,0 +1,4 @@
+#name : didModifyRange
+#group : MTLBuffer
+# --
+didModifyRange:${1:(NSRange)range}

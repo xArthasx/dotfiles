@@ -1,0 +1,4 @@
+#name : irradianceAtPoint
+#group : MDLLight
+# --
+irradianceAtPoint:${1:(vector_float3)point}

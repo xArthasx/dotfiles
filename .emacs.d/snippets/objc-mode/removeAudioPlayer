@@ -1,0 +1,4 @@
+#name : removeAudioPlayer
+#group : SCNAudioSource
+# --
+removeAudioPlayer:${1:(SCNAudioPlayer *)player}

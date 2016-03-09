@@ -1,0 +1,4 @@
+#name : canExportFileExtension
+#group : MDLAsset
+# --
+canExportFileExtension:${1:(NSString *)extension}

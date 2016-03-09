@@ -1,0 +1,4 @@
+#name : openWithLocalEndpoint
+#group : NEAppProxyFlow
+# --
+openWithLocalEndpoint:${1:(nullable NWHostEndpoint *)localEndpoint}

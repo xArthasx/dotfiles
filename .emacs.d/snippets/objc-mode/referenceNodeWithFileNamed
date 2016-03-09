@@ -1,0 +1,4 @@
+#name : referenceNodeWithFileNamed
+#group : SKReferenceNode
+# --
+referenceNodeWithFileNamed:${1:(NSString *)fileName}

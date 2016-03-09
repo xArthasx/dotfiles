@@ -1,0 +1,4 @@
+#name : requestAccessForEntityType
+#group : CNContactStore
+# --
+requestAccessForEntityType:${1:(CNEntityType)entityType}

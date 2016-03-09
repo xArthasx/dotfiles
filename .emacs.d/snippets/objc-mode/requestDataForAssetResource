@@ -1,0 +1,4 @@
+#name : requestDataForAssetResource
+#group : PHAssetResourceManager
+# --
+requestDataForAssetResource:${1:(PHAssetResource *)resource}

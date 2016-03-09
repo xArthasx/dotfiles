@@ -1,0 +1,4 @@
+#name : addPaymentPassViewController:didFinishAddingPaymentPass:error
+#group : PKAddPaymentPassViewController
+# --
+addPaymentPassViewController:${1:(PKAddPaymentPassViewController *)controller} didFinishAddingPaymentPass:${2:(nullable PKPaymentPass *)pass} error:${3:(nullable NSError *)error}

@@ -1,0 +1,4 @@
+#name : sendMessageData
+#group : WCSession
+# --
+sendMessageData:${1:(NSData *)data}

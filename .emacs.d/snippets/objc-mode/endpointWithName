@@ -1,0 +1,4 @@
+#name : endpointWithName
+#group : NWBonjourServiceEndpoint
+# --
+endpointWithName:${1:(NSString *)name}

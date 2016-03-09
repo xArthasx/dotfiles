@@ -1,0 +1,4 @@
+#name : writeToURL:SMPTEResolution:replaceExisting:error
+#group : AVAudioSequencer
+# --
+writeToURL:${1:(NSURL *)fileURL} SMPTEResolution:${2:(NSInteger)resolution} replaceExisting:${3:(BOOL)replace} error:${4:(NSError **)outError}

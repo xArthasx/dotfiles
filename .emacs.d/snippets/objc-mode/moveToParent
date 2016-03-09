@@ -1,0 +1,4 @@
+#name : moveToParent
+#group : SKNode
+# --
+moveToParent:${1:(SKNode *)parent}

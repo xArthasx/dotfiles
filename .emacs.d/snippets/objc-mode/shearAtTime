@@ -1,0 +1,4 @@
+#name : shearAtTime
+#group : MDLTransform
+# --
+shearAtTime:${1:(NSTimeInterval)time}

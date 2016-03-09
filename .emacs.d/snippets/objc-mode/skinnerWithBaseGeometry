@@ -1,0 +1,4 @@
+#name : skinnerWithBaseGeometry
+#group : SCNSkinner
+# --
+skinnerWithBaseGeometry:${1:(nullable SCNGeometry *)baseGeometry}

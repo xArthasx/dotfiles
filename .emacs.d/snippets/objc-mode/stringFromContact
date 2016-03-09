@@ -1,0 +1,4 @@
+#name : stringFromContact
+#group : CNContactFormatter
+# --
+stringFromContact:${1:(CNContact *)contact}

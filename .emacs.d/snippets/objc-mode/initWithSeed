@@ -1,0 +1,4 @@
+#name : initWithSeed
+#group : GKRandomSource
+# --
+initWithSeed:${1:(uint64_t)seed}

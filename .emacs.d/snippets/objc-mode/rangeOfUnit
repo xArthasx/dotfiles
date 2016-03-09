@@ -1,0 +1,4 @@
+#name : rangeOfUnit
+#group : NSCalendar
+# --
+rangeOfUnit:${1:(NSCalendarUnit)unit}

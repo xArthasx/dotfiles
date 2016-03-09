@@ -1,0 +1,4 @@
+#name : anonymousGuestPlayerWithIdentifier
+#group : GKPlayer
+# --
+anonymousGuestPlayerWithIdentifier:${1:(nonnull NSString *)guestIdentifier}

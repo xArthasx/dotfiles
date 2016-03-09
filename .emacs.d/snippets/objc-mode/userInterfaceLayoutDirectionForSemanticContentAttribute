@@ -1,0 +1,4 @@
+#name : userInterfaceLayoutDirectionForSemanticContentAttribute
+#group : UIView
+# --
+userInterfaceLayoutDirectionForSemanticContentAttribute:${1:(UISemanticContentAttribute)attribute}

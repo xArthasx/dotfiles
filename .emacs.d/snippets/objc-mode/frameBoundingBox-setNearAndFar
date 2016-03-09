@@ -1,0 +1,4 @@
+#name : frameBoundingBox:setNearAndFar
+#group : MDLCamera
+# --
+frameBoundingBox:${1:(MDLAxisAlignedBoundingBox)boundingBox} setNearAndFar:${2:(BOOL)setNearAndFar}

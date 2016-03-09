@@ -1,0 +1,4 @@
+#name : setValue:originator:atHostTime
+#group : AUParameters
+# --
+setValue:${1:(AUValue)value} originator:${2:(AUParameterObserverToken __nullable)originator} atHostTime:${3:(uint64_t)hostTime}

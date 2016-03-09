@@ -1,0 +1,4 @@
+#name : printInfoWithDictionary
+#group : UIPrintInfo
+# --
+printInfoWithDictionary:${1:(nullable NSDictionary *)dictionary}

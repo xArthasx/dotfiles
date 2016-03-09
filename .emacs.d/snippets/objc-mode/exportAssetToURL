@@ -1,0 +1,4 @@
+#name : exportAssetToURL
+#group : MDLAsset
+# --
+exportAssetToURL:${1:(NSURL *)URL}

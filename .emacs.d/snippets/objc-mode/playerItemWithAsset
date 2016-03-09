@@ -1,0 +1,4 @@
+#name : playerItemWithAsset
+#group : WKAudioFilePlayerItem
+# --
+playerItemWithAsset:${1:(WKAudioFileAsset *)asset}

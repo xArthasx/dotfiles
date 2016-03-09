@@ -1,0 +1,4 @@
+#name : accelerometerDataFrom:to
+#group : CMSensorRecorder
+# --
+accelerometerDataFrom:${1:(NSDate *)fromDate} to:${2:(NSDate *)toDate}

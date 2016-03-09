@@ -1,0 +1,4 @@
+#name : viewControllerForNewContact
+#group : CNContactViewController
+# --
+viewControllerForNewContact:${1:(nullable CNContact *)contact}

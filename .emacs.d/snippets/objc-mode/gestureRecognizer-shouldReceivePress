@@ -1,0 +1,4 @@
+#name : gestureRecognizer:shouldReceivePress
+#group : UIGestureRecognizer
+# --
+gestureRecognizer:${1:(UIGestureRecognizer *)gestureRecognizer} shouldReceivePress:${2:(UIPress *)press}

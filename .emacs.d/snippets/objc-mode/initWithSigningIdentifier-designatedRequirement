@@ -1,0 +1,4 @@
+#name : initWithSigningIdentifier:designatedRequirement
+#group : NEAppRule
+# --
+initWithSigningIdentifier:${1:(NSString *)signingIdentifier} designatedRequirement:${2:(NSString *)designatedRequirement}

@@ -1,0 +1,4 @@
+#name : setParagraphStyle
+#group : NSParagraphStyle
+# --
+setParagraphStyle:${1:(NSParagraphStyle *)obj}

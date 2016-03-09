@@ -1,0 +1,4 @@
+#name : makeTextWritingDirectionLeftToRight
+#group : UIResponder
+# --
+makeTextWritingDirectionLeftToRight:${1:(nullable id)sender}

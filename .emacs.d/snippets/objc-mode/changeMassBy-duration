@@ -1,0 +1,4 @@
+#name : changeMassBy:duration
+#group : SKAction
+# --
+changeMassBy:${1:(float)v} duration:${2:(NSTimeInterval)duration}

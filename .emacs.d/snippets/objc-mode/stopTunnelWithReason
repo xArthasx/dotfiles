@@ -1,0 +1,4 @@
+#name : stopTunnelWithReason
+#group : NEPacketTunnelProvider
+# --
+stopTunnelWithReason:${1:(NEProviderStopReason)reason}

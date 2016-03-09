@@ -1,0 +1,4 @@
+#name : tokenByAddingRenderObserver
+#group : AUAudioUnit
+# --
+tokenByAddingRenderObserver:${1:(AURenderObserver)observer}

@@ -1,0 +1,4 @@
+#name : setVideoGravity
+#group : WKInterfaceMovie
+# --
+setVideoGravity:${1:(WKVideoGravity)videoGravity}

@@ -1,0 +1,4 @@
+#name : scanUpToString
+#group : NSScanner
+# --
+scanUpToString:${1:(NSString *)string}

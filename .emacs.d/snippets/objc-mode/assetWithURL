@@ -1,0 +1,4 @@
+#name : assetWithURL
+#group : WKAudioFileAsset
+# --
+assetWithURL:${1:(NSURL *)URL}

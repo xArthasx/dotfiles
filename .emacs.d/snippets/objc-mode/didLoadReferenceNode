@@ -1,0 +1,4 @@
+#name : didLoadReferenceNode
+#group : SKReferenceNode
+# --
+didLoadReferenceNode:${1:(nullable SKNode *)node}

@@ -1,0 +1,4 @@
+#name : initWithAPIToken
+#group : CKFetchWebAuthTokenOperation
+# --
+initWithAPIToken:${1:(NSString *)APIToken}

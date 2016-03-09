@@ -1,0 +1,4 @@
+#name : removeMember:fromGroup
+#group : CNSaveRequest
+# --
+removeMember:${1:(CNContact *)contact} fromGroup:${2:(CNGroup *)group}

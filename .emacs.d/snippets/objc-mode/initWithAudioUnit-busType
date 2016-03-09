@@ -1,0 +1,4 @@
+#name : initWithAudioUnit:busType
+#group : AUAudioUnit
+# --
+initWithAudioUnit:${1:(AUAudioUnit *)owner} busType:${2:(AUAudioUnitBusType)busType}

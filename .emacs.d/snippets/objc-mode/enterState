@@ -1,0 +1,4 @@
+#name : enterState
+#group : GKStateMachine
+# --
+enterState:${1:(Class)stateClass}

@@ -1,0 +1,4 @@
+#name : velocityFieldWithVector
+#group : UIFieldBehavior
+# --
+velocityFieldWithVector:${1:(CGVector)direction}

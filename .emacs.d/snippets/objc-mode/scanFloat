@@ -1,0 +1,4 @@
+#name : scanFloat
+#group : NSScanner
+# --
+scanFloat:${1:(nullable float *)result}

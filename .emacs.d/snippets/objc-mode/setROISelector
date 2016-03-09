@@ -1,0 +1,4 @@
+#name : setROISelector
+#group : CIKernel
+# --
+setROISelector:${1:(SEL)method}

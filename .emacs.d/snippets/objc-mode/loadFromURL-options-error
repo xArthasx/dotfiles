@@ -1,0 +1,4 @@
+#name : loadFromURL:options:error
+#group : AVAudioSequencer
+# --
+loadFromURL:${1:(NSURL *)fileURL} options:${2:(AVMusicSequenceLoadOptions)options} error:${3:(NSError **)outError}

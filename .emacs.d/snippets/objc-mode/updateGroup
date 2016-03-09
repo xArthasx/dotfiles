@@ -1,0 +1,4 @@
+#name : updateGroup
+#group : CNSaveRequest
+# --
+updateGroup:${1:(CNMutableGroup *)group}

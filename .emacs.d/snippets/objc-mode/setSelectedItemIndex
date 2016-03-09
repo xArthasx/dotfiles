@@ -1,0 +1,4 @@
+#name : setSelectedItemIndex
+#group : WKInterfacePicker
+# --
+setSelectedItemIndex:${1:(NSInteger)itemIndex}

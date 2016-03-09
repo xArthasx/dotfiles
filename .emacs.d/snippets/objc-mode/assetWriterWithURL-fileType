@@ -1,0 +1,4 @@
+#name : assetWriterWithURL:fileType
+#group : AVAssetWriter
+# --
+assetWriterWithURL:${1:(NSURL *)outputURL} fileType:${2:(NSString *)outputFileType}

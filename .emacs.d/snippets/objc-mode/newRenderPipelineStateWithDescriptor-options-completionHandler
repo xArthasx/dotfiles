@@ -1,0 +1,4 @@
+#name : newRenderPipelineStateWithDescriptor:options:completionHandler
+#group : MTLDevice
+# --
+newRenderPipelineStateWithDescriptor:${1:(MTLRenderPipelineDescriptor *)descriptor} options:${2:(MTLPipelineOption)options} completionHandler:${3:(MTLNewRenderPipelineStateWithReflectionCompletionHandler)completionHandler}

@@ -1,0 +1,4 @@
+#name : containsPoint
+#group : UIRegion
+# --
+containsPoint:${1:(CGPoint)point}

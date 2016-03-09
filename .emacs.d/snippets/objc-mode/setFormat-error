@@ -1,0 +1,4 @@
+#name : setFormat:error
+#group : AUAudioUnit
+# --
+setFormat:${1:(AVAudioFormat *)format} error:${2:(NSError **)outError}

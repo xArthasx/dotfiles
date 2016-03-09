@@ -1,0 +1,4 @@
+#name : initWithColorTemperatureGradientFrom
+#group : MDLTexture
+# --
+initWithColorTemperatureGradientFrom:${1:(float)colorTemperature1}

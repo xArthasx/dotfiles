@@ -1,0 +1,4 @@
+#name : globalTransformWithObject:atTime
+#group : MDLTransform
+# --
+globalTransformWithObject:${1:(MDLObject *)object} atTime:${2:(NSTimeInterval)time}

@@ -1,0 +1,4 @@
+#name : handleActionWithIdentifier:forLocalNotification:withResponseInfo
+#group : WKExtension
+# --
+handleActionWithIdentifier:${1:(nullable NSString *)identifier} forLocalNotification:${2:(UILocalNotification *)localNotification} withResponseInfo:${3:(NSDictionary *)responseInfo}

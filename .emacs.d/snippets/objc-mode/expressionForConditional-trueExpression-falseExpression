@@ -1,0 +1,4 @@
+#name : expressionForConditional:trueExpression:falseExpression
+#group : NSExpression
+# --
+expressionForConditional:${1:(NSPredicate *)predicate} trueExpression:${2:(NSExpression *)trueExpression} falseExpression:${3:(NSExpression *)falseExpression}

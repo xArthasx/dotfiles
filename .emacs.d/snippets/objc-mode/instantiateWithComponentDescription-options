@@ -1,0 +1,4 @@
+#name : instantiateWithComponentDescription:options
+#group : AVAudioUnit
+# --
+instantiateWithComponentDescription:${1:(AudioComponentDescription)audioComponentDescription} options:${2:(AudioComponentInstantiationOptions)options}

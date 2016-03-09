@@ -1,0 +1,4 @@
+#name : removeTabStop
+#group : NSParagraphStyle
+# --
+removeTabStop:${1:(NSTextTab *)anObject}

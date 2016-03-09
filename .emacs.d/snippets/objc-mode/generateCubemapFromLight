@@ -1,0 +1,4 @@
+#name : generateCubemapFromLight
+#group : MDLLight
+# --
+generateCubemapFromLight:${1:(NSUInteger)textureSize}

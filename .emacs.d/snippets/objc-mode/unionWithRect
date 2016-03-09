@@ -1,0 +1,4 @@
+#name : unionWithRect
+#group : CIFilterShape
+# --
+unionWithRect:${1:(CGRect)r}

@@ -1,0 +1,4 @@
+#name : iconWithContact
+#group : UIApplicationShortcutIcon+Contacts
+# --
+iconWithContact:${1:(CNContact *)contact}

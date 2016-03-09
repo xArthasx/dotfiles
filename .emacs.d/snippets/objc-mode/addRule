@@ -1,0 +1,4 @@
+#name : addRule
+#group : GKRuleSystem
+# --
+addRule:${1:(GKRule *)rule}

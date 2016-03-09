@@ -1,0 +1,4 @@
+#name : initWithName:semantic:string
+#group : MDLMaterial
+# --
+initWithName:${1:(NSString *)name} semantic:${2:(MDLMaterialSemantic)semantic} string:${3:(nullable NSString *)string}

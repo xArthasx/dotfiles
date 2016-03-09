@@ -1,0 +1,4 @@
+#name : addComponent
+#group : GKEntity
+# --
+addComponent:${1:(GKComponent *)component}

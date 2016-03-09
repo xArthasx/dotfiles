@@ -1,0 +1,4 @@
+#name : localizedStringForService
+#group : CNSocialProfile
+# --
+localizedStringForService:${1:(NSString *)service}

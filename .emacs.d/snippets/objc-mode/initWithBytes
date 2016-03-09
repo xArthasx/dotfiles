@@ -1,0 +1,4 @@
+#name : initWithBytes
+#group : MDLMeshBuffer
+# --
+initWithBytes:${1:(void*)bytes}

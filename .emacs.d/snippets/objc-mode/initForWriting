@@ -1,0 +1,4 @@
+#name : initForWriting
+#group : AVAudioFile
+# --
+initForWriting:${1:(NSURL *)fileURL}

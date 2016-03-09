@@ -1,0 +1,4 @@
+#name : dataVerdictWithPassBytes:peekBytes
+#group : NEFilterDataProvider
+# --
+dataVerdictWithPassBytes:${1:(NSUInteger)passBytes} peekBytes:${2:(NSUInteger)peekBytes}

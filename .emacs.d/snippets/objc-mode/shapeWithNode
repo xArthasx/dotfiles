@@ -1,0 +1,4 @@
+#name : shapeWithNode
+#group : SCNPhysicsShape
+# --
+shapeWithNode:${1:(SCNNode *)node}

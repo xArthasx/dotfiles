@@ -1,0 +1,4 @@
+#name : destroyPersistentStoreAtURL:withType:options:error
+#group : NSPersistentStoreCoordinator
+# --
+destroyPersistentStoreAtURL:${1:(NSURL *)url} withType:${2:(NSString *)storeType} options:${3:(nullable NSDictionary *)options} error:${4:(NSError**)error}

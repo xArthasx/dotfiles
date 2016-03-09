@@ -1,0 +1,4 @@
+#name : localTransformAtTime
+#group : MDLTransform
+# --
+localTransformAtTime:${1:(NSTimeInterval)time}

@@ -1,0 +1,4 @@
+#name : URLForPublishingUbiquitousItemAtURL
+#group : NSFileManager
+# --
+URLForPublishingUbiquitousItemAtURL:${1:(NSURL *)url}

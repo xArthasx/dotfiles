@@ -1,0 +1,4 @@
+#name : legibleOutput
+#group : AVPlayerItemOutput
+# --
+legibleOutput:${1:(AVPlayerItemLegibleOutput *)output}

@@ -1,0 +1,4 @@
+#name : updateFloatingCursorAtPoint
+#group : UITextInput
+# --
+updateFloatingCursorAtPoint:${1:(CGPoint)point}

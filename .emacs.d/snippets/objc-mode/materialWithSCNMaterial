@@ -1,0 +1,4 @@
+#name : materialWithSCNMaterial
+#group : ModelIO
+# --
+materialWithSCNMaterial:${1:(SCNMaterial *)scnMaterial}

@@ -1,0 +1,4 @@
+#name : contextForOfflineGPUAtIndex
+#group : CIContext
+# --
+contextForOfflineGPUAtIndex:${1:(unsigned int)index}

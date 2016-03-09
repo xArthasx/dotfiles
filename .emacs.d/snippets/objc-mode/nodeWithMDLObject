@@ -1,0 +1,4 @@
+#name : nodeWithMDLObject
+#group : ModelIO
+# --
+nodeWithMDLObject:${1:(MDLObject *)mdlObject}

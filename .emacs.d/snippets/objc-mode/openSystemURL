@@ -1,0 +1,4 @@
+#name : openSystemURL
+#group : WKExtension
+# --
+openSystemURL:${1:(NSURL *)url}

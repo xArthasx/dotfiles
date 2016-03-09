@@ -1,0 +1,4 @@
+#name : initWithCMAudioFormatDescription
+#group : AVAudioFormat
+# --
+initWithCMAudioFormatDescription:${1:(CMAudioFormatDescriptionRef)formatDescription}

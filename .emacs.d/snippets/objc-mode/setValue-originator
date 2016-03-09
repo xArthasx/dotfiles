@@ -1,0 +1,4 @@
+#name : setValue:originator
+#group : AUParameters
+# --
+setValue:${1:(AUValue)value} originator:${2:(AUParameterObserverToken __nullable)originator}

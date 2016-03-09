@@ -1,0 +1,4 @@
+#name : getHour:minute:second:nanosecond:fromDate
+#group : NSCalendar
+# --
+getHour:${1:(out nullable NSInteger *)hourValuePointer} minute:${2:(out nullable NSInteger *)minuteValuePointer} second:${3:(out nullable NSInteger *)secondValuePointer} nanosecond:${4:(out nullable NSInteger *)nanosecondValuePointer} fromDate:${5:(NSDate *)date}

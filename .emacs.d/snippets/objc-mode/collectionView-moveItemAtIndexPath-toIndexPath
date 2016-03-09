@@ -1,0 +1,4 @@
+#name : collectionView:moveItemAtIndexPath:toIndexPath
+#group : UICollectionView
+# --
+collectionView:${1:(UICollectionView *)collectionView} moveItemAtIndexPath:${2:(NSIndexPath *)sourceIndexPath} toIndexPath:${3:(NSIndexPath*)destinationIndexPath}

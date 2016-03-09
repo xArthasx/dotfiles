@@ -1,0 +1,4 @@
+#name : createGroupFromTemplate:identifier:name:addressOffset
+#group : AUAudioUnitImplementation
+# --
+createGroupFromTemplate:${1:(AUParameterGroup *)templateGroup} identifier:${2:(NSString *)identifier} name:${3:(NSString *)name} addressOffset:${4:(AUParameterAddress)addressOffset}

@@ -1,0 +1,4 @@
+#name : setStencilFrontReferenceValue:backReferenceValue
+#group : MTLRenderCommandEncoder
+# --
+setStencilFrontReferenceValue:${1:(uint32_t)frontReferenceValue} backReferenceValue:${2:(uint32_t)backReferenceValue}

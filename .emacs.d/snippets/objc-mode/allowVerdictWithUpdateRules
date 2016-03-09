@@ -1,0 +1,4 @@
+#name : allowVerdictWithUpdateRules
+#group : NEFilterProvider
+# --
+allowVerdictWithUpdateRules:${1:(BOOL)updateRules}

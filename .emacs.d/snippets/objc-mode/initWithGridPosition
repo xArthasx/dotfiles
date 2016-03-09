@@ -1,0 +1,4 @@
+#name : initWithGridPosition
+#group : GKGraphNode
+# --
+initWithGridPosition:${1:(vector_int2)gridPosition}

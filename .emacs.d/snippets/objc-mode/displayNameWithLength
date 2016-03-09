@@ -1,0 +1,4 @@
+#name : displayNameWithLength
+#group : AUParameters
+# --
+displayNameWithLength:${1:(NSInteger)maximumLength}

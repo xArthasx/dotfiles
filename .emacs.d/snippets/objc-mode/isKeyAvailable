@@ -1,0 +1,4 @@
+#name : isKeyAvailable
+#group : CNContact
+# --
+isKeyAvailable:${1:(NSString *)key}

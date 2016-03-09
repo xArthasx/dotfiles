@@ -1,0 +1,4 @@
+#name : sendDataToAllPlayers:withDataMode
+#group : GKMatch
+# --
+sendDataToAllPlayers:${1:(NSData *)data} withDataMode:${2:(GKMatchSendDataMode)mode}

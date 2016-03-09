@@ -1,0 +1,4 @@
+#name : startPlaybackWithStyle
+#group : PHLivePhotoView
+# --
+startPlaybackWithStyle:${1:(PHLivePhotoViewPlaybackStyle)playbackStyle}

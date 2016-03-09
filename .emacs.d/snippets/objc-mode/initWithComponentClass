@@ -1,0 +1,4 @@
+#name : initWithComponentClass
+#group : GKComponent
+# --
+initWithComponentClass:${1:(Class)cls}

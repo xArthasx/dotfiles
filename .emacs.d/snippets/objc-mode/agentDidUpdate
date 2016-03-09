@@ -1,0 +1,4 @@
+#name : agentDidUpdate
+#group : GKAgent
+# --
+agentDidUpdate:${1:(GKAgent *)agent}

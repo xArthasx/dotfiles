@@ -1,0 +1,4 @@
+#name : addEvent
+#group : HMEventTrigger
+# --
+addEvent:${1:(HMEvent *)event}

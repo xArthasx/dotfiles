@@ -1,0 +1,4 @@
+#name : bookmarkDataWithOptions
+#group : NSURL
+# --
+bookmarkDataWithOptions:${1:(NSURLBookmarkCreationOptions)options}

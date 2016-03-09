@@ -1,0 +1,4 @@
+#name : replaceObjectsAtIndexes
+#group : NSOrderedSet
+# --
+replaceObjectsAtIndexes:${1:(NSIndexSet *)indexes}

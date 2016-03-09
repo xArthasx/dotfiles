@@ -1,0 +1,4 @@
+#name : applicationShouldRequestHealthAuthorization
+#group : UIApplication
+# --
+applicationShouldRequestHealthAuthorization:${1:(UIApplication *)application}

@@ -1,0 +1,4 @@
+#name : beginFloatingCursorAtPoint
+#group : UITextInput
+# --
+beginFloatingCursorAtPoint:${1:(CGPoint)point}

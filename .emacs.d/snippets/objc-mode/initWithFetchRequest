@@ -1,0 +1,4 @@
+#name : initWithFetchRequest
+#group : NSBatchDeleteRequest
+# --
+initWithFetchRequest:${1:(NSFetchRequest *)fetch}

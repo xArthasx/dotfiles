@@ -1,0 +1,4 @@
+#name : anchorFromValue
+#group : HKAnchoredObjectQuery
+# --
+anchorFromValue:${1:(NSUInteger)value}

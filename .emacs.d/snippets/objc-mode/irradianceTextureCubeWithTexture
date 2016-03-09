@@ -1,0 +1,4 @@
+#name : irradianceTextureCubeWithTexture
+#group : MDLTexture
+# --
+irradianceTextureCubeWithTexture:${1:(MDLTexture*)texture}

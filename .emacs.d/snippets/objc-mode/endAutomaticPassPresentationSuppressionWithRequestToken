@@ -1,0 +1,4 @@
+#name : endAutomaticPassPresentationSuppressionWithRequestToken
+#group : PKPassLibrary
+# --
+endAutomaticPassPresentationSuppressionWithRequestToken:${1:(PKSuppressionRequestToken)requestToken}

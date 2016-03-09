@@ -1,0 +1,4 @@
+#name : drawIndexedPrimitives:indexType
+#group : MTLRenderCommandEncoder
+# --
+drawIndexedPrimitives:${1:(MTLPrimitiveType)primitiveType} indexType:${2:(MTLIndexType)indexType}

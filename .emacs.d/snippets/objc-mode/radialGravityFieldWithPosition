@@ -1,0 +1,4 @@
+#name : radialGravityFieldWithPosition
+#group : UIFieldBehavior
+# --
+radialGravityFieldWithPosition:${1:(CGPoint)position}

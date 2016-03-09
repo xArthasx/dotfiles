@@ -1,0 +1,4 @@
+#name : sessionReachabilityDidChange
+#group : WCSession
+# --
+sessionReachabilityDidChange:${1:(WCSession *)session}

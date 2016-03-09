@@ -1,0 +1,4 @@
+#name : readLength
+#group : NWTCPConnection
+# --
+readLength:${1:(NSUInteger)length}

@@ -1,0 +1,4 @@
+#name : assetWriterInputWithMediaType
+#group : AVAssetWriterInput
+# --
+assetWriterInputWithMediaType:${1:(NSString *)mediaType}

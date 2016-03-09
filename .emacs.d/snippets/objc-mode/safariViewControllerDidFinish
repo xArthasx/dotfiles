@@ -1,0 +1,4 @@
+#name : safariViewControllerDidFinish
+#group : SFSafariViewController
+# --
+safariViewControllerDidFinish:${1:(SFSafariViewController *)controller}

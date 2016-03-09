@@ -1,0 +1,4 @@
+#name : destinationForMixer:bus
+#group : AVAudioMixing
+# --
+destinationForMixer:${1:(AVAudioNode *)mixer} bus:${2:(AVAudioNodeBus)bus}

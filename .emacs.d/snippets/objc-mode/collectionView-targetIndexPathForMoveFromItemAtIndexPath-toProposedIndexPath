@@ -1,0 +1,4 @@
+#name : collectionView:targetIndexPathForMoveFromItemAtIndexPath:toProposedIndexPath
+#group : UICollectionView
+# --
+collectionView:${1:(UICollectionView *)collectionView} targetIndexPathForMoveFromItemAtIndexPath:${2:(NSIndexPath *)originalIndexPath} toProposedIndexPath:${3:(NSIndexPath *)proposedIndexPath}

@@ -1,0 +1,4 @@
+#name : URLAppendStringVerdictWithMapKey
+#group : NEFilterProvider
+# --
+URLAppendStringVerdictWithMapKey:${1:(NSString *)urlAppendMapKey}

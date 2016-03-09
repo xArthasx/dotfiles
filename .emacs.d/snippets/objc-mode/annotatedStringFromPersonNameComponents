@@ -1,0 +1,4 @@
+#name : annotatedStringFromPersonNameComponents
+#group : NSPersonNameComponentsFormatter
+# --
+annotatedStringFromPersonNameComponents:${1:(NSPersonNameComponents *)components}

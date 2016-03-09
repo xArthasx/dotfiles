@@ -1,0 +1,4 @@
+#name : removeObject
+#group : MDLTypes
+# --
+removeObject:${1:(MDLObject*)object}

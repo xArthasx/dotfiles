@@ -1,0 +1,4 @@
+#name : labeledValueWithLabel:value
+#group : CNLabeledValue
+# --
+labeledValueWithLabel:${1:(nullable NSString *)label} value:${2:(ValueType)value}

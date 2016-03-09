@@ -1,0 +1,4 @@
+#name : unmountVolumeAtURL:options
+#group : NSFileManager
+# --
+unmountVolumeAtURL:${1:(NSURL *)url} options:${2:(NSFileManagerUnmountOptions)mask}

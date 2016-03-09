@@ -1,0 +1,4 @@
+#name : assetWithURL:title:albumTitle:artist
+#group : WKAudioFileAsset
+# --
+assetWithURL:${1:(NSURL *)URL} title:${2:(nullable NSString *)title} albumTitle:${3:(nullable NSString *)albumTitle} artist:${4:(nullable NSString *)artist}

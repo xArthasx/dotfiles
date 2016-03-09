@@ -1,0 +1,4 @@
+#name : initFileURLWithPath:relativeToURL
+#group : NSURL
+# --
+initFileURLWithPath:${1:(NSString *)path} relativeToURL:${2:(nullable NSURL *)baseURL}

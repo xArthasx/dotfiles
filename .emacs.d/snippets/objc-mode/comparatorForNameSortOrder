@@ -1,0 +1,4 @@
+#name : comparatorForNameSortOrder
+#group : CNContact
+# --
+comparatorForNameSortOrder:${1:(CNContactSortOrder)sortOrder}

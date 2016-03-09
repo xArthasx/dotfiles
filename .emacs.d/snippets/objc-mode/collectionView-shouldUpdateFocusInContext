@@ -1,0 +1,4 @@
+#name : collectionView:shouldUpdateFocusInContext
+#group : UICollectionView
+# --
+collectionView:${1:(UICollectionView *)collectionView} shouldUpdateFocusInContext:${2:(UICollectionViewFocusUpdateContext *)context}

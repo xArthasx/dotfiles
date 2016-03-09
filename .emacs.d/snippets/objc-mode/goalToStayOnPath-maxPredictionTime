@@ -1,0 +1,4 @@
+#name : goalToStayOnPath:maxPredictionTime
+#group : GKGoal
+# --
+goalToStayOnPath:${1:(GKPath *)path} maxPredictionTime:${2:(NSTimeInterval)maxPredictionTime}

@@ -1,0 +1,4 @@
+#name : attributedStringForObjectValue
+#group : NSFormatter
+# --
+attributedStringForObjectValue:${1:(id)obj}

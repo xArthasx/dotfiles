@@ -1,0 +1,4 @@
+#name : initWithChainRootNode
+#group : SCNConstraint
+# --
+initWithChainRootNode:${1:(SCNNode *)chainRootNode}

@@ -1,0 +1,4 @@
+#name : changeDetailsFromFetchResult:toFetchResult
+#group : PHChange
+# --
+changeDetailsFromFetchResult:${1:(PHFetchResult *)fromResult} toFetchResult:${2:(PHFetchResult *)toResult}

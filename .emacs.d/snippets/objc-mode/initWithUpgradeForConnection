@@ -1,0 +1,4 @@
+#name : initWithUpgradeForConnection
+#group : NWTCPConnection
+# --
+initWithUpgradeForConnection:${1:(NWTCPConnection *)connection}

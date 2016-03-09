@@ -1,0 +1,4 @@
+#name : scheduleBuffer
+#group : AVAudioPlayerNode
+# --
+scheduleBuffer:${1:(AVAudioPCMBuffer *)buffer}

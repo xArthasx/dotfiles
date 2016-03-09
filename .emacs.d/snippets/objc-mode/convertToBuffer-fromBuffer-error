@@ -1,0 +1,4 @@
+#name : convertToBuffer:fromBuffer:error
+#group : AVAudioConverter
+# --
+convertToBuffer:${1:(AVAudioPCMBuffer *)outputBuffer} fromBuffer:${2:(const AVAudioPCMBuffer *)inputBuffer} error:${3:(NSError **)outError}

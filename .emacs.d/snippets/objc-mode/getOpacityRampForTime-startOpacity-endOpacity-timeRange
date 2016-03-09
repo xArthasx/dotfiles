@@ -1,0 +1,4 @@
+#name : getOpacityRampForTime:startOpacity:endOpacity:timeRange
+#group : AVVideoComposition
+# --
+getOpacityRampForTime:${1:(CMTime)time} startOpacity:${2:(nullable float *)startOpacity} endOpacity:${3:(nullable float *)endOpacity} timeRange:${4:(nullable CMTimeRange *)timeRange}

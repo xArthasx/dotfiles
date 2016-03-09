@@ -1,0 +1,4 @@
+#name : goalToFollowPath:maxPredictionTime:forward
+#group : GKGoal
+# --
+goalToFollowPath:${1:(GKPath *)path} maxPredictionTime:${2:(NSTimeInterval)maxPredictionTime} forward:${3:(BOOL)forward}

@@ -1,0 +1,4 @@
+#name : initWithAudioEngine
+#group : AVAudioSequencer
+# --
+initWithAudioEngine:${1:(AVAudioEngine *)engine}

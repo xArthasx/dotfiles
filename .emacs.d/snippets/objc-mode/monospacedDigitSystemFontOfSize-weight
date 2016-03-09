@@ -1,0 +1,4 @@
+#name : monospacedDigitSystemFontOfSize:weight
+#group : UIFont
+# --
+monospacedDigitSystemFontOfSize:${1:(CGFloat)fontSize} weight:${2:(CGFloat)weight}

@@ -1,0 +1,4 @@
+#name : setLocalTransform:forTime
+#group : MDLTransform
+# --
+setLocalTransform:${1:(matrix_float4x4)transform} forTime:${2:(NSTimeInterval)time}

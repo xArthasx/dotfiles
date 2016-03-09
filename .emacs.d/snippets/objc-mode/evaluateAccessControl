@@ -1,0 +1,4 @@
+#name : evaluateAccessControl
+#group : LAContext
+# --
+evaluateAccessControl:${1:(SecAccessControlRef)accessControl}

@@ -1,0 +1,4 @@
+#name : handleBindingOfBufferNamed:frequency:usingBlock
+#group : SCNShadable
+# --
+handleBindingOfBufferNamed:${1:(NSString *)name} frequency:${2:(SCNBufferFrequency)frequency} usingBlock:${3:(SCNBufferBindingBlock)block}

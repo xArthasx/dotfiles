@@ -1,0 +1,4 @@
+#name : initWithCharacteristic
+#group : HMCharacteristicWriteAction
+# --
+initWithCharacteristic:${1:(HMCharacteristic *)characteristic}

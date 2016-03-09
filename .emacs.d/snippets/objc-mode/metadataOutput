@@ -1,0 +1,4 @@
+#name : metadataOutput
+#group : AVPlayerItemOutput
+# --
+metadataOutput:${1:(AVPlayerItemMetadataOutput *)output}

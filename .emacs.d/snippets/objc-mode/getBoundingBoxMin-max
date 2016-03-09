@@ -1,0 +1,4 @@
+#name : getBoundingBoxMin:max
+#group : SCNBoundingVolume
+# --
+getBoundingBoxMin:${1:(nullable SCNVector3 *)min} max:${2:(nullable SCNVector3 *)max}

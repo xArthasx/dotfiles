@@ -1,0 +1,4 @@
+#name : lightProbeWithTextureSize
+#group : MDLLight
+# --
+lightProbeWithTextureSize:${1:(NSInteger)textureSize}

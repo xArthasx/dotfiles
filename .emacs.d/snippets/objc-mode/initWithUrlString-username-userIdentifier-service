@@ -1,0 +1,4 @@
+#name : initWithUrlString:username:userIdentifier:service
+#group : CNSocialProfile
+# --
+initWithUrlString:${1:(nullable NSString *)urlString} username:${2:(nullable NSString *)username} userIdentifier:${3:(nullable NSString *)userIdentifier} service:${4:(nullable NSString *)service}

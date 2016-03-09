@@ -1,0 +1,4 @@
+#name : takeValue:forKeyPath
+#group : NSKeyValueCoding
+# --
+takeValue:${1:(nullable id)value} forKeyPath:${2:(NSString *)keyPath}

@@ -1,0 +1,4 @@
+#name : initWithTunnelRemoteAddress
+#group : NETunnelNetworkSettings
+# --
+initWithTunnelRemoteAddress:${1:(NSString *)address}

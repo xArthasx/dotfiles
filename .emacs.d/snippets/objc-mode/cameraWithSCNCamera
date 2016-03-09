@@ -1,0 +1,4 @@
+#name : cameraWithSCNCamera
+#group : ModelIO
+# --
+cameraWithSCNCamera:${1:(SCNCamera *)scnCamera}

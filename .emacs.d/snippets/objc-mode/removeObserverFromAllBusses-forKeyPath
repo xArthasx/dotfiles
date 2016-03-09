@@ -1,0 +1,4 @@
+#name : removeObserverFromAllBusses:forKeyPath
+#group : AUAudioUnit
+# --
+removeObserverFromAllBusses:${1:(NSObject *)observer} forKeyPath:${2:(NSString *)keyPath}

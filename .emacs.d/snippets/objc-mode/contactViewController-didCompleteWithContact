@@ -1,0 +1,4 @@
+#name : contactViewController:didCompleteWithContact
+#group : CNContactViewController
+# --
+contactViewController:${1:(CNContactViewController *)viewController} didCompleteWithContact:${2:(nullable CNContact *)contact}

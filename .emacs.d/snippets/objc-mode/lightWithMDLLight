@@ -1,0 +1,4 @@
+#name : lightWithMDLLight
+#group : ModelIO
+# --
+lightWithMDLLight:${1:(MDLLight *)mdlLight}

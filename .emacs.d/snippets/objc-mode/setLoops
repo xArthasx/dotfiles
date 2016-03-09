@@ -1,0 +1,4 @@
+#name : setLoops
+#group : WKInterfaceMovie
+# --
+setLoops:${1:(BOOL)loops}

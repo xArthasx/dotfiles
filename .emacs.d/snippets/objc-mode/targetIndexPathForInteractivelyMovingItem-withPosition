@@ -1,0 +1,4 @@
+#name : targetIndexPathForInteractivelyMovingItem:withPosition
+#group : UICollectionViewLayout
+# --
+targetIndexPathForInteractivelyMovingItem:${1:(NSIndexPath *)previousIndexPath} withPosition:${2:(CGPoint)position}

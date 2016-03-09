@@ -1,0 +1,4 @@
+#name : addObserverToAllBusses:forKeyPath:options
+#group : AUAudioUnit
+# --
+addObserverToAllBusses:${1:(NSObject *)observer} forKeyPath:${2:(NSString *)keyPath} options:${3:(NSKeyValueObservingOptions)options}

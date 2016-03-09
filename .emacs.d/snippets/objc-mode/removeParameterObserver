@@ -1,0 +1,4 @@
+#name : removeParameterObserver
+#group : AUParameters
+# --
+removeParameterObserver:${1:(AUParameterObserverToken)token}

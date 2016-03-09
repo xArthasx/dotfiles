@@ -1,0 +1,4 @@
+#name : createAudioUnitWithComponentDescription:error
+#group : AUAudioUnitImplementation
+# --
+createAudioUnitWithComponentDescription:${1:(AudioComponentDescription)desc} error:${2:(NSError **)error}

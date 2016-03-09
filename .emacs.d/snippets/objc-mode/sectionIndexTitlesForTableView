@@ -1,0 +1,4 @@
+#name : sectionIndexTitlesForTableView
+#group : NSFetchedResultsController
+# --
+sectionIndexTitlesForTableView:${1:(UITableView *)tableView}

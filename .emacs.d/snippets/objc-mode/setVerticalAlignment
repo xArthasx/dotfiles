@@ -1,0 +1,4 @@
+#name : setVerticalAlignment
+#group : WKInterfaceObject
+# --
+setVerticalAlignment:${1:(WKInterfaceObjectVerticalAlignment)verticalAlignment}

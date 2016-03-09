@@ -1,0 +1,4 @@
+#name : setProperty
+#group : MDLMaterial
+# --
+setProperty:${1:(MDLMaterialProperty*)property}

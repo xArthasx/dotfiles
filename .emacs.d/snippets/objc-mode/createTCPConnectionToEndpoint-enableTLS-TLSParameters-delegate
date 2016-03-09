@@ -1,0 +1,4 @@
+#name : createTCPConnectionToEndpoint:enableTLS:TLSParameters:delegate
+#group : NEProvider
+# --
+createTCPConnectionToEndpoint:${1:(NWEndpoint *)remoteEndpoint} enableTLS:${2:(BOOL)enableTLS} TLSParameters:${3:(nullable NWTLSParameters *)TLSParameters} delegate:${4:(nullable id)delegate}

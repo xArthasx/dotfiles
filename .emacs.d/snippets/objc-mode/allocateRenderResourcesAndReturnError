@@ -1,0 +1,4 @@
+#name : allocateRenderResourcesAndReturnError
+#group : AUAudioUnit
+# --
+allocateRenderResourcesAndReturnError:${1:(NSError **)outError}

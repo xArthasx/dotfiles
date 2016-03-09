@@ -1,0 +1,4 @@
+#name : transformBy:interior
+#group : CIFilterShape
+# --
+transformBy:${1:(CGAffineTransform)m} interior:${2:(BOOL)flag}

@@ -1,0 +1,4 @@
+#name : initWithUsername:service
+#group : CNInstantMessageAddress
+# --
+initWithUsername:${1:(NSString *)username} service:${2:(NSString *)service}

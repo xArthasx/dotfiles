@@ -1,0 +1,4 @@
+#name : imageWithImage
+#group : WKImage
+# --
+imageWithImage:${1:(UIImage *)image}

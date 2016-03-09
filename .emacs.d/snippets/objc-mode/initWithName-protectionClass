@@ -1,0 +1,4 @@
+#name : initWithName:protectionClass
+#group : CSSearchableIndex
+# --
+initWithName:${1:(NSString *)name} protectionClass:${2:(nullable NSString *)protectionClass}

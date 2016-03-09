@@ -1,0 +1,4 @@
+#name : replyWithLocalizableMessageKey
+#group : GKTurnBasedMatch
+# --
+replyWithLocalizableMessageKey:${1:(NSString *)key}

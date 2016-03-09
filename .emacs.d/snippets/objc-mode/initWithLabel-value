@@ -1,0 +1,4 @@
+#name : initWithLabel:value
+#group : CNLabeledValue
+# --
+initWithLabel:${1:(nullable NSString *)label} value:${2:(ValueType)value}

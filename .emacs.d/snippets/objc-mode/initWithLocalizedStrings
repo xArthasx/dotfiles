@@ -1,0 +1,4 @@
+#name : initWithLocalizedStrings
+#group : CSSearchableItemAttributeSet
+# --
+initWithLocalizedStrings:${1:(NSDictionary *)localizedStrings}

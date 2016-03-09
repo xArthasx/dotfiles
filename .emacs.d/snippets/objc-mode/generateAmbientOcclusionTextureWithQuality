@@ -1,0 +1,4 @@
+#name : generateAmbientOcclusionTextureWithQuality
+#group : MDLMesh
+# --
+generateAmbientOcclusionTextureWithQuality:${1:(float)bakeQuality}

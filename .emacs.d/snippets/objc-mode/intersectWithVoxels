@@ -1,0 +1,4 @@
+#name : intersectWithVoxels
+#group : MDLVoxelArray
+# --
+intersectWithVoxels:${1:(MDLVoxelArray*)voxels}

@@ -1,0 +1,4 @@
+#name : unionWithVoxels
+#group : MDLVoxelArray
+# --
+unionWithVoxels:${1:(MDLVoxelArray*)voxels}

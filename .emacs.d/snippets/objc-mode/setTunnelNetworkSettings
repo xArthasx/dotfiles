@@ -1,0 +1,4 @@
+#name : setTunnelNetworkSettings
+#group : NETunnelProvider
+# --
+setTunnelNetworkSettings:${1:(nullable NETunnelNetworkSettings *)tunnelNetworkSettings}

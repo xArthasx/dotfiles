@@ -1,0 +1,4 @@
+#name : setSemanticContentAttribute
+#group : WKInterfaceObject
+# --
+setSemanticContentAttribute:${1:(WKInterfaceSemanticContentAttribute)semanticContentAttribute}

@@ -1,0 +1,4 @@
+#name : setWeight:forGoal
+#group : GKBehavior
+# --
+setWeight:${1:(float)weight} forGoal:${2:(GKGoal *)goal}

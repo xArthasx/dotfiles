@@ -1,0 +1,4 @@
+#name : assetDownloadTaskWithURLAsset:destinationURL
+#group : AVAssetDownloadTask
+# --
+assetDownloadTaskWithURLAsset:${1:(AVURLAsset *)URLAsset} destinationURL:${2:(NSURL *)destinationURL}

@@ -1,0 +1,4 @@
+#name : noiseFieldWithSmoothness:animationSpeed
+#group : UIFieldBehavior
+# --
+noiseFieldWithSmoothness:${1:(CGFloat)smoothness} animationSpeed:${2:(CGFloat)speed}

@@ -1,0 +1,4 @@
+#name : iconWithType
+#group : UIApplicationShortcutItem
+# --
+iconWithType:${1:(UIApplicationShortcutIconType)type}

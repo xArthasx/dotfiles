@@ -1,0 +1,4 @@
+#name : screenRecorderDidChangeAvailability
+#group : RPScreenRecorder
+# --
+screenRecorderDidChangeAvailability:${1:(RPScreenRecorder *)screenRecorder}

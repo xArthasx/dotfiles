@@ -1,0 +1,4 @@
+#name : objectWithSCNNode
+#group : ModelIO
+# --
+objectWithSCNNode:${1:(SCNNode *)scnNode}

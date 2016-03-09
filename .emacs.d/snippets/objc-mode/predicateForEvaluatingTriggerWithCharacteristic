@@ -1,0 +1,4 @@
+#name : predicateForEvaluatingTriggerWithCharacteristic
+#group : HMEventTrigger
+# --
+predicateForEvaluatingTriggerWithCharacteristic:${1:(HMCharacteristic *)characteristic}

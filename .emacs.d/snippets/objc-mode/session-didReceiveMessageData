@@ -1,0 +1,4 @@
+#name : session:didReceiveMessageData
+#group : WCSession
+# --
+session:${1:(WCSession *)session} didReceiveMessageData:${2:(NSData *)messageData}

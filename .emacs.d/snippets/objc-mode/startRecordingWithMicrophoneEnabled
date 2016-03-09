@@ -1,0 +1,4 @@
+#name : startRecordingWithMicrophoneEnabled
+#group : RPScreenRecorder
+# --
+startRecordingWithMicrophoneEnabled:${1:(BOOL)microphoneEnabled}

@@ -1,0 +1,4 @@
+#name : initWithURL:statusCode:HTTPVersion
+#group : NSURLResponse
+# --
+initWithURL:${1:(NSURL *)url} statusCode:${2:(NSInteger)statusCode} HTTPVersion:${3:(nullable NSString *)HTTPVersion}

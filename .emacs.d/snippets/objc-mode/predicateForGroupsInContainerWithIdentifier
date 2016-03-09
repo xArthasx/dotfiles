@@ -1,0 +1,4 @@
+#name : predicateForGroupsInContainerWithIdentifier
+#group : CNGroup+Predicates
+# --
+predicateForGroupsInContainerWithIdentifier:${1:(NSString *)containerIdentifier}

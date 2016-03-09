@@ -1,0 +1,4 @@
+#name : ruleWithPredicate
+#group : GKRuleSystem
+# --
+ruleWithPredicate:${1:(NSPredicate *)predicate}

@@ -1,0 +1,4 @@
+#name : scaleAtTime
+#group : MDLTransform
+# --
+scaleAtTime:${1:(NSTimeInterval)time}

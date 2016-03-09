@@ -1,0 +1,4 @@
+#name : startStreamWithName
+#group : MCSession
+# --
+startStreamWithName:${1:(NSString *)streamName}

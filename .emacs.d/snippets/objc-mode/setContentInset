@@ -1,0 +1,4 @@
+#name : setContentInset
+#group : WKInterfaceGroup
+# --
+setContentInset:${1:(UIEdgeInsets)contentInset}

@@ -1,0 +1,4 @@
+#name : traitCollectionWithForceTouchCapability
+#group : UITraitCollection
+# --
+traitCollectionWithForceTouchCapability:${1:(UIForceTouchCapability)capability}

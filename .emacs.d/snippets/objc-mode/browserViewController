@@ -1,0 +1,4 @@
+#name : browserViewController
+#group : MCBrowserViewController
+# --
+browserViewController:${1:(MCBrowserViewController *)browserViewController}

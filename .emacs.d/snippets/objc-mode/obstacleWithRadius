@@ -1,0 +1,4 @@
+#name : obstacleWithRadius
+#group : GKObstacle
+# --
+obstacleWithRadius:${1:(float)radius}

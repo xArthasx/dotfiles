@@ -1,0 +1,4 @@
+#name : valueWithNonretainedObject
+#group : NSValue
+# --
+valueWithNonretainedObject:${1:(nullable id)anObject}

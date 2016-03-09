@@ -1,0 +1,4 @@
+#name : initWithURL:entersReaderIfAvailable
+#group : SFSafariViewController
+# --
+initWithURL:${1:(NSURL *)URL} entersReaderIfAvailable:${2:(BOOL)entersReaderIfAvailable}

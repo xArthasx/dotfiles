@@ -1,0 +1,4 @@
+#name : supportsNumberInputChannels:outputChannels
+#group : AVAudioUnitComponent
+# --
+supportsNumberInputChannels:${1:(NSInteger)numInputChannels} outputChannels:${2:(NSInteger)numOutputChannels}

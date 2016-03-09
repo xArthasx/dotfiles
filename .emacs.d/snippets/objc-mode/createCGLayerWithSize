@@ -1,0 +1,4 @@
+#name : createCGLayerWithSize
+#group : CIContext
+# --
+createCGLayerWithSize:${1:(CGSize)size}

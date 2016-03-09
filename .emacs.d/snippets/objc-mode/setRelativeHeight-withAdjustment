@@ -1,0 +1,4 @@
+#name : setRelativeHeight:withAdjustment
+#group : WKInterfaceObject
+# --
+setRelativeHeight:${1:(CGFloat)height} withAdjustment:${2:(CGFloat)adjustment}

@@ -1,0 +1,4 @@
+#name : setColorByTemperature
+#group : MDLLight
+# --
+setColorByTemperature:${1:(float)temperature}

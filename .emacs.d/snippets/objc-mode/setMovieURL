@@ -1,0 +1,4 @@
+#name : setMovieURL
+#group : WKInterfaceMovie
+# --
+setMovieURL:${1:(NSURL *)URL}

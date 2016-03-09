@@ -1,0 +1,4 @@
+#name : removeComponent
+#group : GKComponent
+# --
+removeComponent:${1:(ComponentType)component}

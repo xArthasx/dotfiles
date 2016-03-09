@@ -1,0 +1,4 @@
+#name : sourceRegionForDestinationSize
+#group : MPSImageKernel
+# --
+sourceRegionForDestinationSize:${1:(MTLSize)destinationSize}

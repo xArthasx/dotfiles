@@ -1,0 +1,4 @@
+#name : initWithMatrix
+#group : MDLTransform
+# --
+initWithMatrix:${1:(matrix_float4x4)matrix}

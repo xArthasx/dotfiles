@@ -1,0 +1,4 @@
+#name : initWithName
+#group : NSDataAsset
+# --
+initWithName:${1:(NSString *)name}

@@ -1,0 +1,4 @@
+#name : loadFileURL:allowingReadAccessToURL
+#group : WKWebView
+# --
+loadFileURL:${1:(NSURL *)URL} allowingReadAccessToURL:${2:(NSURL *)readAccessURL}

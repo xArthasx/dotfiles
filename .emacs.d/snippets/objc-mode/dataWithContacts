@@ -1,0 +1,4 @@
+#name : dataWithContacts
+#group : CNContactVCardSerialization
+# --
+dataWithContacts:${1:(NSArray *)contacts}

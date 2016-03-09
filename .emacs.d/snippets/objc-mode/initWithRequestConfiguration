@@ -1,0 +1,4 @@
+#name : initWithRequestConfiguration
+#group : PKAddPaymentPassViewController
+# --
+initWithRequestConfiguration:${1:(PKAddPaymentPassRequestConfiguration *)configuration}

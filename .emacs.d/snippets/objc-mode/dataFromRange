@@ -1,0 +1,4 @@
+#name : dataFromRange
+#group : NSAttributedString
+# --
+dataFromRange:${1:(NSRange)range}

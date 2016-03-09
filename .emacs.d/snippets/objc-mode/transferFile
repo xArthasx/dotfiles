@@ -1,0 +1,4 @@
+#name : transferFile
+#group : WCSession
+# --
+transferFile:${1:(NSURL *)file}

@@ -1,0 +1,4 @@
+#name : objectForKeyedSubscript
+#group : SCNTechnique
+# --
+objectForKeyedSubscript:${1:(id)key}

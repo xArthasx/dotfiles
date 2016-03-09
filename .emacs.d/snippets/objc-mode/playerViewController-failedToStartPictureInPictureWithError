@@ -1,0 +1,4 @@
+#name : playerViewController:failedToStartPictureInPictureWithError
+#group : AVPlayerViewController
+# --
+playerViewController:${1:(AVPlayerViewController *)playerViewController} failedToStartPictureInPictureWithError:${2:(NSError *)error}

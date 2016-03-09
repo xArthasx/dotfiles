@@ -1,0 +1,4 @@
+#name : absoluteURLWithDataRepresentation:relativeToURL
+#group : NSURL
+# --
+absoluteURLWithDataRepresentation:${1:(NSData *)data} relativeToURL:${2:(nullable NSURL *)baseURL}

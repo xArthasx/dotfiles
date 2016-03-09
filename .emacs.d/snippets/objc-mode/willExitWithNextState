@@ -1,0 +1,4 @@
+#name : willExitWithNextState
+#group : GKState
+# --
+willExitWithNextState:${1:(GKState *)nextState}

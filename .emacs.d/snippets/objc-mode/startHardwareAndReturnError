@@ -1,0 +1,4 @@
+#name : startHardwareAndReturnError
+#group : AUAudioUnit
+# --
+startHardwareAndReturnError:${1:(NSError **)outError}

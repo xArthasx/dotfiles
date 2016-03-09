@@ -1,0 +1,4 @@
+#name : playerViewControllerWillStartPictureInPicture
+#group : AVPlayerViewController
+# --
+playerViewControllerWillStartPictureInPicture:${1:(AVPlayerViewController *)playerViewController}

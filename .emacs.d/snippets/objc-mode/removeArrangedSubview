@@ -1,0 +1,4 @@
+#name : removeArrangedSubview
+#group : UIStackView
+# --
+removeArrangedSubview:${1:(UIView *)view}

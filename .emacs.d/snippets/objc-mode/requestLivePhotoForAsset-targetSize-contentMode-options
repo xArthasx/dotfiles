@@ -1,0 +1,4 @@
+#name : requestLivePhotoForAsset:targetSize:contentMode:options
+#group : PHImageManager
+# --
+requestLivePhotoForAsset:${1:(PHAsset *)asset} targetSize:${2:(CGSize)targetSize} contentMode:${3:(PHImageContentMode)contentMode} options:${4:(nullable PHLivePhotoRequestOptions *)options}

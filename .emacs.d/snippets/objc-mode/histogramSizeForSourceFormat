@@ -1,0 +1,4 @@
+#name : histogramSizeForSourceFormat
+#group : MPSImageHistogram
+# --
+histogramSizeForSourceFormat:${1:(MTLPixelFormat)sourceFormat}

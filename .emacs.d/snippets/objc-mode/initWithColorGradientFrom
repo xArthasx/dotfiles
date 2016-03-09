@@ -1,0 +1,4 @@
+#name : initWithColorGradientFrom
+#group : MDLTexture
+# --
+initWithColorGradientFrom:${1:(CGColorRef)color1}

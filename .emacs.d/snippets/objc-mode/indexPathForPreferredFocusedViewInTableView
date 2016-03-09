@@ -1,0 +1,4 @@
+#name : indexPathForPreferredFocusedViewInTableView
+#group : UITableView
+# --
+indexPathForPreferredFocusedViewInTableView:${1:(UITableView *)tableView}

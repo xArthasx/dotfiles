@@ -1,0 +1,4 @@
+#name : fitzpatrickSkinTypeWithError
+#group : HKHealthStore
+# --
+fitzpatrickSkinTypeWithError:${1:(NSError **)error}

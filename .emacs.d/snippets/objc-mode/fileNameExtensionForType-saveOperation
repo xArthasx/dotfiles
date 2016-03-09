@@ -1,0 +1,4 @@
+#name : fileNameExtensionForType:saveOperation
+#group : UIDocument
+# --
+fileNameExtensionForType:${1:(nullable NSString *)typeName} saveOperation:${2:(UIDocumentSaveOperation)saveOperation}

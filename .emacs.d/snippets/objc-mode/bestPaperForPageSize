@@ -1,0 +1,4 @@
+#name : bestPaperForPageSize
+#group : UIPrintPaper
+# --
+bestPaperForPageSize:${1:(CGSize)contentSize}

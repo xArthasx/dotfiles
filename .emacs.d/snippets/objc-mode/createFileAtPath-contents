@@ -1,0 +1,4 @@
+#name : createFileAtPath:contents
+#group : NSFileManager
+# --
+createFileAtPath:${1:(NSString *)path} contents:${2:(nullable NSData *)data}

@@ -1,0 +1,4 @@
+#name : collectionView:didUpdateFocusInContext:withAnimationCoordinator
+#group : UICollectionView
+# --
+collectionView:${1:(UICollectionView *)collectionView} didUpdateFocusInContext:${2:(UICollectionViewFocusUpdateContext *)context} withAnimationCoordinator:${3:(UIFocusAnimationCoordinator *)coordinator}

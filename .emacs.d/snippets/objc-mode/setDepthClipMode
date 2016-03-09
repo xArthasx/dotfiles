@@ -1,0 +1,4 @@
+#name : setDepthClipMode
+#group : MTLRenderCommandEncoder
+# --
+setDepthClipMode:${1:(MTLDepthClipMode)depthClipMode}

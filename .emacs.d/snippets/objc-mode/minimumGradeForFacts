@@ -1,0 +1,4 @@
+#name : minimumGradeForFacts
+#group : GKRuleSystem
+# --
+minimumGradeForFacts:${1:(NSArray *)facts}

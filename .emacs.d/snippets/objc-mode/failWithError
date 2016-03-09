@@ -1,0 +1,4 @@
+#name : failWithError
+#group : NSCoder
+# --
+failWithError:${1:(NSError *)error}

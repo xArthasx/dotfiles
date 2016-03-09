@@ -1,0 +1,4 @@
+#name : levelOfDetailWithGeometry:screenSpaceRadius
+#group : SCNLevelOfDetail
+# --
+levelOfDetailWithGeometry:${1:(nullable SCNGeometry *)geometry} screenSpaceRadius:${2:(CGFloat)radius}

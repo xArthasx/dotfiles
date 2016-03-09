@@ -1,0 +1,4 @@
+#name : initWithName:scatteringFunction
+#group : MDLMaterial
+# --
+initWithName:${1:(NSString*)name} scatteringFunction:${2:(MDLScatteringFunction*)scatteringFunction}

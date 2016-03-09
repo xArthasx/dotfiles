@@ -1,0 +1,4 @@
+#name : generateLightMapTextureWithQuality
+#group : MDLMesh
+# --
+generateLightMapTextureWithQuality:${1:(float)bakeQuality}

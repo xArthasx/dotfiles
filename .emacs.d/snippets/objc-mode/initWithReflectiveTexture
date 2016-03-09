@@ -1,0 +1,4 @@
+#name : initWithReflectiveTexture
+#group : MDLLight
+# --
+initWithReflectiveTexture:${1:(nullable MDLTexture*)reflectiveTexture}

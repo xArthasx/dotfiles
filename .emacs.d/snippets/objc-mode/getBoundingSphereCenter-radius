@@ -1,0 +1,4 @@
+#name : getBoundingSphereCenter:radius
+#group : SCNBoundingVolume
+# --
+getBoundingSphereCenter:${1:(nullable SCNVector3 *)center} radius:${2:(nullable CGFloat *)radius}

@@ -1,0 +1,4 @@
+#name : sendProviderMessage:returnError
+#group : NETunnelProviderSession
+# --
+sendProviderMessage:${1:(NSData *)messageData} returnError:${2:(NSError **)error}

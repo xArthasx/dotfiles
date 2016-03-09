@@ -1,0 +1,4 @@
+#name : dataFromPropertyList:format
+#group : NSPropertyList
+# --
+dataFromPropertyList:${1:(id)plist} format:${2:(NSPropertyListFormat)format}

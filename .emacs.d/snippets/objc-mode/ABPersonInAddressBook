@@ -1,0 +1,4 @@
+#name : ABPersonInAddressBook
+#group : EKParticipant
+# --
+ABPersonInAddressBook:${1:(ABAddressBook *)addressBook}

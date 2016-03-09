@@ -1,0 +1,4 @@
+#name : predicateForEvaluatingTriggerOccurringBeforeSignificantEvent:applyingOffset
+#group : HMEventTrigger
+# --
+predicateForEvaluatingTriggerOccurringBeforeSignificantEvent:${1:(NSString *)significantEvent} applyingOffset:${2:(nullable NSDateComponents *)offset}

@@ -1,0 +1,4 @@
+#name : preciseLocationInView
+#group : UITouch
+# --
+preciseLocationInView:${1:(nullable UIView *)view}

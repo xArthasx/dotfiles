@@ -1,0 +1,4 @@
+#name : persistentContentKeyFromKeyVendorResponse
+#group : AVAssetResourceLoader
+# --
+persistentContentKeyFromKeyVendorResponse:${1:(NSData *)keyVendorResponse}

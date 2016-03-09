@@ -1,0 +1,4 @@
+#name : nodeWithPoint
+#group : GKGraphNode
+# --
+nodeWithPoint:${1:(vector_float2)point}

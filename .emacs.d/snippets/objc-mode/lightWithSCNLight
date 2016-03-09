@@ -1,0 +1,4 @@
+#name : lightWithSCNLight
+#group : ModelIO
+# --
+lightWithSCNLight:${1:(SCNLight *)scnLight}

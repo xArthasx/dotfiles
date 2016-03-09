@@ -1,0 +1,4 @@
+#name : orthographyWithDominantScript
+#group : NSOrthography
+# --
+orthographyWithDominantScript:${1:(NSString *)script}

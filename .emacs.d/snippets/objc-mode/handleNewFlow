@@ -1,0 +1,4 @@
+#name : handleNewFlow
+#group : NEFilterDataProvider
+# --
+handleNewFlow:${1:(NEFilterFlow *)flow}

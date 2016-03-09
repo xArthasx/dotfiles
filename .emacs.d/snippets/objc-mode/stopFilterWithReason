@@ -1,0 +1,4 @@
+#name : stopFilterWithReason
+#group : NEFilterProvider
+# --
+stopFilterWithReason:${1:(NEProviderStopReason)reason}

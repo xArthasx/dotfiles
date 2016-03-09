@@ -1,0 +1,4 @@
+#name : drawPrimitives
+#group : MTLRenderCommandEncoder
+# --
+drawPrimitives:${1:(MTLPrimitiveType)primitiveType}

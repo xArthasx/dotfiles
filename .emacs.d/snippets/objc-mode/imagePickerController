@@ -1,0 +1,4 @@
+#name : imagePickerController
+#group : UIImagePickerController
+# --
+imagePickerController:${1:(UIImagePickerController *)picker}

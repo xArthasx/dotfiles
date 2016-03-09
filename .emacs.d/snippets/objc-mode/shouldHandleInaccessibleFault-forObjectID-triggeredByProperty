@@ -1,0 +1,4 @@
+#name : shouldHandleInaccessibleFault:forObjectID:triggeredByProperty
+#group : NSManagedObjectContext
+# --
+shouldHandleInaccessibleFault:${1:(NSManagedObject*)fault} forObjectID:${2:(NSManagedObjectID*)oid} triggeredByProperty:${3:(nullable NSPropertyDescription*)property}

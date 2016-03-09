@@ -1,0 +1,4 @@
+#name : unionWith
+#group : CIFilterShape
+# --
+unionWith:${1:(CIFilterShape *)s2}

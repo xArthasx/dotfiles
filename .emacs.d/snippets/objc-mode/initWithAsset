@@ -1,0 +1,4 @@
+#name : initWithAsset
+#group : MDLVoxelArray
+# --
+initWithAsset:${1:(MDLAsset*)asset}

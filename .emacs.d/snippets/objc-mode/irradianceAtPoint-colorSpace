@@ -1,0 +1,4 @@
+#name : irradianceAtPoint:colorSpace
+#group : MDLLight
+# --
+irradianceAtPoint:${1:(vector_float3)point} colorSpace:${2:(CGColorSpaceRef)colorSpace}

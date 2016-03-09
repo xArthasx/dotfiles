@@ -1,0 +1,4 @@
+#name : addObject
+#group : MDLTypes
+# --
+addObject:${1:(MDLObject*)object}

@@ -1,0 +1,4 @@
+#name : tableView:canFocusRowAtIndexPath
+#group : UITableView
+# --
+tableView:${1:(UITableView *)tableView} canFocusRowAtIndexPath:${2:(NSIndexPath *)indexPath}

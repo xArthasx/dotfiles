@@ -1,0 +1,4 @@
+#name : replaceCurrentItemWithPlayerItem
+#group : WKAudioFilePlayer
+# --
+replaceCurrentItemWithPlayerItem:${1:(nullable WKAudioFilePlayerItem *)item}

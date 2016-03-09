@@ -1,0 +1,4 @@
+#name : initWithSource:version
+#group : HKSourceRevision
+# --
+initWithSource:${1:(HKSource *)source} version:${2:(NSString *)version}

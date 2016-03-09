@@ -1,0 +1,4 @@
+#name : insertArrangedSubview:atIndex
+#group : UIStackView
+# --
+insertArrangedSubview:${1:(UIView *)view} atIndex:${2:(NSUInteger)stackIndex}

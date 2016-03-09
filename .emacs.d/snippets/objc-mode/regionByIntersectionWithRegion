@@ -1,0 +1,4 @@
+#name : regionByIntersectionWithRegion
+#group : UIRegion
+# --
+regionByIntersectionWithRegion:${1:(UIRegion *)region}

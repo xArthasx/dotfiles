@@ -1,0 +1,4 @@
+#name : cameraWithMDLCamera
+#group : ModelIO
+# --
+cameraWithMDLCamera:${1:(MDLCamera *)mdlCamera}

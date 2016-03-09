@@ -1,0 +1,4 @@
+#name : initWithName:reason:userInfo
+#group : NSException
+# --
+initWithName:${1:(NSString *)aName} reason:${2:(nullable NSString *)aReason} userInfo:${3:(nullable NSDictionary *)aUserInfo}

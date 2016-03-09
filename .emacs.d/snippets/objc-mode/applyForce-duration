@@ -1,0 +1,4 @@
+#name : applyForce:duration
+#group : SKAction
+# --
+applyForce:${1:(CGVector)force} duration:${2:(NSTimeInterval)sec}

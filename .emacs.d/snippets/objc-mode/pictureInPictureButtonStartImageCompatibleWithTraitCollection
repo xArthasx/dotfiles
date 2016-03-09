@@ -1,0 +1,4 @@
+#name : pictureInPictureButtonStartImageCompatibleWithTraitCollection
+#group : AVPictureInPictureController
+# --
+pictureInPictureButtonStartImageCompatibleWithTraitCollection:${1:(nullable UITraitCollection *)traitCollection}

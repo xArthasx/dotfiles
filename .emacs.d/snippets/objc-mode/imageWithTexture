@@ -1,0 +1,4 @@
+#name : imageWithTexture
+#group : CIImage
+# --
+imageWithTexture:${1:(unsigned int)name}

@@ -1,0 +1,4 @@
+#name : sceneWithURL
+#group : SCNScene
+# --
+sceneWithURL:${1:(NSURL *)url}

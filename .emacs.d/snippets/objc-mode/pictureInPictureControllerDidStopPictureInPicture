@@ -1,0 +1,4 @@
+#name : pictureInPictureControllerDidStopPictureInPicture
+#group : AVPictureInPictureController
+# --
+pictureInPictureControllerDidStopPictureInPicture:${1:(AVPictureInPictureController *)pictureInPictureController}

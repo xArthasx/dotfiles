@@ -1,0 +1,4 @@
+#name : initByGeneratingNormalMapWithTexture
+#group : MDLTexture
+# --
+initByGeneratingNormalMapWithTexture:${1:(MDLTexture*)sourceTexture}

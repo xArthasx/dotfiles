@@ -1,0 +1,4 @@
+#name : getStreamsToHostWithName:port
+#group : NSStream
+# --
+getStreamsToHostWithName:${1:(NSString *)hostname} port:${2:(NSInteger)port}

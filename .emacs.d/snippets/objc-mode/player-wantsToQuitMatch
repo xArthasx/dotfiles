@@ -1,0 +1,4 @@
+#name : player:wantsToQuitMatch
+#group : GKTurnBasedMatch
+# --
+player:${1:(GKPlayer *)player} wantsToQuitMatch:${2:(GKTurnBasedMatch *)match}

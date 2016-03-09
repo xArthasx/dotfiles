@@ -1,0 +1,4 @@
+#name : setPreservationPriority
+#group : NSBundle
+# --
+setPreservationPriority:${1:(double)priority}

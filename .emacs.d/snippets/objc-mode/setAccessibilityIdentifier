@@ -1,0 +1,4 @@
+#name : setAccessibilityIdentifier
+#group : WKInterfaceObject
+# --
+setAccessibilityIdentifier:${1:(nullable NSString *)accessibilityIdentifier}

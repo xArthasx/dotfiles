@@ -1,0 +1,4 @@
+#name : addAttributeWithName
+#group : MDLMesh
+# --
+addAttributeWithName:${1:(NSString*)name}

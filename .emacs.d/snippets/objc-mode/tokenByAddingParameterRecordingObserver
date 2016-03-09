@@ -1,0 +1,4 @@
+#name : tokenByAddingParameterRecordingObserver
+#group : AUParameters
+# --
+tokenByAddingParameterRecordingObserver:${1:(AUParameterRecordingObserver)observer}

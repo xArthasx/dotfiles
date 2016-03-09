@@ -1,0 +1,4 @@
+#name : generateSphericalHarmonicsFromIrradiance
+#group : MDLLight
+# --
+generateSphericalHarmonicsFromIrradiance:${1:(NSUInteger)sphericalHarmonicsLevel}

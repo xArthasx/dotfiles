@@ -1,0 +1,4 @@
+#name : initWithURL:name
+#group : MDLTexture
+# --
+initWithURL:${1:(NSURL*)URL} name:${2:(nullable NSString*)name}

@@ -1,0 +1,4 @@
+#name : setScale:forTime
+#group : MDLTransform
+# --
+setScale:${1:(vector_float3)scale} forTime:${2:(NSTimeInterval)time}

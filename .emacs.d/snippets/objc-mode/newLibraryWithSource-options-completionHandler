@@ -1,0 +1,4 @@
+#name : newLibraryWithSource:options:completionHandler
+#group : MTLDevice
+# --
+newLibraryWithSource:${1:(NSString *)source} options:${2:(nullable MTLCompileOptions *)options} completionHandler:${3:(MTLNewLibraryCompletionHandler)completionHandler}

@@ -1,0 +1,4 @@
+#name : handleRemediationForFlow
+#group : NEFilterDataProvider
+# --
+handleRemediationForFlow:${1:(NEFilterFlow *)flow}

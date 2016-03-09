@@ -1,0 +1,4 @@
+#name : variantFittingPresentationWidth
+#group : NSBundle
+# --
+variantFittingPresentationWidth:${1:(NSInteger)width}

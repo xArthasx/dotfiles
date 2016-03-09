@@ -1,0 +1,4 @@
+#name : session:didReceiveFile
+#group : WCSession
+# --
+session:${1:(WCSession *)session} didReceiveFile:${2:(WCSessionFile *)file}

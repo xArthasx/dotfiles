@@ -1,0 +1,4 @@
+#name : reloadContentBlockerWithIdentifier
+#group : SFContentBlockerManager
+# --
+reloadContentBlockerWithIdentifier:${1:(NSString *)identifier}

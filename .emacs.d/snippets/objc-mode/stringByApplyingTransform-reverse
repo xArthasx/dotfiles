@@ -1,0 +1,4 @@
+#name : stringByApplyingTransform:reverse
+#group : NSString
+# --
+stringByApplyingTransform:${1:(NSString *)transform} reverse:${2:(BOOL)reverse}

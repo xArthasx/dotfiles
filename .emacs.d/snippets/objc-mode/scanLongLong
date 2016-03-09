@@ -1,0 +1,4 @@
+#name : scanLongLong
+#group : NSScanner
+# --
+scanLongLong:${1:(nullable long long *)result}

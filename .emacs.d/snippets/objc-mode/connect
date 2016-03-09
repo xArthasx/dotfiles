@@ -1,0 +1,4 @@
+#name : connect
+#group : AVAudioEngine
+# --
+connect:${1:(AVAudioNode *)sourceNode}

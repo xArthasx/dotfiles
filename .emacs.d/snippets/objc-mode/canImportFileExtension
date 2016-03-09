@@ -1,0 +1,4 @@
+#name : canImportFileExtension
+#group : MDLAsset
+# --
+canImportFileExtension:${1:(NSString *)extension}

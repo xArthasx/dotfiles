@@ -1,0 +1,4 @@
+#name : collectionView:canFocusItemAtIndexPath
+#group : UICollectionView
+# --
+collectionView:${1:(UICollectionView *)collectionView} canFocusItemAtIndexPath:${2:(NSIndexPath *)indexPath}

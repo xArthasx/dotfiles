@@ -1,0 +1,4 @@
+#name : updateTriggerValue
+#group : HMCharacteristicEvent
+# --
+updateTriggerValue:${1:(nullable TriggerValueType)triggerValue}

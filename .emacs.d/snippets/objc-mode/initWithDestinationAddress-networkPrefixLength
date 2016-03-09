@@ -1,0 +1,4 @@
+#name : initWithDestinationAddress:networkPrefixLength
+#group : NEIPv6Settings
+# --
+initWithDestinationAddress:${1:(NSString *)address} networkPrefixLength:${2:(NSNumber *)networkPrefixLength}

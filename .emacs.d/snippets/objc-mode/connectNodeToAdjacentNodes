@@ -1,0 +1,4 @@
+#name : connectNodeToAdjacentNodes
+#group : GKGraph
+# --
+connectNodeToAdjacentNodes:${1:(GKGridGraphNode *)node}

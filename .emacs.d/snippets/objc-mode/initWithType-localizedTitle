@@ -1,0 +1,4 @@
+#name : initWithType:localizedTitle
+#group : UIApplicationShortcutItem
+# --
+initWithType:${1:(NSString *)type} localizedTitle:${2:(NSString *)localizedTitle}

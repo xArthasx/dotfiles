@@ -1,0 +1,4 @@
+#name : newComputePipelineStateWithDescriptor:options:completionHandler
+#group : MTLDevice
+# --
+newComputePipelineStateWithDescriptor:${1:(MTLComputePipelineDescriptor *)descriptor} options:${2:(MTLPipelineOption)options} completionHandler:${3:(MTLNewComputePipelineStateWithReflectionCompletionHandler)completionHandler}

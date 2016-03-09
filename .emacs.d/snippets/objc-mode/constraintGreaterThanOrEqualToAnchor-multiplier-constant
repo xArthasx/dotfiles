@@ -1,0 +1,4 @@
+#name : constraintGreaterThanOrEqualToAnchor:multiplier:constant
+#group : NSLayoutAnchor
+# --
+constraintGreaterThanOrEqualToAnchor:${1:(NSLayoutDimension *)anchor} multiplier:${2:(CGFloat)m} constant:${3:(CGFloat)c}

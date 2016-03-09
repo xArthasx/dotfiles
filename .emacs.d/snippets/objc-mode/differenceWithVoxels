@@ -1,0 +1,4 @@
+#name : differenceWithVoxels
+#group : MDLVoxelArray
+# --
+differenceWithVoxels:${1:(MDLVoxelArray*)voxels}

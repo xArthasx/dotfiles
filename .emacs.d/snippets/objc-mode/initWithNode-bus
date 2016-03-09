@@ -1,0 +1,4 @@
+#name : initWithNode:bus
+#group : AVAudioConnectionPoint
+# --
+initWithNode:${1:(AVAudioNode *)node} bus:${2:(AVAudioNodeBus)bus}

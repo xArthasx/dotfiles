@@ -1,0 +1,4 @@
+#name : playAudioSource:waitForCompletion
+#group : SCNAction
+# --
+playAudioSource:${1:(SCNAudioSource *)source} waitForCompletion:${2:(BOOL)wait}

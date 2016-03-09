@@ -1,0 +1,4 @@
+#name : tagAtIndex:scheme:tokenRange:sentenceRange
+#group : NSLinguisticTagger
+# --
+tagAtIndex:${1:(NSUInteger)charIndex} scheme:${2:(NSString *)tagScheme} tokenRange:${3:(nullable NSRangePointer)tokenRange} sentenceRange:${4:(nullable NSRangePointer)sentenceRange}

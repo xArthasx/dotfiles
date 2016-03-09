@@ -1,0 +1,4 @@
+#name : initWithName:semantic:float3
+#group : MDLMaterial
+# --
+initWithName:${1:(NSString *)name} semantic:${2:(MDLMaterialSemantic)semantic} float3:${3:(vector_float3)value}

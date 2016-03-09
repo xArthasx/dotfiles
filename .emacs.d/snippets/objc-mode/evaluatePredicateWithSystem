@@ -1,0 +1,4 @@
+#name : evaluatePredicateWithSystem
+#group : GKRuleSystem
+# --
+evaluatePredicateWithSystem:${1:(GKRuleSystem *)system}

@@ -1,0 +1,4 @@
+#name : connectNodeUsingObstacles
+#group : GKGraph
+# --
+connectNodeUsingObstacles:${1:(GKGraphNode2D *)node}

@@ -1,0 +1,4 @@
+#name : hostTimeForBeats:error
+#group : AVAudioSequencer
+# --
+hostTimeForBeats:${1:(AVMusicTimeStamp)inBeats} error:${2:(NSError **)outError}

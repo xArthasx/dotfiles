@@ -1,0 +1,4 @@
+#name : imageNamed:inBundle:compatibleWithTraitCollection
+#group : UIImage
+# --
+imageNamed:${1:(NSString *)name} inBundle:${2:(nullable NSBundle *)bundle} compatibleWithTraitCollection:${3:(nullable UITraitCollection *)traitCollection}
