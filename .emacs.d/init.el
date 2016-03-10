@@ -158,7 +158,12 @@
   (setq indent-guide-recursive t))
 (use-package rainbow-mode
   :ensure t
-  :mode "\\.*\\'")
+  :mode ("\\.css\\'"))
+(use-package markdown-mode
+  :ensure t
+  :mode ("\\.text\\'"
+  "\\.markdown\\'"
+  "\\.md\\'"))
 ;; Cambiar a espacios el tabulado
 ;;""Monaco for Powerline Plus Nerd File Types Plus Font Awesome Plus Octicons Plus Pomicons
 (set-default-font "Monaco for Powerline Plus Nerd File Types Plus Font Awesome Plus Octicons Plus Pomicons")
