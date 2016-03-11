@@ -17,7 +17,7 @@
   '((t (:background "#FFAF00" :foreground "#080808" :inherit mode-line)))
   "Powerline zero segment active in normal mode")
 
-(defface my-pl-segment0-operator-activR
+(defface my-pl-segment0-operator-active
   '((t (:background "#00FFFF" :foreground "#FFFFFF" :inherit mode-line)))
   "Powerline zero segment active in normal mode")
 
