@@ -4,8 +4,8 @@
 (setq default-directory "~/workspace")
 ;; Iniciar el package-manager
 (package-initialize)
-;; Cargar dir de fonts
-
+;; No hacer wrapping en las lineas
+(set-default 'truncate-lines t)
 ;; Establecer la carpeta donde se van a cargar las demás configuraciones
 (add-to-list 'load-path (expand-file-name "init" user-emacs-directory))
 ;;; Configuraciones básiscas
