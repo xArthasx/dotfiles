@@ -1,4 +1,7 @@
 export PATH=/usr/local/Cellar/vim/7.4.1016/bin/:/usr/local/php5/bin:$PATH
+export ANDROID_HOME=~/Library/Android/sdk
+export PATH=${PATH}:${ANDROID_HOME}/tools
+export PATH=${PATH}:${ANDROID_HOME}/platform-tools
 if [ -d "/Users/xArthasx/Library/Android/sdk/platform-tools" ]; then
     export PATH=/Users/xArthasx/Library/Android/sdk/platform-tools:$PATH
 fi

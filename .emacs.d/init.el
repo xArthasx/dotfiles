@@ -168,3 +168,17 @@
 ;;""Monaco for Powerline Plus Nerd File Types Plus Font Awesome Plus Octicons Plus Pomicons
 (set-default-font "Monaco for Powerline Plus Nerd File Types Plus Font Awesome Plus Octicons Plus Pomicons")
 (setq window-system nil)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+  '(package-selected-packages
+     (quote
+       (web-mode swift-mode rainbow-mode indent-guide rspec-mode company yasnippet robe editorconfig js2-mode flycheck markdown-mode git-gutter ag wgrep-ag wgrep magit helm-projectile projectile grizzl helm php-mode evil-surround powerline-evil powerline evil-leader evil-nerd-commenter org-bullets exec-path-from-shell use-package))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
