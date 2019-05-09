@@ -169,7 +169,7 @@ map <Leader>M <esc>:! ./vendor/bin/phinx migrate<CR>
 map <Leader>R <esc>:! ./vendor/bin/phinx rollback<CR>
 
 "thyme
-nmap <leader>T :!thyme -d<cr>
+nmap <Leader>T :!thyme -d<cr>
 if executable('ag')
 set grepprg=ag\ --nogroup\ --nocolor
 let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
@@ -199,3 +199,16 @@ let g:tagbar_type_php  = {
 
 "Highlighting for EJS
 au BufNewFile,BufRead *.ejs set filetype=html
+"Vim react
+let g:user_emmet_leader_key='<Tab>'
+let g:user_emmet_settings = {
+  \  'javascript.jsx' : {
+    \      'extends' : 'jsx',
+    \  },
+  \}
+
+let g:ale_sign_error = '●' " Less aggressive than the default '>>'
+let g:ale_sign_warning = '.'
+let g:ale_lint_on_enter = 0 " Less distracting when opening a new file
+autocmd BufWritePost *.js AsyncRun -post=checktime ./node_modules/.bin/eslint --fix %
+
