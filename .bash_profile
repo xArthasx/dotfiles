@@ -1,18 +1,17 @@
 export PATH=/usr/local/Cellar/vim/7.4.1016/bin/:/usr/local/php5/bin:$PATH
 export ANDROID_HOME=~/Library/Android/sdk
 export PATH=${PATH}:${ANDROID_HOME}/tools
+export PATH=${PATH}:${ANDROID_HOME}/tools/bin
 export PATH=${PATH}:${ANDROID_HOME}/platform-tools
-if [ -d "/Users/xArthasx/Library/Android/sdk/platform-tools" ]; then
-    export PATH=/Users/xArthasx/Library/Android/sdk/platform-tools:$PATH
-fi
 if [ ! -z "/Applications/Emacs.app" ]; then
     alias emacs="emacs -nw"
 fi
 export EDITOR=vim
-alias ls="ls -alGh"
 alias stree="open -a sourcetree"
 alias op="open "
 alias sshpeer="ssh -i ~/Downloads/vpc-selenv.pem ec2-user@54.152.181.3"
+alias ls="ls -alGh"
+alias sshwolf="ssh ardilaa@35.39.163.55"
 
 livh(){
   livestreamer $1 high
@@ -66,3 +65,9 @@ function parse_git_dirty {
 }
 
 export PS1="\[\e[34m\]\`parse_git_branch\`\[\e[m\]\h:\W \u\\$ "
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
+
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm

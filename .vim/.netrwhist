@@ -1,8 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/Users/arthas'
-let g:netrw_dirhist_2='/Users'
-let g:netrw_dirhist_3='/Users/arthas'
-let g:netrw_dirhist_4='/Users/arthas/workspace'
-let g:netrw_dirhist_5='/Users/arthas/workspace/CIS-657'
-let g:netrw_dirhist_6='/Users/arthas/workspace/fullstack-react-code/time_tracking_app'
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/Users/arthas/dotfiles'
+let g:netrw_dirhist_7='/Users/arthas/workspace/bip2'
+let g:netrw_dirhist_6='/Users/arthas/workspace/bip2/ui/js'
+let g:netrw_dirhist_5='/Users/arthas/workspace/bip2/ui'
+let g:netrw_dirhist_4='/Users/arthas/workspace/bip2'
+let g:netrw_dirhist_3='/Users/arthas/workspace/CIS-677/project3'
+let g:netrw_dirhist_2='/Users/arthas/workspace/bip2'
+let g:netrw_dirhist_1='/'
