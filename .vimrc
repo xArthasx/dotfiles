@@ -164,14 +164,9 @@ if executable('ag')
 set grepprg=ag\ --nogroup\ --nocolor
 let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 nnoremap <leader>F :Ag -i <C-R><C-W> ./*
-nnoremap <leader>f :Ag -i --vimgrep <C-R><C-W> %
 command! -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
 nnoremap \ :Ag<SPACE>
 endif
-
-"Vim expand configurations
-map v <Plug>(expand_region_expand)
-map <C-v>p <C-v> <Plug>(expand_region_shrink)
 
 "Highlighting for EJS
 au BufNewFile,BufRead *.ejs set filetype=html
@@ -276,8 +271,8 @@ omap if <Plug>(coc-funcobj-i)
 omap af <Plug>(coc-funcobj-a)
 
 " Use <C-d> for select selections ranges, needs server support, like: coc-tsserver, coc-python
-nmap <silent> <C-d> <Plug>(coc-range-select)
-xmap <silent> <C-d> <Plug>(coc-range-select)
+nmap <silent> <leader> <C-d> <Plug>(coc-range-select)
+xmap <silent> <leader> <C-d> <Plug>(coc-range-select)
 
 " Use `:Format` to format current buffer
 command! -nargs=0 Format :call CocAction('format')
@@ -290,6 +285,5 @@ command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organize
 
 " Add status line support, for integration with other plugin, checkout `:h coc-status`
 set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
-
 
 
