@@ -22,7 +22,6 @@ Plug 'tpope/vim-dispatch'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-surround'
 Plug 'pangloss/vim-javascript'
-Plug 'dense-analysis/ale'
 Plug 'skywind3000/asyncrun.vim'
 Plug 'mhinz/vim-signify'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
