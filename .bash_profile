@@ -3,6 +3,9 @@ export ANDROID_HOME=~/Library/Android/sdk
 export PATH=${PATH}:${ANDROID_HOME}/tools
 export PATH=${PATH}:${ANDROID_HOME}/tools/bin
 export PATH=${PATH}:${ANDROID_HOME}/platform-tools
+export HISTFILESIZE=10000
+export HISTSIZE=10000
+
 if [ ! -z "/Applications/Emacs.app" ]; then
     alias emacs="emacs -nw"
 fi
