@@ -1,0 +1,17 @@
+{
+  "commands": {
+    "%2FUsers%2Falvaroardila": [
+      "?"
+    ]
+  },
+  "lists": {
+    "%2FUsers%2Falvaroardila": [
+      "ex"
+    ]
+  },
+  "extensions": {
+    "%2FUsers%2Falvaroardila": [
+      ":"
+    ]
+  }
+}
