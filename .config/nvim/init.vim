@@ -99,7 +99,8 @@ nnoremap K i<CR><esc>
 
 "Ctrlp settings
 let g:ctrlp_max_height = 30
-let g:ctrlp_show_hidden = 1
+let g:ctrlp_show_hidden = 0
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 
 "Syntastic configuration
 let g:syntastic_always_populate_loc_list = 1
@@ -159,13 +160,11 @@ let g:syntastic_style_error_symbol='✗'
 "Don't hide quotes in json files
 let g:vim_json_syntax_conceal = 0
 
-if executable('ag')
 set grepprg=ag\ --nogroup\ --nocolor
 let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 nnoremap <leader>F :Ag -i <C-R><C-W> ./*
 command! -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
 nnoremap \ :Ag<SPACE>
-endif
 
 "Highlighting for EJS
 au BufNewFile,BufRead *.ejs set filetype=html

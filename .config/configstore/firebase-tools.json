@@ -1,0 +1,46 @@
+{
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1597369763870
+	},
+	"activeProjects": {
+		"/Users/alvaroardila/workspace/static_content": "thisisanexample-828ca",
+		"/Users/alvaroardila/workspace/example_sitecraft": "example-sitecraft"
+	},
+	"analytics-uuid": "3008e9b4-d576-4162-8827-c92ac407504a",
+	"usage": true,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "112729167769308677861",
+		"hd": "mail.gvsu.edu",
+		"email": "ardilaa@mail.gvsu.edu",
+		"email_verified": true,
+		"at_hash": "ZLcVcDivUmcumf7QLYZpuw",
+		"iat": 1597370016,
+		"exp": 1597373616
+	},
+	"tokens": {
+		"expires_at": 1597373620550,
+		"refresh_token": "1//0flv5I4UM_XwMCgYIARAAGA8SNwF-L9Irs8OYhjdvkN_GurhsZnWS9iqmiZseMWYsjEyRxsuHY8bUuMomJxxDssa0g4-CDz2z-7U",
+		"scopes": [
+			"email",
+			"https://www.googleapis.com/auth/cloud-platform",
+			"https://www.googleapis.com/auth/cloudplatformprojects.readonly",
+			"https://www.googleapis.com/auth/firebase",
+			"openid"
+		],
+		"access_token": "ya29.a0AfH6SMCtZYNo9aEoxTi_yeQ12_XJrPvGo-yeD4snO6zty_s7W8pyfrU08KryZuq61Dp8TCka4VzfFYyrOOvtn8j6dKO2RwleIWqfwZllGnQfQ-6gn3NdrJ0NSWzpWdvMXvLKcRMPWbBNQ0lyPdjtWOm12cOcOB_F2Ym1cgmIU6k",
+		"expires_in": 3599,
+		"scope": "https://www.googleapis.com/auth/userinfo.email openid https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase https://www.googleapis.com/auth/cloud-platform",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ijc0NGY2MGU5ZmI1MTVhMmEwMWMxMWViZWIyMjg3MTI4NjA1NDA3MTEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTEyNzI5MTY3NzY5MzA4Njc3ODYxIiwiaGQiOiJtYWlsLmd2c3UuZWR1IiwiZW1haWwiOiJhcmRpbGFhQG1haWwuZ3ZzdS5lZHUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6InVQcm1uMVBfUm9XOVJNc1F3V1NnOUEiLCJpYXQiOjE1OTczNzAwMjEsImV4cCI6MTU5NzM3MzYyMX0.oaHfjDN5vavm8ci2QONvoFnpUgIzH4KnyY2wp8QszAKh-ePrnNafA24em0UH1xo-YIPdzoL3Yw2TZuEnD3SygOWb7_qcZx9ijJfmwZqGwwZN3k4pTxjHBZw9gfKw6scMGLFcNQNawW2_JIMBxN2vnWty4Ov3wm0RtgHyMA99x_VVcrDzIGc2nAYlLzq8rixA42oVpjIM1c0AKzVsP-6enyhq_ls_HOvGxtpB1N6Mz6slCYbb613nMMae7ViGgiXyYt00tm2w45cTMypoZc1nXWYpJPjupTHitv9aU2Fd1AUwth3TFAMl3EFpxV6JX9KMxHWMN4X3BKZSBzNLYDm72g"
+	}
+}

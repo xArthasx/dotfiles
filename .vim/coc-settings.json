@@ -16,6 +16,7 @@
   "suggest.echodocSupport": true,
   "suggest.maxCompleteItemCount": 20,
   "eslint.filetypes": ["javascript", "typescript", "typescriptreact", "javascriptreact", "typescript.tsx"],
+  "eslint.autoFixOnSave": true,
   "diagnostic.errorSign": "✘",
   "diagnostic.warningSign": "⚠",
   "diagnostic.infoSign": "⚠",
@@ -23,8 +24,5 @@
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
-  "javascript.suggest.enabled": true,
-  "python.jediPath": "~/.pyenv/versions/3.6.9/lib/python3.6/site-packages",
-  "python.venvPath": "~/.pyenv"
-
+  "javascript.suggest.enabled": true
 }

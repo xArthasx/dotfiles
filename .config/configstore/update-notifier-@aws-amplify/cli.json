@@ -1,0 +1,10 @@
+{
+	"optOut": false,
+	"lastUpdateCheck": 1598025400562,
+	"update": {
+		"latest": "4.27.3",
+		"current": "4.26.0",
+		"type": "minor",
+		"name": "@aws-amplify/cli"
+	}
+}

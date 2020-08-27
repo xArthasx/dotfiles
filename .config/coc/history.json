@@ -2,16 +2,42 @@
   "commands": {
     "%2FUsers%2Falvaroardila": [
       "?"
+    ],
+    "%2FUsers%2Falvaroardila%2Fworkspace%2FBizieReact": [
+      "exten",
+      "q"
+    ],
+    "%2FUsers%2Falvaroardila%2Fworkspace%2FBizieApi": [
+      "exec"
     ]
   },
   "lists": {
     "%2FUsers%2Falvaroardila": [
       "ex"
+    ],
+    "%2FUsers%2Falvaroardila%2Fworkspace%2Fplatform": [
+      "mark"
     ]
   },
   "extensions": {
     "%2FUsers%2Falvaroardila": [
       ":"
+    ]
+  },
+  "marketplace": {
+    "%2FUsers%2Falvaroardila%2Fworkspace%2FBizieReact": [
+      " ",
+      "js",
+      "ts",
+      "lint",
+      "prett"
+    ],
+    "%2FUsers%2Falvaroardila%2Fworkspace%2Fplatform": [
+      "yaml"
+    ],
+    "%2FUsers%2Falvaroardila%2Fworkspace%2FCIS467-capstone": [
+      "sccs",
+      "css"
     ]
   }
 }

@@ -100,7 +100,7 @@ nnoremap K i<CR><esc>
 
 "Ctrlp settings
 let g:ctrlp_max_height = 30
-let g:ctrlp_show_hidden = 1
+let g:ctrlp_show_hidden = 0
 
 "Syntastic configuration
 let g:syntastic_always_populate_loc_list = 1
